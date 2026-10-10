@@ -35,3 +35,7 @@ The owner subsequently requested a 山海经-inspired modern illustration and ra
 ## Pale ink version 4
 
 Owner requested less detail/colour, clearer concentric scope, and a much smaller pavilion. Current study is `docs/mockups/20261010_ink-rings-v4.html`, with sparse ink contours, muted washes, six selected bands and two boats. V3 is retained. Three new intermediate/final studies are captured in the now eleven-stage history gallery. Exact prompts and checks: `docs/20261010_ink-rings-v4.md`. Production remains unchanged.
+
+## Quarter-radial and cloud-wash studies
+
+Current candidate: docs/mockups/20261010_quarter-v9.html. Six scopes radiate from bottom-left with soft unoutlined selection, personal boy and girl, ASEAN-first outer scope, smaller global cues at edges. 天下 replaces 世界 in this owner-reviewed mockup; internal shijie ID preserved. Owner requests curved scene ground bases and larger softer 大写意 cloud washes. Versions 5 through 9 are recorded in design history, prompts/reference sources in docs/20261010_quarter-radial.md. Production unchanged.
