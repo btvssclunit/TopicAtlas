@@ -31,3 +31,7 @@ The owner subsequently requested a 山海经-inspired modern illustration and ra
 - Design gallery: `docs/mockups/20261010_design-history.html`, including frozen Claude baseline, A/B/C, radial v1, rejected oversized identity draft, hair-detail intermediate and current study.
 - Compact assets and archived drafts are committed; full-resolution masters remain local. Provenance and prompts: `docs/20261010_bvss-radial-history.md` and `docs/ASSETS.md`.
 - Owner review is still needed before production map integration. This iteration does not modify production/student content.
+
+## Pale ink version 4
+
+Owner requested less detail/colour, clearer concentric scope, and a much smaller pavilion. Current study is `docs/mockups/20261010_ink-rings-v4.html`, with sparse ink contours, muted washes, six selected bands and two boats. V3 is retained. Three new intermediate/final studies are captured in the now eleven-stage history gallery. Exact prompts and checks: `docs/20261010_ink-rings-v4.md`. Production remains unchanged.
