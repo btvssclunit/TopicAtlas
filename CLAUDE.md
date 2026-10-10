@@ -75,3 +75,5 @@ See the latest `HANDOVER_*.md`.
 ## Modular atlas follow-up, October 10 2026
 
 Current review draft: `docs/mockups/20261010_modular-v17.html`. Handoff to Claude: `docs/20261010_Claude_art_handoff.md`. Separate transparent PNGs, display WebPs, current-piece manifest, exact prompts, NParks photo moodboard, full-resolution selected masters and visual stages 16/17 are saved. Owner corrected collars/pockets, no belts, skirt-like culottes just below knees, school/reading facial style and prototype spacing. New Seven Wonders are smaller outside ASEAN. Production files and student content remain untouched. Integration, final owner composition review and production image-budget work remain pending.
+
+Latest art review: `docs/mockups/20261010_modular-v19.html`; natural short student hair replaces the v18 rounded cut. Final art handoff: `docs/20261010_Claude_art_handoff.md`. All earlier drafts remain preserved. Production integration and final composition approval are pending.

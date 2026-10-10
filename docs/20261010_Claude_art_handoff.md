@@ -6,9 +6,9 @@ Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
 
 Repository: `/Users/kaixinchun/Documents/github-btvssclunit/TopicAtlas`.
 Branch: `graphics/map-directions`. Draft PR: https://github.com/btvssclunit/TopicAtlas/pull/1.
-Current review draft: `docs/mockups/20261010_modular-v18.html`.
+Current review draft: `docs/mockups/20261010_modular-v19.html`.
 Run from repo root with the existing localhost port 8000 server. Do not stop the owner's server.
-Open http://localhost:8000/docs/mockups/20261010_modular-v18.html.
+Open http://localhost:8000/docs/mockups/20261010_modular-v19.html.
 
 Production files and student content are unchanged. This is an owner-review art draft, not approved production integration. Read AGENTS.md, CLAUDE.md and the original graphics handoff before implementation. Do not push main or merge the PR without the owner instructing that step.
 
@@ -30,16 +30,16 @@ Production files and student content are unchanged. This is an owner-review art 
 
 ## Files and geometry
 
-- `docs/mockups/20261010_modular-v18.html`: vanilla HTML/CSS/JS responsive sprite assembly, live text navigation, exact circle guides and golden selected bands.
+- `docs/mockups/20261010_modular-v19.html`: vanilla HTML/CSS/JS responsive sprite assembly, live text navigation, exact circle guides and golden selected bands.
 - `docs/mockups/assets-v16/`: individual transparent PNGs, smaller WebP display copies, `manifest.json` dimensions/alpha-ground anchors and `prompts.json` exact built-in imagegen prompts. Superseded pieces are retained as dated iteration records.
-- `docs/mockups/20261010_asset-library-v18.html`: browsable asset library with intermediate labels.
+- `docs/mockups/20261010_asset-library-v19.html`: browsable asset library with intermediate labels.
 - `docs/mockups/20261010_flora-moodboard.html`: actual NParks reference photographs with source/credit links. Reference photos are not student-page artwork and are not relicensed as original work.
 - `docs/mockups/20261010_design-history.html`: visual evolution from Claude's original SVG through all Codex studies. Do not overwrite earlier reviewed drafts.
 - `docs/20261010_modular-atlas.md`: asset provenance, art consistency check and validation.
 
 The atlas uses upright images with preserved aspect ratios and ground anchors, not a warped flattened painting. Source coordinates, radius and angle determine base position: `x = r sin(angle)`, `y = H - r cos(angle)`. PNG alpha-bounding-box bottom in `manifest.json` determines the image's top offset. Desktop and phone use different radii/angles while circles remain circular. The guide and selection use the same coordinate system. The outer world scope can contain more than one arc without adding a seventh topic scope.
 
-The crest/name are a native SVG overlay on `school-hair-final.png`, not baked into that PNG. Copy the complete school component for integration; using just the PNG leaves the sign wall blank. The expanded school-detail preview shows the sign at readable size.
+The crest/name are a native SVG overlay on `school-natural-hair.png`, not baked into that PNG. Copy the complete school component for integration; using just the PNG leaves the sign wall blank. The expanded school-detail preview shows the sign at readable size.
 
 ## Reference sources
 
@@ -56,7 +56,7 @@ The crest/name are a native SVG overlay on `school-hair-final.png`, not baked in
 
 ## Latest owner corrections and review status
 
-V16 is preserved as the first modular assembly, with its isolated spacing and earlier uniform variants. V17 rebalances scene angles and sizes, strengthens broad soft washes, removes belts, uses smooth skirt-like culottes just below knees, and explicitly matches school students to the reading-pair style. V18 preserves the same composition with the latest shorter fringes and tidier tied hair. The layout is still a review draft, not a final owner-approved composition. Do not imply that mathematical anchors alone resolve artistic spacing. Owner review remains necessary.
+V16 is preserved as the first modular assembly, with its isolated spacing and earlier uniform variants. V17 rebalances scene angles and sizes, strengthens broad soft washes, removes belts, uses smooth skirt-like culottes just below knees, and explicitly matches school students to the reading-pair style. V18 preserves an intermediate cropped-hair attempt. V19 replaces the rounded haircut with a natural short cut from the owner photo. The layout is still a review draft, not a final owner-approved composition. Do not imply that mathematical anchors alone resolve artistic spacing. Owner review remains necessary.
 
 ## Remaining work
 
@@ -82,6 +82,8 @@ The owner requested GitHub as the contingency record. Art, prompts, history and 
 
 The selected generated sprites use about 700 KB of WebP before the crest; prototype budget is above the eventual roughly 400 KB home-image target. Retain archive originals while optimising production derivatives later. Phone artwork is small by design; the accessible scope buttons carry navigation. The original photo references remain local/reference-only.
 
-Latest hair correction: personal boy has a much shorter cropped fringe with forehead clear, girls have smoother neatly tied hair with loose wisps removed. School-group hair is tidied to match. Preserve the latest `personal-hair-final.png` and `school-hair-final.png` rather than earlier uniform/hairstyle variants.
+Latest hair correction: personal boy has a much shorter cropped fringe with forehead clear, girls have smoother neatly tied hair with loose wisps removed. School-group hair is tidied to match. Preserve the latest `personal-natural-hair.png` and `school-natural-hair.png` rather than earlier uniform/hairstyle variants.
 
-In progress at backup checkpoint: owner supplied a natural short student haircut photo to replace the too-rounded cropped shape in v18. The next hair-only variants will be `personal-natural-hair` and `school-natural-hair`; update the current candidate when verified.
+V19 hair reference refinement: natural short student cut with close softly tapered sides, a short modest uneven fringe and crown following the skull. Avoid a helmet/bowl shape or ruler-straight fringe. The owner-supplied haircut photograph is a hair-only reference; do not copy its child face or age. Girls retain neatly tied hair.
+
+V19 checked in the browser: all images loaded and no horizontal overflow. Standalone facade identity assembly: `assets-v16/school-branded-v19.svg`. Both new full-resolution originals are archived in `masters-v16/`.

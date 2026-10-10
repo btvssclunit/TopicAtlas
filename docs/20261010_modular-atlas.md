@@ -1,8 +1,8 @@
-# Modular ink atlas, version 17
+# Modular ink atlas, version 19
 
 Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
 
-Current candidate: `docs/mockups/20261010_modular-v17.html`. Earlier v15 and v16 remain frozen. Each upright vignette is an individual transparent PNG with a smaller WebP display copy; device layouts reposition their alpha-ground anchors along true circles. No production or student-content files changed.
+Current candidate: `docs/mockups/20261010_modular-v19.html`. Earlier v15 and v16 remain frozen. Each upright vignette is an individual transparent PNG with a smaller WebP display copy; device layouts reposition their alpha-ground anchors along true circles. No production or student-content files changed.
 
 ## Style consistency review
 
@@ -33,3 +33,5 @@ Visible WebP sprite payload: 690 KB, excluding the crest. Full-resolution archiv
 V16 is archived as the intermediate modular assembly. V17 adjusts scene angles/sizes and broad washes so the composition reads along the curves more coherently, while remaining an owner-review draft. Personal boy's trousers and hair, plain pockets, left-collar badges, white shoes, no belts, smooth skirt-like culottes just past the knees are preserved. School students were edited against the reading-pair reference to match fine facial marks, hair linework, matte skin and restrained wash. `personal-uniform-knee.png` and `school-uniform-matched.png` are the current figure assets. All earlier variants remain in the library as superseded. `selected` in the manifest identifies current scene pieces.
 
 Native SVG lettering/crest replaces CSS container-unit lettering in v17. The resize breakpoint has a legacy media-query listener fallback. Validation: computer 1280×800, iPad 1024×768, phone 375×812; all scene images loaded and no document-width overflow. Enter/Space selection, golden wash, guide toggle and dark surroundings worked. All 12 NParks photographs loaded.
+
+V18 retains the interim cropped hairstyle. V19 uses the owner’s natural short student haircut reference: softly tapered sides and short uneven fringe. Girls retain neat tied hair. Uniform, separate books and ink treatment are preserved. Composition remains an owner-review draft.

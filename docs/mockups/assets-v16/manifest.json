@@ -491,7 +491,7 @@
   },
   {
     "id": "personal-hair-final",
-    "selected": true,
+    "selected": false,
     "width": 528,
     "height": 440,
     "foot": 1.0,
@@ -501,12 +501,32 @@
   },
   {
     "id": "school-hair-final",
-    "selected": true,
+    "selected": false,
     "width": 600,
     "height": 300,
     "foot": 1.0,
     "transparent": true,
     "bytes": 289458,
     "webpBytes": 23490
+  },
+  {
+    "id": "personal-natural-hair",
+    "selected": true,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 288661,
+    "webpBytes": 22812
+  },
+  {
+    "id": "school-natural-hair",
+    "selected": true,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 292547,
+    "webpBytes": 23844
   }
 ]
