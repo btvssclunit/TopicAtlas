@@ -282,7 +282,7 @@ The next step is to settle the open questions below, then build one pilot unit e
 - [ ] Whether the bot is text chat or voice.
 - [ ] Source of copyright-free video stimuli for HCL 口头报告, if HCL is added later.
 - [ ] Who in the CL Unit co-writes and vets content as it scales to 23 units across four streams?
-- [ ] Fix the typo in g3.json: 中三 单元四 生活空间 should be 《成为演说高手》 (confirmed from the G3 text file on 10 October 2026).
+- [x] Fix the typo in g3.json: 中三 单元四 生活空间 is now 《成为演说高手》 (fixed in VocabSummit on 10 October 2026, commit 1c0a9ec).
 
 **Suggested first steps**
 
