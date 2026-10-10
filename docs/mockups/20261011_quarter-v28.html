@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Topic Atlas · Natural paper atlas v28</title>
+<style>
+:root{--page:#f0eadc;--surface:#f9f5e9;--ink:#35413a;--muted:#6c6c5b;--border:#cfc0a3;--gold:#ae7730}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.6 system-ui,sans-serif}
+main{max-width:1440px;padding:20px 28px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font:700 30px 'Songti SC',serif;margin:4px 0}
+small{color:var(--muted)}a{color:var(--gold)}
+.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button{font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:9px 14px}
+button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+/* The whole atlas is one SVG with a fixed 1536 x 1024 coordinate system.
+   It scales as a unit, so circles stay circular and vignettes never drift
+   apart or overlap differently on another screen ratio. */
+.atlas{width:min(100%,calc((100svh - 230px) * 1.5));min-width:min(100%,640px);margin:18px auto;border-radius:18px;overflow:hidden;background:#f5f0e3}
+.atlas svg{display:block;width:100%;height:auto;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.scope{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
+.scope button{text-align:left;padding:10px 12px}
+.scope b{display:block;font:700 23px 'Songti SC',serif}
+.scope span{font-size:12px;color:var(--muted)}
+.scope button[aria-pressed=true]{background:#e6d4a3;border:2px solid #9f7029;padding:9px 11px}
+.status{margin:10px 0;color:var(--muted)}
+.notes{font-size:13px;color:var(--muted)}
+#sel path{transition:opacity .25s}
+body.dark{--page:#202622;--surface:#303831;--ink:#eee5d1;--muted:#c9c0ae;--border:#566153;--gold:#e6bf73}
+body.dark .scope button[aria-pressed=true]{background:#665536;color:#fff1d6}
+body.dark .atlas{box-shadow:0 0 0 1px #786b53}
+@media(max-width:900px){main{padding:14px}h1{font-size:26px}.scope b{font-size:21px}.scope button{padding:8px}.scope button[aria-pressed=true]{padding:7px}}
+@media(max-width:600px){main{padding:12px}.atlas{min-width:0;width:100%}.scope{grid-template-columns:repeat(3,minmax(0,1fr))}.tools{font-size:12px}.notes{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#sel path{transition:none}}
+</style></head><body><main>
+<header><div><small>BVSS MTL CL UNIT · DESIGN STUDY 28</small><h1>谈天说地 · Topic Atlas</h1></div>
+<div class="tools"><button id="guide" aria-pressed="false">Show positioning guide</button><button id="theme" aria-pressed="false">Dark surroundings</button><a href="20261011_quarter-v27.html">v27</a><a href="20261011_quarter-v26.html">v26</a><a href="20261010_quarter-v25.html">v25</a><a href="20261011_atlas-moodboard.html">Photo references</a><a href="20261010_quarter-v23.html">v23</a><a href="20261010_quarter-v22.html">v22</a><a href="20261010_quarter-v21.html">v21</a><a href="20261010_quarter-v20.html">v20 concentric</a><a href="20261010_quarter-v13.html">v13 painting</a><a href="20261010_modular-v19.html">v19 sprites</a><a href="20261010_design-history.html">Design history</a></div></header>
+<div class="atlas">
+<svg id="map" viewBox="0 0 1536 1024" role="img" aria-label="Ink and watercolour atlas in parallel diagonal bands from personal life at bottom-left, through family, school, community and Singapore, to ASEAN neighbours and world landmarks.">
+<defs>
+ <!-- Static seeded grain: fine absorbent fibres and uneven pulp in raw xuan paper. -->
+ <filter id="paperGrain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="27" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+ </filter>
+ <filter id="paperFibres" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".018 .21" numOctaves="3" seed="61" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+ </filter>
+ <filter id="edgeSoft" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+ <radialGradient id="paperA" cx="30%" cy="35%" r="60%"><stop offset="0" stop-color="#faf5e9" stop-opacity=".7"/><stop offset="1" stop-color="#faf5e9" stop-opacity="0"/></radialGradient>
+ <radialGradient id="paperB" cx="95%" cy="85%" r="50%"><stop offset="0" stop-color="#d2b990" stop-opacity=".22"/><stop offset="1" stop-color="#d2b990" stop-opacity="0"/></radialGradient>
+ <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="26"/></filter>
+ <filter id="mist" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="ink"><feColorMatrix type="saturate" values=".72"/></filter>
+ <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feColorMatrix type="saturate" values=".72"/><feGaussianBlur stdDeviation="0"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#f5f0e3"/><rect width="1536" height="1024" fill="url(#paperA)"/><rect width="1536" height="1024" fill="url(#paperB)"/>
+<rect width="1536" height="1024" filter="url(#paperGrain)" opacity=".105" style="mix-blend-mode:multiply;pointer-events:none"/>
+<rect width="1536" height="1024" filter="url(#paperFibres)" opacity=".075" style="mix-blend-mode:multiply;pointer-events:none"/>
+<g id="tint" filter="url(#soft)"></g>
+<g id="sel" filter="url(#soft)"></g>
+<g id="washes" filter="url(#mist)" fill="none" stroke-linecap="round"></g>
+<g id="art" filter="url(#ink)"></g>
+<g id="guides" style="display:none"></g>
+</svg>
+</div>
+<nav class="scope" aria-label="Expanding topic scope"></nav><p class="status" aria-live="polite"></p>
+<p class="notes">Review draft 28. Repaired the girl’s complete sneaker and added transparent clearance around the reading pair. Bands shifted along the marked directions, with open bougainvillea silhouettes, broken soft ground edges and pale fibrous raw xuan paper. The Great Wall remains above ASEAN neighbours. Scope counts and controls remain prototypes.</p>
+</main><script>(()=>{'use strict';
+const W=1536,H=1024,NS='http://www.w3.org/2000/svg',BETA=22;
+const sb=Math.sin(BETA*Math.PI/180),cb=Math.cos(BETA*Math.PI/180);
+const D=[0,230,350,580,780,980,2200];
+const regions=[['geren','个人','修身',14],['jiating','家庭','齐家',3],['xiaoyuan','校园','治国',4],['shequ','社区','治国',5],['guojia','国家','治国',5],['shijie','天下','平天下',6]];
+const GROUND={"community-band": {"w": 1536, "h": 801, "slope": 22.4, "fy": 0.615, "x0": 0.01, "x1": 0.982}, "family-band": {"w": 1536, "h": 706, "slope": 19.1, "fy": 0.606, "x0": 0.142, "x1": 0.786}, "national-band": {"w": 1536, "h": 699, "slope": 19.5, "fy": 0.587, "x0": 0.0, "x1": 0.995}, "school-band": {"w": 1536, "h": 913, "slope": 19.3, "fy": 0.695, "x0": 0.002, "x1": 0.998}, "world-band": {"w": 1536, "h": 822, "slope": 20.2, "fy": 0.642, "x0": 0.007, "x1": 0.995}};
+// Whole bands are translated and uniformly scaled. No rotation: subjects stay upright.
+// [name, region index, left ground anchor x/y, scale]. Different widths and starts stagger the rows.
+const bands=[['world-band',5,630,150,.55],['national-band',4,135,173,.70],['community-band',3,210,375,.55],['school-band',2,65,620,.40],['family-band',1,495,850,.35]];
+const $=s=>document.querySelector(s),art=$('#art'),tint=$('#tint'),sel=$('#sel'),guides=$('#guides'),nav=$('.scope');
+const el=(tag,attrs)=>{const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e};
+const yAt=(d,x)=>H-(d-x*sb)/cb;
+const line=d=>`M-80 ${yAt(d,-80)}L1616 ${yAt(d,1616)}`;
+const band=(a,b)=>`M-80 ${yAt(a,-80)}L1616 ${yAt(a,1616)}L1616 ${yAt(b,1616)}L-80 ${yAt(b,-80)}Z`;
+const image=(href,x,y,w,h,reg)=>el('image',{href,x,y,width:w,height:h,preserveAspectRatio:'none','data-reg':reg});
+const colours=['#c9c4a6','#c4cfc8','#d2c4ac','#b9c8c6','#d0c6ad','#bccac7'];
+regions.forEach((r,i)=>{tint.append(el('path',{d:band(D[i],D[i+1]),fill:colours[i],opacity:'.065'}));sel.append(el('path',{d:band(D[i]+16,D[i+1]-16),fill:'#edbd55',opacity:'0','data-reg':r[0]}));});
+for(const [name,reg,x,gy,scale] of bands){const g=GROUND[name],m=Math.tan(g.slope*Math.PI/180),c=g.fy*g.h-m*g.w/2,y=gy-c*scale;
+ // Erode just the painted footing, leaving people and architecture untouched.
+ // Broad, irregular, translucent gaps dissolve the continuous ruler-like seam.
+ const mask=el('mask',{id:`edge-${name}`,maskUnits:'userSpaceOnUse',x:x-20,y:y-20,width:g.w*scale+40,height:g.h*scale+40});
+ mask.append(el('rect',{x:x-20,y:y-20,width:g.w*scale+40,height:g.h*scale+40,fill:'white'}));
+ const erosion=el('g',{transform:`translate(${x} ${gy}) rotate(${g.slope})`,filter:'url(#edgeSoft)'});
+ const length=g.w*scale/Math.cos(g.slope*Math.PI/180);
+ const patches=[[.035,24,8,.55],[.17,31,11,.68],[.32,19,7,.45],[.47,36,10,.72],[.61,23,9,.52],[.77,33,12,.65],[.91,21,8,.48],[.99,30,12,.78]];
+ patches.forEach(([t,rx,ry,opacity],i)=>erosion.append(el('ellipse',{cx:length*t,cy:6+(i%3)*3,rx,ry,fill:'black',opacity})));
+ mask.append(erosion);$('#map defs').append(mask);
+ const scene=image(`assets-v26/${name}.webp`,x,y,g.w*scale,g.h*scale,regions[reg][0]);
+ scene.setAttribute('mask',`url(#edge-${name})`);art.append(scene);
+ guides.append(el('line',{x1:x,y1:gy,x2:x+g.w*scale,y2:gy+m*g.w*scale,stroke:'#c0392b','stroke-width':'3'}));}
+// Complete transparent silhouettes replace the polygon crop from the old painting.
+// Two distinct sizes create an open, uneven flowering frame around the reading pair.
+art.append(image('assets-v16/bougainvillea.webp',-38,722,220,201,'geren'));
+art.append(image('assets-v16/bougainvillea.webp',286,864,162,148,'geren'));
+art.append(image('assets-v28/personal-shoes-repaired.webp',-22,710,373,311,'geren'));
+D.slice(1,6).forEach(d=>guides.append(el('path',{d:line(d),fill:'none',stroke:'#896d43','stroke-width':'2','stroke-dasharray':'6 9'})));
+let selected='geren';
+for(const [id,name,motto,count] of regions){const b=document.createElement('button');b.type='button';b.dataset.reg=id;b.setAttribute('aria-label',`${name}, ${count} topics`);b.innerHTML=`<b>${name}</b><span>${motto} · ${count} 个话题</span>`;b.addEventListener('click',()=>{selected=id;paint()});nav.append(b);}
+function paint(){nav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.reg===selected)));sel.querySelectorAll('path').forEach(p=>p.setAttribute('opacity',p.dataset.reg===selected?'.35':'0'));const r=regions.find(x=>x[0]===selected);$('.status').textContent=`${r[1]} · ${r[2]} · ${r[3]} 个话题`;}
+$('#map').addEventListener('click',e=>{const target=e.target.getAttribute('data-reg');if(target){selected=target;paint();return;}const m=e.currentTarget.getScreenCTM();if(!m)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(m.inverse());const d=p.x*sb+(H-p.y)*cb,i=D.findIndex((v,k)=>d>=v&&d<D[k+1]);if(i>=0&&i<6){selected=regions[i][0];paint();}});
+$('#guide').addEventListener('click',e=>{const shown=guides.style.display==='none';guides.style.display=shown?'':'none';e.currentTarget.setAttribute('aria-pressed',String(shown));e.currentTarget.textContent=shown?'Hide positioning guide':'Show positioning guide';});
+$('#theme').addEventListener('click',e=>{const dark=document.body.classList.toggle('dark');e.currentTarget.setAttribute('aria-pressed',String(dark));});
+paint();
+})();</script></body></html>
