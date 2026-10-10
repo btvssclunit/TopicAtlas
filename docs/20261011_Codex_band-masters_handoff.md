@@ -22,7 +22,7 @@ Cuts and measurement files are temporary in `/tmp/topicatlas-v22-cuts/`, not int
 | school-band | 19.3 | -2.7 |
 | community-band | 22.4 | +0.4 |
 | national-band | 19.5 | -2.5 |
-| world-band | 20.6 | -1.4 |
+| world-band | 20.2 | -1.8 |
 
 All selected candidates meet the requested approximate 3 degree slope tolerance. Earlier out-of-tolerance candidates were regenerated. This alpha-based robust fit measures the bottom of solid paint; it does not certify each local segment or exact endpoint placement.
 
@@ -134,7 +134,7 @@ Exact geometric construction: ground points at x=0 y=330, x=384 y=485, x=768 y=6
 Small separated landmark groups step down the diagonal: shophouses at x220 ground y419, MBS at x520 ground y540, Merlion at x790 ground y649, three Supertrees at x1030 ground y746, and ArtScience lotus with ONE tiny sampan at x1320 ground y863. Maximum landmark height 280 pixels. Water appears only as a few local short brushstrokes along the same diagonal. No horizontal waterfront or second ground strip.
 ```
 
-### world-band
+### world-band (initial committed version, superseded by the v26 follow-up)
 
 Selected output: `exec-e70352fb-1e56-4acd-bddb-b8f1cb09a890.png`.
 
