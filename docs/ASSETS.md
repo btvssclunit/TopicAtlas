@@ -1,0 +1,7 @@
+# Asset provenance
+
+Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
+
+All new map illustrations are original built-in AI-generated artwork or original SVG. No third-party asset is distributed in the atlas. User-supplied school facade and owner's Vocab Summit sprites were visual references only, not copied assets. No school crest is reproduced.
+
+See `20261010_radial-atlas.md` and `20261010_bvss-radial-history.md` for sources, exact prompts, version history and attribution context. The uniform guide is linked for verification, not bundled. Historical homepage snapshots reproduce this repository's own UI and original CSS; originals are traceable to commit a5b24a5.

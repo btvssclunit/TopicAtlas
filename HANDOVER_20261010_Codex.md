@@ -23,3 +23,11 @@ Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
 ## Radial illustration follow-up
 
 The owner subsequently requested a 山海经-inspired modern illustration and radial expanding scope. Added `docs/20261010_radial-atlas.md` and `docs/mockups/TopicAtlas-radial-mockup.html` with original generated WebP/JPEG art. Prior A/B/C studies remain for history. The new mockup is the current direction for review; production integration and derived graphics remain outstanding.
+
+## School identity, perspective and visual archive
+
+- Current study: `docs/mockups/20261010_bvss-radial-v3.html`. Original school-inspired facade, uniform colours, three varied boats, foreign outer landmarks; smaller central students after perspective feedback.
+- Ordered region navigation replaces scattered labels. Selected region illuminates its approximate annular band; tested keyboard, dark surroundings and phone layout.
+- Design gallery: `docs/mockups/20261010_design-history.html`, including frozen Claude baseline, A/B/C, radial v1, rejected oversized identity draft, hair-detail intermediate and current study.
+- Compact assets and archived drafts are committed; full-resolution masters remain local. Provenance and prompts: `docs/20261010_bvss-radial-history.md` and `docs/ASSETS.md`.
+- Owner review is still needed before production map integration. This iteration does not modify production/student content.
