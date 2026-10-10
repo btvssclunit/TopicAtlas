@@ -1,0 +1,512 @@
+[
+  {
+    "id": "personal",
+    "selected": false,
+    "width": 481,
+    "height": 440,
+    "foot": 0.9818181818181818,
+    "transparent": true,
+    "bytes": 232000,
+    "webpBytes": 19018
+  },
+  {
+    "id": "family",
+    "selected": false,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9425,
+    "transparent": true,
+    "bytes": 280369,
+    "webpBytes": 22998
+  },
+  {
+    "id": "dragon",
+    "selected": false,
+    "width": 600,
+    "height": 366,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 311646,
+    "webpBytes": 28118
+  },
+  {
+    "id": "school",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 0.9866666666666667,
+    "transparent": true,
+    "bytes": 287884,
+    "webpBytes": 26700
+  },
+  {
+    "id": "hdb",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9725,
+    "transparent": true,
+    "bytes": 349071,
+    "webpBytes": 27026
+  },
+  {
+    "id": "hawker",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9825,
+    "transparent": true,
+    "bytes": 386604,
+    "webpBytes": 34184
+  },
+  {
+    "id": "shophouses",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.945,
+    "transparent": true,
+    "bytes": 402697,
+    "webpBytes": 27432
+  },
+  {
+    "id": "mbs",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.975,
+    "transparent": true,
+    "bytes": 280395,
+    "webpBytes": 22258
+  },
+  {
+    "id": "merlion",
+    "selected": true,
+    "width": 369,
+    "height": 440,
+    "foot": 0.975,
+    "transparent": true,
+    "bytes": 193288,
+    "webpBytes": 20230
+  },
+  {
+    "id": "supertrees",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9825,
+    "transparent": true,
+    "bytes": 340673,
+    "webpBytes": 50126
+  },
+  {
+    "id": "lotus",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9375,
+    "transparent": true,
+    "bytes": 250912,
+    "webpBytes": 16924
+  },
+  {
+    "id": "thai",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.98,
+    "transparent": true,
+    "bytes": 248945,
+    "webpBytes": 22734
+  },
+  {
+    "id": "borobudur",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9675,
+    "transparent": true,
+    "bytes": 279830,
+    "webpBytes": 20048
+  },
+  {
+    "id": "petronas",
+    "selected": true,
+    "width": 293,
+    "height": 440,
+    "foot": 0.9840909090909091,
+    "transparent": true,
+    "bytes": 151231,
+    "webpBytes": 13518
+  },
+  {
+    "id": "eiffel",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 0.9886363636363636,
+    "transparent": true,
+    "bytes": 90994,
+    "webpBytes": 11080
+  },
+  {
+    "id": "pagoda",
+    "selected": false,
+    "width": 463,
+    "height": 440,
+    "foot": 0.990909090909091,
+    "transparent": true,
+    "bytes": 180252,
+    "webpBytes": 19436
+  },
+  {
+    "id": "rain-tree",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9875,
+    "transparent": true,
+    "bytes": 372122,
+    "webpBytes": 48378
+  },
+  {
+    "id": "frangipani",
+    "selected": true,
+    "width": 481,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 297067,
+    "webpBytes": 41290
+  },
+  {
+    "id": "hibiscus",
+    "selected": false,
+    "width": 481,
+    "height": 440,
+    "foot": 0.9704545454545455,
+    "transparent": true,
+    "bytes": 250425,
+    "webpBytes": 32528
+  },
+  {
+    "id": "bougainvillea",
+    "selected": true,
+    "width": 481,
+    "height": 440,
+    "foot": 0.990909090909091,
+    "transparent": true,
+    "bytes": 290917,
+    "webpBytes": 47342
+  },
+  {
+    "id": "cloud",
+    "selected": false,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9875,
+    "transparent": true,
+    "bytes": 345090,
+    "webpBytes": 43116
+  },
+  {
+    "id": "sampan",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.96,
+    "transparent": true,
+    "bytes": 176287,
+    "webpBytes": 14888
+  },
+  {
+    "id": "family-interior",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9825,
+    "transparent": true,
+    "bytes": 349224,
+    "webpBytes": 19870
+  },
+  {
+    "id": "dragon-family",
+    "selected": false,
+    "width": 600,
+    "height": 366,
+    "foot": 0.9699453551912568,
+    "transparent": true,
+    "bytes": 304287,
+    "webpBytes": 27056
+  },
+  {
+    "id": "personal-teen",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 0.9727272727272728,
+    "transparent": true,
+    "bytes": 283688,
+    "webpBytes": 23882
+  },
+  {
+    "id": "personal-trousers",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 0.9727272727272728,
+    "transparent": true,
+    "bytes": 278167,
+    "webpBytes": 21664
+  },
+  {
+    "id": "mist",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 175456,
+    "webpBytes": 21468
+  },
+  {
+    "id": "school-inclusive",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 284419,
+    "webpBytes": 21388
+  },
+  {
+    "id": "great-wall",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9475,
+    "transparent": true,
+    "bytes": 288307,
+    "webpBytes": 23164
+  },
+  {
+    "id": "petra",
+    "selected": false,
+    "width": 476,
+    "height": 440,
+    "foot": 0.9727272727272728,
+    "transparent": true,
+    "bytes": 408760,
+    "webpBytes": 29456
+  },
+  {
+    "id": "colosseum",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.9725,
+    "transparent": true,
+    "bytes": 367549,
+    "webpBytes": 29106
+  },
+  {
+    "id": "taj-mahal",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.985,
+    "transparent": true,
+    "bytes": 284943,
+    "webpBytes": 26088
+  },
+  {
+    "id": "machu-picchu",
+    "selected": false,
+    "width": 600,
+    "height": 400,
+    "foot": 0.955,
+    "transparent": true,
+    "bytes": 320409,
+    "webpBytes": 25342
+  },
+  {
+    "id": "chichen-itza",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 252486,
+    "webpBytes": 18992
+  },
+  {
+    "id": "christ-redeemer",
+    "selected": true,
+    "width": 480,
+    "height": 440,
+    "foot": 0.9772727272727273,
+    "transparent": true,
+    "bytes": 136158,
+    "webpBytes": 12470
+  },
+  {
+    "id": "personal-final",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 0.990909090909091,
+    "transparent": true,
+    "bytes": 278679,
+    "webpBytes": 20780
+  },
+  {
+    "id": "school-final",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 281796,
+    "webpBytes": 21540
+  },
+  {
+    "id": "personal-final-ink",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 327804,
+    "webpBytes": 26916
+  },
+  {
+    "id": "petra-ink",
+    "selected": true,
+    "width": 477,
+    "height": 440,
+    "foot": 0.9886363636363636,
+    "transparent": true,
+    "bytes": 408625,
+    "webpBytes": 25006
+  },
+  {
+    "id": "machu-picchu-ink",
+    "selected": true,
+    "width": 600,
+    "height": 400,
+    "foot": 0.985,
+    "transparent": true,
+    "bytes": 383142,
+    "webpBytes": 27656
+  },
+  {
+    "id": "hibiscus-ink",
+    "selected": true,
+    "width": 481,
+    "height": 440,
+    "foot": 0.9727272727272728,
+    "transparent": true,
+    "bytes": 286777,
+    "webpBytes": 35750
+  },
+  {
+    "id": "dragon-family-ink",
+    "selected": true,
+    "width": 600,
+    "height": 366,
+    "foot": 0.9590163934426229,
+    "transparent": true,
+    "bytes": 324504,
+    "webpBytes": 22020
+  },
+  {
+    "id": "mist-ink",
+    "selected": true,
+    "width": 600,
+    "height": 300,
+    "foot": 0.9833333333333333,
+    "transparent": true,
+    "bytes": 172270,
+    "webpBytes": 15352
+  },
+  {
+    "id": "personal-culottes",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 328564,
+    "webpBytes": 24874
+  },
+  {
+    "id": "school-culottes",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 286460,
+    "webpBytes": 24830
+  },
+  {
+    "id": "personal-uniform-final",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 306898,
+    "webpBytes": 22810
+  },
+  {
+    "id": "school-uniform-final",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 0.9833333333333333,
+    "transparent": true,
+    "bytes": 282834,
+    "webpBytes": 22102
+  },
+  {
+    "id": "school-uniform-matched",
+    "selected": false,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 291695,
+    "webpBytes": 21640
+  },
+  {
+    "id": "personal-uniform-knee",
+    "selected": false,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 301205,
+    "webpBytes": 23166
+  },
+  {
+    "id": "personal-hair-final",
+    "selected": true,
+    "width": 528,
+    "height": 440,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 291539,
+    "webpBytes": 22252
+  },
+  {
+    "id": "school-hair-final",
+    "selected": true,
+    "width": 600,
+    "height": 300,
+    "foot": 1.0,
+    "transparent": true,
+    "bytes": 289458,
+    "webpBytes": 23490
+  }
+]

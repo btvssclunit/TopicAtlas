@@ -49,3 +49,7 @@ Final candidate updated to docs/mockups/20261010_quarter-v12.html after correcti
 ## Open scenes, geometry overlay and aged-paper study
 
 Current candidate docs/mockups/20261010_quarter-v15.html: taller square panel, warmer aged paper, muted ink-led colour, open vignette gaps, five national landmarks, horizontal personal-to-global menu below art. Exact circle overlay toggle is available for placement review. docs/mockups/20261010_quarter-guide-v13.html preserves the intermediary overlay. V13-V15 retained in visual history. Generated placement remains approximate against the guide and needs further calibration before production integration. Exact prompts/provenance/checks in docs/20261010_quarter-radial.md. Production untouched.
+
+## Modular atlas follow-up, October 10 2026
+
+Current review draft: `docs/mockups/20261010_modular-v17.html`. Handoff to Claude: `docs/20261010_Claude_art_handoff.md`. Separate transparent PNGs, display WebPs, current-piece manifest, exact prompts, NParks photo moodboard, full-resolution selected masters and visual stages 16/17 are saved. Owner corrected collars/pockets, no belts, skirt-like culottes just below knees, school/reading facial style and prototype spacing. New Seven Wonders are smaller outside ASEAN. Production files and student content remain untouched. Integration, final owner composition review and production image-budget work remain pending.
