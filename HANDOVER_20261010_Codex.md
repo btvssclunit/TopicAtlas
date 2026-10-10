@@ -39,3 +39,9 @@ Owner requested less detail/colour, clearer concentric scope, and a much smaller
 ## Quarter-radial and cloud-wash studies
 
 Current candidate: docs/mockups/20261010_quarter-v9.html. Six scopes radiate from bottom-left with soft unoutlined selection, personal boy and girl, ASEAN-first outer scope, smaller global cues at edges. 天下 replaces 世界 in this owner-reviewed mockup; internal shijie ID preserved. Owner requests curved scene ground bases and larger softer 大写意 cloud washes. Versions 5 through 9 are recorded in design history, prompts/reference sources in docs/20261010_quarter-radial.md. Production unchanged.
+
+## Circular recalibration and people
+
+Current candidate docs/mockups/20261010_quarter-v11.html. Geometry-guided circular scene bases replace straighter diagonal strips; selection bands now have equal horizontal/vertical radii. Added family parents/children and dragon playground, community residents across ethnicities/ages in casual clothing, foreground bougainvillea. V10 intermediate and V11 retained in gallery. Production unchanged.
+
+Final candidate updated to docs/mockups/20261010_quarter-v12.html after correcting the playground to 家庭 and restoring school uniforms. Selected illumination is a feathered warm golden wash. All intermediate versions remain recorded.

@@ -1,4 +1,23 @@
 # Quarter-radial handscroll studies
+## Placement correction V12 and golden glow
+
+undefined
+
+Owner requested warm golden illumination. Selected wash uses #edbd55 at 0.38 opacity and 24px feathering in source coordinates; no stroke. Native rail controls continue to announce selection. V11 misplacement intermediate retained for evolution record, V12 corrects family/playground placement. Recalibrated UI checked at 1280 x 800, 1024 x 768 and 375 x 812, Enter/Space and dark surroundings, no overflow.
+## Family, community and foreground V11
+
+undefined
+
+Dragon playground reference: [National Heritage Board, Toa Payoh Dragon Playground](https://www.roots.gov.sg/places/places-landing/Places/landmarks/Toa-Payoh-Heritage-Trail/Toa-Payoh-Dragon-Playground), terrazzo head, slide and ringed climbing body. Original illustration only, no source photograph embedded.
+
+Selection now uses true circular radii in image pixels, rather than horizontal/vertical radii stretched in different proportions. Art is visually guided; illustrative scene footings are not guaranteed pixel-exact circles.
+## Circular recalibration V10
+
+A deterministic placement guide uses six true circles with common centre (0,1024) and radii 150,300,450,600,750,900 in a 1536 x 1024 canvas. This replaces the previous stretched elliptical selection bands and diagonal scene strips. Native art remains an illustration rather than a technical diagram; guide lines are omitted.
+
+Prompt:
+
+undefined
 ## Broad clouds V9 prompt
 
 undefined
