@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Topic Atlas · Diagonal atlas v21</title>
+<style>
+:root{--page:#eee5d2;--surface:#f7efdd;--ink:#35413a;--muted:#6c6c5b;--border:#cfc0a3;--gold:#ae7730}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.6 system-ui,sans-serif}
+main{max-width:1440px;padding:20px 28px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font:700 30px 'Songti SC',serif;margin:4px 0}
+small{color:var(--muted)}a{color:var(--gold)}
+.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button{font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:9px 14px}
+button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+/* The whole atlas is one SVG with a fixed 1536 x 1024 coordinate system.
+   It scales as a unit, so circles stay circular and vignettes never drift
+   apart or overlap differently on another screen ratio. */
+.atlas{width:min(100%,calc((100svh - 230px) * 1.5));min-width:min(100%,640px);margin:18px auto;border-radius:18px;overflow:hidden;background:#eee3cb}
+.atlas svg{display:block;width:100%;height:auto;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.scope{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
+.scope button{text-align:left;padding:10px 12px}
+.scope b{display:block;font:700 23px 'Songti SC',serif}
+.scope span{font-size:12px;color:var(--muted)}
+.scope button[aria-pressed=true]{background:#e6d4a3;border:2px solid #9f7029;padding:9px 11px}
+.status{margin:10px 0;color:var(--muted)}
+.notes{font-size:13px;color:var(--muted)}
+#sel path{transition:opacity .25s}
+body.dark{--page:#202622;--surface:#303831;--ink:#eee5d1;--muted:#c9c0ae;--border:#566153;--gold:#e6bf73}
+body.dark .scope button[aria-pressed=true]{background:#665536;color:#fff1d6}
+body.dark .atlas{box-shadow:0 0 0 1px #786b53}
+@media(max-width:900px){main{padding:14px}h1{font-size:26px}.scope b{font-size:21px}.scope button{padding:8px}.scope button[aria-pressed=true]{padding:7px}}
+@media(max-width:600px){main{padding:12px}.atlas{min-width:0;width:100%}.scope{grid-template-columns:repeat(3,minmax(0,1fr))}.tools{font-size:12px}.notes{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#sel path{transition:none}}
+</style></head><body><main>
+<header><div><small>BVSS MTL CL UNIT · DESIGN STUDY 21</small><h1>谈天说地 · Topic Atlas</h1></div>
+<div class="tools"><button id="guide" aria-pressed="false">Show positioning guide</button><button id="theme" aria-pressed="false">Dark surroundings</button><a href="20261010_quarter-v20.html">v20 concentric</a><a href="20261010_quarter-v13.html">v13 painting</a><a href="20261010_modular-v19.html">v19 sprites</a><a href="20261010_design-history.html">Design history</a></div></header>
+<div class="atlas">
+<svg id="map" viewBox="0 0 1536 1024" role="img" aria-label="Ink and watercolour atlas in parallel diagonal bands from personal life at bottom-left, through family, school, community and Singapore, to ASEAN neighbours and world landmarks.">
+<defs>
+ <radialGradient id="paperA" cx="30%" cy="35%" r="60%"><stop offset="0" stop-color="#faf5e9" stop-opacity=".7"/><stop offset="1" stop-color="#faf5e9" stop-opacity="0"/></radialGradient>
+ <radialGradient id="paperB" cx="95%" cy="85%" r="50%"><stop offset="0" stop-color="#d2b990" stop-opacity=".22"/><stop offset="1" stop-color="#d2b990" stop-opacity="0"/></radialGradient>
+ <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="26"/></filter>
+ <filter id="mist" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="ink"><feColorMatrix type="saturate" values=".72"/></filter>
+ <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feColorMatrix type="saturate" values=".72"/><feGaussianBlur stdDeviation="0"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#eee3cb"/><rect width="1536" height="1024" fill="url(#paperA)"/><rect width="1536" height="1024" fill="url(#paperB)"/>
+<g id="tint" filter="url(#soft)"></g>
+<g id="sel" filter="url(#soft)"></g>
+<g id="washes" filter="url(#mist)" fill="none" stroke-linecap="round"></g>
+<g id="art" filter="url(#ink)"></g>
+<g id="guides" style="display:none"></g>
+</svg>
+</div>
+<nav class="scope" aria-label="Expanding topic scope"></nav><p class="status" aria-live="polite"></p>
+<p class="notes">Review draft 21. Scopes are parallel diagonal bands rising from the bottom-left corner, as in the owner's straight-line reference. Vignettes are cut directly from the v13 painting; each footing sits exactly on its band's ground line, so painted slopes and band slopes agree. The 天下 boundary crosses the top edge part-way along, giving the outer scopes room. The whole atlas is one scalable drawing, so the composition is identical on laptops, iPads and phones. Empty stretches along each line are reserved for new vignettes drawn to the same slope. v13 figures predate the v19 uniform and school-facade corrections.</p>
+</main><script>
+(()=>{'use strict';
+const W=1536,H=1024,NS='http://www.w3.org/2000/svg';
+// Parallel bands sloping down to the right at BETA degrees. d is the perpendicular distance from the bottom-left corner.
+const BETA=22,sb=Math.sin(BETA*Math.PI/180),cb=Math.cos(BETA*Math.PI/180);
+const D=[0,230,450,670,890,1110,2200];
+const regions=[['geren','个人','修身',14],['jiating','家庭','齐家',3],['xiaoyuan','校园','治国',4],['shequ','社区','治国',5],['guojia','国家','治国',5],['shijie','天下','平天下',6]];
+const tints=['#c9c4a6','#c4cfc8','#d2c4ac','#b9c8c6','#d0c6ad','#bccac7'];
+const cuts={"personal":[443,306],"house":[300,176],"walkers":[315,240],"dragon":[335,215],"school":[630,235],"hdb":[396,230],"hawker":[505,167],"mbs":[320,160],"lotus":[250,130],"thai":[395,180],"borobudur":[390,209],"petronas":[345,310],"eiffel":[200,171],"pagoda":[246,203],"sun":[84,83],"cloud-a":[273,167],"cloud-b":[500,144]};
+// [asset, scope index, footing x, scale, footing x fraction, footing y fraction, ground line d]
+const placements=[
+ ['personal',0,175,.78,.42,.82,80],
+ ['house',1,110,.78,.5,.85,295],
+ ['walkers',1,345,.72,.5,.82,295],
+ ['dragon',1,610,.68,.5,.86,290],
+ ['school',2,330,.9,.5,.86,515],
+ ['hdb',3,180,.82,.5,.86,735],
+ ['hawker',3,930,.82,.5,.86,735],
+ ['mbs',4,620,.88,.5,.86,950],
+ ['lotus',4,1300,.88,.5,.86,950],
+ ['thai',5,1000,.62,.5,.82,1170],
+ ['borobudur',5,1230,.62,.5,.82,1170],
+ ['petronas',5,1440,.55,.55,.75,1170],
+ ['eiffel',5,1330,.45,.55,.86,1395],
+ ['pagoda',5,1470,.45,.5,.75,1395]
+];
+const clouds=[['cloud-a',300,40,.8,.4],['cloud-b',1010,330,.8,.38],['cloud-a',1180,800,.9,.35],['cloud-b',640,700,.7,.3]];
+let selected='geren';
+const $=s=>document.querySelector(s),art=$('#art'),tint=$('#tint'),sel=$('#sel'),washes=$('#washes'),guides=$('#guides'),nav=$('.scope');
+const el=(tag,attrs)=>{const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e};
+const yAt=(d,x)=>H-(d-x*sb)/cb;
+const line=(d,x0=-80,x1=W+80)=>`M${x0} ${yAt(d,x0).toFixed(1)}L${x1} ${yAt(d,x1).toFixed(1)}`;
+const band=(d0,d1)=>`M-80 ${yAt(d0,-80)}L${W+80} ${yAt(d0,W+80)}L${W+80} ${yAt(d1,W+80)}L-80 ${yAt(d1,-80)}Z`;
+const img=(id,x,y,w,h,extra)=>el('image',Object.assign({href:`assets-v20/${id}.webp`,x,y,width:w,height:h,preserveAspectRatio:'none'},extra||{}));
+regions.forEach((r,i)=>{
+ tint.append(el('path',{d:band(D[i],D[i+1]),fill:tints[i],opacity:'.28'}));
+ sel.append(el('path',{d:band(D[i]+16,D[i+1]-16),fill:'#edbd55',opacity:'0','data-reg':r[0]}));
+});
+// Broad soft mist along each boundary, broken so it never reads as a ruled line.
+D.slice(1,6).forEach((d,i)=>washes.append(el('path',{d:line(d),stroke:i%2?'#9fb2b8':'#b3bcb4','stroke-width':44,opacity:'.22','stroke-dasharray':'300 140 460 110','stroke-dashoffset':String(i*190)})));
+art.append(img('sun',1185,22,64,63,{opacity:'.75'}));
+for(const [id,x,y,s,o] of clouds){const [w,h]=cuts[id];art.append(img(id,x-w*s/2,y-h*s/2,w*s,h*s,{opacity:String(o)}))}
+let dots='';
+for(const [id,ring,x,s,fx,fy,d] of placements){const [w,h]=cuts[id],y=yAt(d,x);art.append(img(id,x-w*s*fx,y-h*s*fy,w*s,h*s,{'data-reg':regions[ring][0]}));dots+=`<circle cx="${x}" cy="${y.toFixed(1)}" r="5" fill="#8a5a22"/>`}
+const grounds=[...new Set(placements.map(p=>p[6]))];
+guides.innerHTML='<g fill="none" stroke="#896d43" stroke-width="2">'+D.slice(1,6).map(d=>`<path d="${line(d)}"/>`).join('')+'</g><g fill="none" stroke="#896d43" stroke-width="1.2" stroke-dasharray="6 9">'+grounds.map(d=>`<path d="${line(d)}"/>`).join('')+'</g>'+dots+regions.map((r,i)=>{const d=(D[i]+Math.min(D[i+1],1400))/2,x=Math.max(30,(d-H*cb)/sb+40);return `<text x="${x}" y="${Math.min(yAt(d,x)-8,1000)}" font-size="30" fill="#6b4c22" font-family="Songti SC,serif">${r[1]}</text>`}).join('');
+for(const [id,name,motto,count] of regions){const b=document.createElement('button');b.type='button';b.dataset.reg=id;b.setAttribute('aria-label',`${name}, ${count} topics`);b.innerHTML=`<b>${name}</b><span>${motto} · ${count} 个话题</span>`;b.addEventListener('click',()=>{selected=id;paint()});nav.append(b)}
+function paint(){
+ nav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.reg===selected)));
+ sel.querySelectorAll('path').forEach(p=>p.setAttribute('opacity',p.dataset.reg===selected?'.42':'0'));
+ const r=regions.find(x=>x[0]===selected);$('.status').textContent=`${r[1]} · ${r[2]} · ${r[3]} 个话题`;
+}
+// Pointer selection: the scope is the perpendicular distance from the corner, in SVG units.
+$('#map').addEventListener('click',e=>{const m=e.currentTarget.getScreenCTM();if(!m)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(m.inverse());const d=p.x*sb+(H-p.y)*cb;const i=D.findIndex((r,k)=>d>=r&&d<D[k+1]);if(i>=0&&i<6){selected=regions[i][0];paint()}});
+$('#guide').addEventListener('click',e=>{const shown=guides.style.display==='none';guides.style.display=shown?'':'none';e.currentTarget.setAttribute('aria-pressed',String(shown));e.currentTarget.textContent=shown?'Hide positioning guide':'Show positioning guide'});
+$('#theme').addEventListener('click',e=>{const dark=document.body.classList.toggle('dark');e.currentTarget.setAttribute('aria-pressed',String(dark))});
+paint();
+})();
+</script></body></html>
