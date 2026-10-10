@@ -1,0 +1,8 @@
+# Internal planning and CPDD textbook files never go in this public repo
+planning/
+planning_不要上传/
+*课文与话题对照表*
+*.pdf
+*.zip
+.DS_Store
+.claude/

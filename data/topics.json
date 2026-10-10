@@ -1,0 +1,946 @@
+{
+ "version": "2026-10-10",
+ "regions": [
+  {
+   "id": "geren",
+   "name": "个人",
+   "motto": "修身",
+   "blurb": "认识自己，养成好习惯，在学习和生活中不断成长。",
+   "subs": [
+    [
+     "xintai",
+     "心态品格"
+    ],
+    [
+     "chengzhang",
+     "成长追梦"
+    ],
+    [
+     "shenghuo",
+     "学习生活"
+    ]
+   ]
+  },
+  {
+   "id": "jiating",
+   "name": "家庭",
+   "motto": "齐家",
+   "blurb": "亲情、团聚，以及家人之间说出口和说不出口的爱。"
+  },
+  {
+   "id": "xiaoyuan",
+   "name": "校园",
+   "motto": "",
+   "blurb": "新的同学、朋友、沟通，以及毕业时的离别。"
+  },
+  {
+   "id": "shequ",
+   "name": "社区",
+   "motto": "",
+   "blurb": "关怀身边的人和动物，为社区出一分力。"
+  },
+  {
+   "id": "guojia",
+   "name": "国家",
+   "motto": "治国",
+   "blurb": "认识新加坡的文化、历史和家园。"
+  },
+  {
+   "id": "shijie",
+   "name": "世界",
+   "motto": "平天下",
+   "blurb": "自然与环境、创新、文学，以及新加坡与世界的连接。"
+  }
+ ],
+ "topics": [
+  {
+   "id": "s1u1",
+   "name": "新同学 新鲜事",
+   "region": "xiaoyuan",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": true
+  },
+  {
+   "id": "s1u2",
+   "name": "团圆",
+   "region": "jiating",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s1u3",
+   "name": "相约狮城",
+   "region": "guojia",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s1u4",
+   "name": "习惯的力量",
+   "region": "geren",
+   "sub": "xintai",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s1u5",
+   "name": "创新与改变",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s1u6",
+   "name": "小人物 大贡献",
+   "region": "shequ",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中一",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G2",
+     "lv": "中一",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G3",
+     "lv": "中一",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "HCL",
+     "lv": "中一",
+     "u": "单元六",
+     "un": 6
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u1",
+   "name": "爱的表达",
+   "region": "jiating",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u2",
+   "name": "关爱动物",
+   "region": "shequ",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u3",
+   "name": "绿色生活",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u4",
+   "name": "成长的足迹",
+   "region": "geren",
+   "sub": "chengzhang",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u5",
+   "name": "心系家园",
+   "region": "guojia",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s2u6",
+   "name": "与世界相连",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中二",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G2",
+     "lv": "中二",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G3",
+     "lv": "中二",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "HCL",
+     "lv": "中二",
+     "u": "单元六",
+     "un": 6
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s3u1",
+   "name": "有你做伴",
+   "region": "xiaoyuan",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元一",
+     "un": 1
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s3u2",
+   "name": "健康生活",
+   "region": "geren",
+   "sub": "shenghuo",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元二",
+     "un": 2
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false,
+   "note": "G1 课题名为《我的健康我做主》，已核对可合并"
+  },
+  {
+   "id": "s3u3",
+   "name": "走进社区",
+   "region": "shequ",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元三",
+     "un": 3
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s3u4",
+   "name": "沟通你我他",
+   "region": "xiaoyuan",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s3u5",
+   "name": "人生学堂",
+   "region": "geren",
+   "sub": "shenghuo",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "xwzj",
+   "name": "学无止境",
+   "region": "geren",
+   "sub": "shenghuo",
+   "doors": [
+    {
+     "s": "G2",
+     "lv": "中四",
+     "u": "单元四",
+     "un": 4
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": true
+  },
+  {
+   "id": "s3u6",
+   "name": "发现真善美",
+   "region": "jiating",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中三",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G2",
+     "lv": "中三",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "G3",
+     "lv": "中三",
+     "u": "单元六",
+     "un": 6
+    },
+    {
+     "s": "HCL",
+     "lv": "中三",
+     "u": "单元六",
+     "un": 6
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G11",
+   "name": "发现自我",
+   "region": "geren",
+   "sub": "chengzhang",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中四",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G12",
+   "name": "面对挑战",
+   "region": "geren",
+   "sub": "xintai",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中四",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G13",
+   "name": "情牵小红点",
+   "region": "guojia",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中四",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G14",
+   "name": "文化调色板",
+   "region": "guojia",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中四",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G15",
+   "name": "勇于追梦／逐梦",
+   "region": "geren",
+   "sub": "chengzhang",
+   "doors": [
+    {
+     "s": "G1",
+     "lv": "中四",
+     "u": "单元五",
+     "un": 5
+    },
+    {
+     "s": "G3",
+     "lv": "中四",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G21",
+   "name": "游戏与生活",
+   "region": "geren",
+   "sub": "xintai",
+   "doors": [
+    {
+     "s": "G2",
+     "lv": "中四",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G22",
+   "name": "人生不留白",
+   "region": "geren",
+   "sub": "chengzhang",
+   "doors": [
+    {
+     "s": "G2",
+     "lv": "中四",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G23",
+   "name": "南洋华彩",
+   "region": "guojia",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G2",
+     "lv": "中四",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G25",
+   "name": "关爱与包容",
+   "region": "shequ",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G2",
+     "lv": "中四",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G31",
+   "name": "心手相连",
+   "region": "shequ",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G3",
+     "lv": "中四",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G32",
+   "name": "文学世界",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G3",
+     "lv": "中四",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G33",
+   "name": "平衡之道",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G3",
+     "lv": "中四",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4G34",
+   "name": "知己知彼",
+   "region": "shijie",
+   "sub": null,
+   "doors": [
+    {
+     "s": "G3",
+     "lv": "中四",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4HCL1",
+   "name": "适应的力量",
+   "region": "geren",
+   "sub": "xintai",
+   "doors": [
+    {
+     "s": "HCL",
+     "lv": "中四",
+     "u": "单元一",
+     "un": 1
+    }
+   ],
+   "active": false,
+   "also": [
+    "shijie"
+   ]
+  },
+  {
+   "id": "s4HCL2",
+   "name": "积极的态度",
+   "region": "geren",
+   "sub": "xintai",
+   "doors": [
+    {
+     "s": "HCL",
+     "lv": "中四",
+     "u": "单元二",
+     "un": 2
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4HCL3",
+   "name": "成功的要素",
+   "region": "geren",
+   "sub": "chengzhang",
+   "doors": [
+    {
+     "s": "HCL",
+     "lv": "中四",
+     "u": "单元三",
+     "un": 3
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4HCL4",
+   "name": "依依离别情",
+   "region": "xiaoyuan",
+   "sub": null,
+   "doors": [
+    {
+     "s": "HCL",
+     "lv": "中四",
+     "u": "单元四",
+     "un": 4
+    }
+   ],
+   "active": false
+  },
+  {
+   "id": "s4HCL5",
+   "name": "时间的礼物",
+   "region": "geren",
+   "sub": "shenghuo",
+   "doors": [
+    {
+     "s": "HCL",
+     "lv": "中四",
+     "u": "单元五",
+     "un": 5
+    }
+   ],
+   "active": false
+  }
+ ]
+}
