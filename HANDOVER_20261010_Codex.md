@@ -45,3 +45,7 @@ Current candidate: docs/mockups/20261010_quarter-v9.html. Six scopes radiate fro
 Current candidate docs/mockups/20261010_quarter-v11.html. Geometry-guided circular scene bases replace straighter diagonal strips; selection bands now have equal horizontal/vertical radii. Added family parents/children and dragon playground, community residents across ethnicities/ages in casual clothing, foreground bougainvillea. V10 intermediate and V11 retained in gallery. Production unchanged.
 
 Final candidate updated to docs/mockups/20261010_quarter-v12.html after correcting the playground to 家庭 and restoring school uniforms. Selected illumination is a feathered warm golden wash. All intermediate versions remain recorded.
+
+## Open scenes, geometry overlay and aged-paper study
+
+Current candidate docs/mockups/20261010_quarter-v15.html: taller square panel, warmer aged paper, muted ink-led colour, open vignette gaps, five national landmarks, horizontal personal-to-global menu below art. Exact circle overlay toggle is available for placement review. docs/mockups/20261010_quarter-guide-v13.html preserves the intermediary overlay. V13-V15 retained in visual history. Generated placement remains approximate against the guide and needs further calibration before production integration. Exact prompts/provenance/checks in docs/20261010_quarter-radial.md. Production untouched.

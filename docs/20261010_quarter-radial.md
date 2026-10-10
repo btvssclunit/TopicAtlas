@@ -1,4 +1,25 @@
 # Quarter-radial handscroll studies
+## Warm paper and wider spacing V15
+
+Square composition increases source circle spacing from 150px to 220px, with unchanged circle proportions. Warm aged paper and substantially desaturated ink-led art. Deterministic SVG guide toggle stays available over the clean art; guide is shown only on request. Five national vignette anchors remain. Earlier intermediary studies preserved.
+
+Prompt:
+
+undefined
+## Exact positioning overlay and national anchors
+
+Deterministic SVG circles on top of V13 at docs/mockups/20261010_quarter-guide-v13.html. Toggle via native Show/Hide positioning guide button. All circles share one bottom-left centre; dots mark desired vignettes. The overlay exposes the current school placement outside its intended band, and is preserved as an intermediate calibration artifact. National scope receives Merlion, Supertrees and shophouses, spaced alongside Marina Bay Sands and lotus museum. No production changes.
+
+V14 prompt:
+
+Use case: compositing. Image1 open vignette atlas style/subjects. Image2 same atlas with exact circles OVERLAID showing INCORRECT current positions. Image3 clean exact geometry to follow. Fully reposition each vignette so its ground footing sits on the correct numbered circular arc from BOTTOM LEFT. KEEP architecture upright and SMALL enough for ring spacing. Ring1 personal reading students nearest bottom-left; ring2 family house at angle15degrees, parents/children at45, accurate ToaPayoh angular mosaic dragon/rainbow tunnel at75 near bottom; ring3 BukitView white raised box facade/corridor at45degrees radius450 (position318,706), six mixed students varying heights and skin tones white shirts brown shorts/long trousers/culottes, keep facade smaller not giant out at800,800. Ring4 community HDB near left at15degrees radius600, hawker casual multicultural elderly adults children at65degrees near bottom. Ring5 NATION radius750 now FIVE separated Singapore vignettes along FULL curve: shophouses angle10, MarinaBaySands angle30, Merlion angle48, Supertrees angle65, lotus museum angle82 near BOTTOM edge. Coordinates of nation ground anchors approximately (130,286),(375,374),(557,522),(680,707),(743,920) on1536x1024. Nation landmark footings MUST follow these coordinates, no clustering up top. Ring6 world radius900 Thai temple angle10, Borobudur angle40, Petronas angle75 nearbottom (869,791), tiny Eiffel and pagoda outside ring farther right. All scene footings separated by generous ivory 留白; no continuous land strips, no vegetation chains, no boundary lines. Preserve bougainvillea, soft broad 大写意 cloud washes and accurate existing angular ToaPayoh dragon with hexagon eye and rainbow tubular tunnel. Desaturate orange red and blue colors substantially from current image. Similar small pictorial scale, no strict perspective. Most important: obey CLEAN geometry image3 dot positions, RELOCATE school and architecture from incorrect current positions. Finished image has NO guide circles dots numbers labels text/logos/UI. Small sun top-right. Airy 70% quiet paper.
+## Open vignette V13
+
+Owner asked for discontinuous ground with 留白, wider angular distribution toward bottom ends, accurate Toa Payoh playground from supplied photo, supplied school facade and fewer diverse students. Reference photographs guide original illustration only, not embedded in repository. Golden selection preserved.
+
+Built-in image generation edit prompt:
+
+undefined
 ## Placement correction V12 and golden glow
 
 undefined
@@ -48,3 +69,7 @@ Use case: stylized-concept. Create original sparse Chinese ink-and-pale-watercol
 
 undefined
 
+
+## Horizontal scope menu and checks
+
+V15 moves the menu below the art in a horizontal row, personal at left and global at right. At smaller widths it wraps into three or two columns, retaining reading and keyboard order. Exact geometry guide can be toggled on the same draft; generated vignette placement still needs owner review against those arcs. Warm golden selection retained. Checked 1280 x 800, 1024 x 768, 375 x 812, Enter/Space, guide visibility, image load and dark surroundings; no horizontal overflow.
