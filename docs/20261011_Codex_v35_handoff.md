@@ -1,0 +1,24 @@
+# Codex v35 watercolor and long mist
+
+Updated October 11, 2026 by HOD/MTL Mdm Chun Kai Xin
+
+The owner likes v34's composition and requests more watercolor texture with long wispy clouds instead of small clusters. Preserve the family of four, two school trios, lively community playground, setting-specific surfaces, switchback depth and separate title/seal.
+
+Current review: `docs/mockups/20261011_switchback-v35.html`. Moodboard: `docs/mockups/20261011_atlas-moodboard-v35.html`. Earlier versions are preserved. Production integration remains pending.
+
+## Assets and checks
+
+Built-in imagegen output `exec-df60faf7-fb76-474a-b7ac-46b67a0ff427.png` is saved as `masters-v35/switchback-atlas.png`, 1536 x 1024. Display WebP `assets-v35/switchback-atlas.webp` is 427,212 bytes. Long grey-green atmospheric veils replace blue clustered clouds, with softer watercolor foliage and dissolving terrace edges. Figures and architecture retain firmer identifying accents. The v33 title, v32 school seal and school crest/name overlays are reused.
+
+The supplied landscape screenshot is archived unchanged in `references-v35/` and credited according to its visible labels on the moodboard. It guides mist spacing and painting medium, with no copied calligraphy or composition. Desktop screenshot `20261011_switchback-v35-preview.png` visually verified. Phone 375 x 812 and tablet 1024 x 768 have no horizontal overflow. Family button updates the expected status. Browser warning/error log empty. JavaScript syntax and whitespace checks passed. Four family figures, six school students in two trios and six playground children remain visible. Fine anatomical details, final seal-script review and production integration remain pending.
+
+## Exact edit prompt
+
+Use case: style-transfer / precise-object-edit.
+Asset type: cohesive watercolor atlas landing artwork.
+Input1 EDIT TARGET approved v34 six-scope painting. Input2 STYLE REFERENCE ONLY for long horizontal wispy mist and Chinese ink/watercolor atmosphere; ignore all screenshot UI and do not copy mountain composition, text, seals or individual brushwork.
+Primary request: make the existing complete atlas noticeably more WATERCOLOR and replace every small blue clustered/puffy cloud with long, thin, flowing mist ribbons.
+Preserve exact v34 composition, winding six switchback terraces, fixed scene positions, wide foreground tapering into distance, airy open top-left, completely blank lower-right x1260-1536 y640-1024 for separate title. Preserve reading pair with full shoes, family EXACT FOUR (two parents lifting/playing with toddler boy and older girl), school EXACT SIX teenagers in TWO distinct trios with correct uniforms, same school facade blank sign, community hawker/HDB and dragon playground with SIX active casual-clothed children varied genders/skin tones and watching elder, national Singapore landmarks and single sampan, world right-to-left geographic sequence Petronas / Borobudur / Angkor / Bangkok temple / Great Wall. No objects added or removed, no changes to faces/clothes/poses or architecture silhouette.
+Watercolor treatment: luminous transparent layered pigment washes, more restrained and desaturated colours, wet-on-wet foliage masses with soft pigment blooms and granulation, broken fine charcoal ink accents rather than crisp uniform outlines, drybrush texture in rocks and architecture, selected edges softly dissolve into pale raw xuan paper. Reduce shiny solid flat fills, heavy cartoon contour and precise repeated foliage, but maintain enough fine subject detail to read buildings, people and play actions. Not blurred or washed-out. Retain locally distinct path materials: cool concrete park paths with sage verges, clay-red school bricks, grey neighbourhood paving and blue-green play surface, pale blue-grey waterfront stone, distinct stone/plaza grounds near world landmarks. These colours should remain clearly different.
+Mist: remove ALL current little scalloped blue cluster strings and repeated rounded mountain-shaped cloud puffs. Replace them with elongated low-contrast horizontal ivory/silver-grey watercolor veils, feathered tails and thin grey-green undertones; wisps sweep laterally for 350-800 pixels across empty gaps between terraces, gently uneven diagonal drift, varying length/width, asymmetrically staggered. Mist is mainly pale paper negative space with subtle translucent grey washes, like the reference's long hanging valley haze. NOT blue bead chains, NOT fluffy cumulus clouds, NOT decorative outlined ribbon shapes. Sparse, open and airy, most paper remains exposed. Keep subjects and path turns visible, no dense fog over people. At most 3-5 main thin continuous mist ribbons between bands, with very fine trailing wisps.
+Keep painting original and contemporary Singapore setting, no mountains replacing scenes, no title/seal/lettering/numbers/border/watermark. Landscape1536x1024.
