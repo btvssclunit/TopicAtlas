@@ -17,7 +17,7 @@ Built-in imagegen recomposed the v32 horizontal title into `masters-v33/title-ve
 
 ## Verification and limits
 
-Desktop composition visually inspected. Tablet 1024 x 768 and phone 375 x 812 have no horizontal overflow, including the title close-up. Family button and community terrace keyboard selection update the corresponding status. Dark surroundings checked. Saved full-page screenshots are `20261011_switchback-v33-preview.png` and `20261011_brand-sprites-v33-preview.png`. JavaScript syntax and whitespace checks passed.
+Desktop composition visually inspected. Tablet 1024 x 768 and phone 375 x 812 have no horizontal overflow, including the title close-up. Family button and community terrace keyboard selection update the corresponding status. Dark surroundings checked. Saved atlas viewport and title close-up screenshots are `20261011_switchback-v33-preview.png` and `20261011_brand-sprites-v33-preview.png`. JavaScript syntax and whitespace checks passed.
 
 The community hit region and guide turn extend to the moved playground. The foreground path still narrows towards the distant world terrace. Prior geographic order and represented genders/skin tones remain the art direction. Small painted figure details and exact six-child count require the final detail pass; the compositional repaint does not certify fine anatomical detail. Earlier drafts remain preserved. Production integration and final artwork review remain pending. Work continues on `graphics/map-directions`, draft PR #1. Production homepage and `data/content/` are untouched. Always show revised previews inline in chat for phone review.
 
