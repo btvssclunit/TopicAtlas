@@ -4,7 +4,7 @@ Instructions for Codex and other coding agents. The full engineering log is `CLA
 
 Before any task, read in order:
 
-1. The newest handoff in `docs/` addressed to you (currently `docs/20261010_Codex_graphics_handoff.md`).
+1. The newest handoff in `docs/` addressed to you (currently `docs/20261010_Codex_v25_handoff.md`).
 2. `CLAUDE.md`: standing rules, stack, data model, pitfalls.
 3. `docs/Project_Brief.md`: vision and non-negotiables.
 4. The newest `HANDOVER_*.md`: status and outstanding work.

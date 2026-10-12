@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Topic Atlas · Diagonal atlas v25</title>
+<style>
+:root{--page:#eee5d2;--surface:#f7efdd;--ink:#35413a;--muted:#6c6c5b;--border:#cfc0a3;--gold:#ae7730}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.6 system-ui,sans-serif}
+main{max-width:1440px;padding:20px 28px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font:700 30px 'Songti SC',serif;margin:4px 0}
+small{color:var(--muted)}a{color:var(--gold)}
+.tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button{font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:9px 14px}
+button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+/* The whole atlas is one SVG with a fixed 1536 x 1024 coordinate system.
+   It scales as a unit, so circles stay circular and vignettes never drift
+   apart or overlap differently on another screen ratio. */
+.atlas{width:min(100%,calc((100svh - 230px) * 1.5));min-width:min(100%,640px);margin:18px auto;border-radius:18px;overflow:hidden;background:#eee3cb}
+.atlas svg{display:block;width:100%;height:auto;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.scope{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
+.scope button{text-align:left;padding:10px 12px}
+.scope b{display:block;font:700 23px 'Songti SC',serif}
+.scope span{font-size:12px;color:var(--muted)}
+.scope button[aria-pressed=true]{background:#e6d4a3;border:2px solid #9f7029;padding:9px 11px}
+.status{margin:10px 0;color:var(--muted)}
+.notes{font-size:13px;color:var(--muted)}
+#sel path{transition:opacity .25s}
+body.dark{--page:#202622;--surface:#303831;--ink:#eee5d1;--muted:#c9c0ae;--border:#566153;--gold:#e6bf73}
+body.dark .scope button[aria-pressed=true]{background:#665536;color:#fff1d6}
+body.dark .atlas{box-shadow:0 0 0 1px #786b53}
+@media(max-width:900px){main{padding:14px}h1{font-size:26px}.scope b{font-size:21px}.scope button{padding:8px}.scope button[aria-pressed=true]{padding:7px}}
+@media(max-width:600px){main{padding:12px}.atlas{min-width:0;width:100%}.scope{grid-template-columns:repeat(3,minmax(0,1fr))}.tools{font-size:12px}.notes{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#sel path{transition:none}}
+</style></head><body><main>
+<header><div><small>BVSS MTL CL UNIT · DESIGN STUDY 25</small><h1>谈天说地 · Topic Atlas</h1></div>
+<div class="tools"><button id="guide" aria-pressed="false">Show positioning guide</button><button id="theme" aria-pressed="false">Dark surroundings</button><a href="20261010_quarter-v24.html">v24</a><a href="20261010_quarter-v23.html">v23</a><a href="20261010_quarter-v22.html">v22</a><a href="20261010_quarter-v21.html">v21</a><a href="20261010_quarter-v20.html">v20 concentric</a><a href="20261010_quarter-v13.html">v13 painting</a><a href="20261010_modular-v19.html">v19 sprites</a><a href="20261010_design-history.html">Design history</a></div></header>
+<div class="atlas">
+<svg id="map" viewBox="0 0 1536 1024" role="img" aria-label="Ink and watercolour atlas in parallel diagonal bands from personal life at bottom-left, through family, school, community and Singapore, to ASEAN neighbours and world landmarks.">
+<defs>
+ <radialGradient id="paperA" cx="30%" cy="35%" r="60%"><stop offset="0" stop-color="#faf5e9" stop-opacity=".7"/><stop offset="1" stop-color="#faf5e9" stop-opacity="0"/></radialGradient>
+ <radialGradient id="paperB" cx="95%" cy="85%" r="50%"><stop offset="0" stop-color="#d2b990" stop-opacity=".22"/><stop offset="1" stop-color="#d2b990" stop-opacity="0"/></radialGradient>
+ <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="26"/></filter>
+ <filter id="mist" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="ink"><feColorMatrix type="saturate" values=".72"/></filter>
+ <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feColorMatrix type="saturate" values=".72"/><feGaussianBlur stdDeviation="0"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#eee3cb"/><rect width="1536" height="1024" fill="url(#paperA)"/><rect width="1536" height="1024" fill="url(#paperB)"/>
+<g id="tint" filter="url(#soft)"></g>
+<g id="sel" filter="url(#soft)"></g>
+<g id="washes" filter="url(#mist)" fill="none" stroke-linecap="round"></g>
+<g id="art" filter="url(#ink)"></g>
+<g id="guides" style="display:none"></g>
+</svg>
+</div>
+<nav class="scope" aria-label="Expanding topic scope"></nav><p class="status" aria-live="polite"></p>
+<p class="notes">Review draft 25. Rows are staggered (错落有致): sizes, gaps and heights within each band vary so neighbouring rows never stack in columns, and the 个人 corner sits lower. Each sprite's painted ground is measured from its pixels; the sprite turns exactly enough for that ground to run at the band angle, and rows scale up to fill their bands. The positioning guide draws every measured ground line in red. Vignettes now tile end to end along each band's ground line; spaces reserved for planned vignettes show as outlined boxes in the positioning guide. The 个人 corner now uses the v19 reading pair, each student with their own book, seated on v13's bougainvillea and rock bed, which runs off the left and bottom edges. Scopes are parallel diagonal bands rising from the bottom-left corner, as in the owner's straight-line reference. Vignettes are cut directly from the v13 painting; each footing sits exactly on its band's ground line, so painted slopes and band slopes agree. The 天下 boundary crosses the top edge part-way along, giving the outer scopes room. The whole atlas is one scalable drawing, so the composition is identical on laptops, iPads and phones. Empty stretches along each line are reserved for new vignettes drawn to the same slope. v13 figures predate the v19 uniform and school-facade corrections.</p>
+</main><script>
+(()=>{'use strict';
+const W=1536,H=1024,NS='http://www.w3.org/2000/svg';
+// Parallel bands sloping down to the right at BETA degrees. d is the perpendicular distance from the bottom-left corner.
+const BETA=22,sb=Math.sin(BETA*Math.PI/180),cb=Math.cos(BETA*Math.PI/180);
+const D=[0,330,530,730,930,1120,2200];
+const regions=[['geren','个人','修身',14],['jiating','家庭','齐家',3],['xiaoyuan','校园','治国',4],['shequ','社区','治国',5],['guojia','国家','治国',5],['shijie','天下','平天下',6]];
+const tints=['#c9c4a6','#c4cfc8','#d2c4ac','#b9c8c6','#d0c6ad','#bccac7'];
+const cuts={"personal-bed":[445,306],"personal-pair":[720,594],"house":[300,177],"walkers":[315,240],"dragon":[335,215],"school":[630,235],"hdb":[400,237],"hawker":[505,167],"mbs":[320,160],"lotus":[250,130],"thai":[395,180],"borobudur":[390,209],"petronas":[345,310],"eiffel":[200,171],"pagoda":[246,203],"sun":[84,83],"v16/rain-tree":[600,400],"v16/frangipani":[481,440],"v16/hibiscus-ink":[481,440],"v16/great-wall":[600,400],"v16/petra-ink":[477,440],"v16/colosseum":[600,400],"v16/taj-mahal":[600,400],"v16/machu-picchu-ink":[600,400],"v16/chichen-itza":[600,400],"v16/christ-redeemer":[480,440],"cloud-a":[273,167],"cloud-b":[500,144]};
+// Measured by tools/20261010_measure_ground.py: [width, height, ground slope in degrees, ground y at centre (fraction), ground start x, ground end x (fractions)].
+const GROUND={"house":[300,177,3.8,0.955,0.0,0.75],"walkers":[315,240,1.4,0.936,0.162,0.956],"dragon":[335,215,7.7,0.784,0.054,0.991],"school":[630,235,12.8,0.842,0.016,0.683],"hdb":[400,237,11.5,0.882,0.105,0.825],"hawker":[505,167,1.8,0.908,0.121,0.962],"mbs":[320,160,3.1,0.909,0.128,0.988],"lotus":[250,130,0.8,0.896,0.096,0.848],"thai":[395,180,5.0,0.838,0.091,0.901],"borobudur":[390,209,6.9,0.852,0.028,0.962],"petronas":[345,310,29.2,0.807,0.229,0.832],"v16/rain-tree":[420,280,1.1,0.782,0.036,0.974],"v16/frangipani":[339,310,11.2,0.966,0.153,0.69],"v16/hibiscus-ink":[339,310,1.9,0.943,0.254,0.735],"v16/great-wall":[420,280,-9.9,0.901,0.295,0.94],"v16/petra-ink":[336,310,0.8,0.978,0.024,0.994],"v16/colosseum":[420,280,0.1,0.941,0.076,0.929],"v16/taj-mahal":[420,280,-0.1,0.947,0.026,0.969],"v16/machu-picchu-ink":[420,280,-2.4,0.951,0.243,0.91],"v16/chichen-itza":[420,280,0.1,0.873,0.036,0.969],"v16/christ-redeemer":[338,310,-0.2,0.95,0.24,0.793]};
+// Each row sits in a strip of a band, between perpendicular distances d0 and d1. Tiles pack end to end along the ground line,
+// scaled so their height fills the strip (optional third value shrinks a tile, e.g. flora). ['slot:name', length as a multiple of the strip height] reserves space for planned Codex art.
+const GAP=-10;
+const rows=[
+ {reg:1,d0:330,d1:530,xmin:200,tiles:[['house'],['slot:family-flat',1.3],['walkers'],['dragon']]},
+ {reg:2,d0:530,d1:730,xmin:0,tiles:[['v16/rain-tree',0,.6],['school'],['slot:school-students',1.4],['v16/frangipani',0,.55]]},
+ {reg:3,d0:730,d1:930,xmin:0,tiles:[['hdb'],['slot:community-garden',1.2],['hawker'],['v16/hibiscus-ink',0,.5],['slot:hdb-void-deck',1.2]]},
+ {reg:4,d0:930,d1:1120,xmin:0,tiles:[['slot:shophouses',1.2],['mbs'],['slot:merlion',.6],['slot:supertrees',1],['lotus']]},
+ {reg:5,d0:1120,d1:1260,xmin:0,tiles:[['thai'],['borobudur'],['petronas']]},
+ {reg:5,d0:1260,d1:1365,xmin:0,tiles:[['v16/great-wall'],['v16/petra-ink'],['v16/colosseum'],['v16/taj-mahal'],['v16/machu-picchu-ink'],['v16/chichen-itza'],['v16/christ-redeemer']]}
+];
+const RAD=Math.PI/180,ux=cb,uy=sb;
+const placed=[],slots=[];
+// 错落有致: deterministic variation so rows never line up in columns. Patterns are offset per row.
+const SIZE=[1,.86,.95,.82,.92],LIFT=[0,.07,.02,.1,.04],GAPW=[1.7,.6,1.3,.75,1.5,.9,1.1];
+rows.forEach((row,r)=>row.r=r);
+for(const row of rows){
+ const T=row.d1-row.d0,F=.85*T,dg=row.d0+.1*T;
+ const items=row.tiles.map(([id,len,size=1],i)=>{size*=SIZE[(i+row.r*2)%5];
+  if(id.startsWith('slot:'))return {slot:id.slice(5),L:len*F*size,lift:LIFT[(i+row.r*3)%5]*T};
+  const [w,h,slope,fy,x0,x1]=GROUND[id],sc=F*size/(fy*h),tn=Math.tan(slope*RAD);
+  const gx0=x0*w,gy0=fy*h+tn*(gx0-w/2),gx1=x1*w,gy1=fy*h+tn*(gx1-w/2);
+  return {id,w,h,slope,sc,gx0,gy0,gx1,gy1,L:(gx1-gx0)/Math.cos(slope*RAD)*sc,lift:LIFT[(i+row.r*3)%5]*T};
+ });
+ // Usable stretch of the ground line: tall enough below the top edge, and inside the canvas.
+ const yAtLocal=x=>H-(dg-x*sb)/cb;
+ const xa=Math.max(row.xmin,(dg-(H-F*1.15)*cb)/sb),xb=Math.min(W,dg/sb);
+ const avail=(xb-xa)/cb,total=items.reduce((t,i)=>t+i.L,0)+GAP*(items.length-1);
+ const k=Math.min(1,avail/total),wts=items.map((_,i)=>GAPW[(i+row.r*3)%7]).concat(GAPW[(items.length+row.r)%7]);
+ const unit=Math.max(0,avail-total)/wts.reduce((a,b)=>a+b,0);
+ let t=wts[0]*unit;
+ // Lift moves a tile up its band (perpendicular to the ground line), so heights vary within the row.
+ for(const [i,it] of items.entries()){const spare=wts[i+1]*unit,px=xa+t*ux+it.lift*sb,py=yAtLocal(xa)+t*uy-it.lift*cb;
+  if(it.slot)slots.push({name:it.slot,reg:row.reg,px,py,L:it.L*k,F:F*k});
+  else placed.push(Object.assign(it,{reg:row.reg,px,py,sc:it.sc*k,L:it.L*k}));
+  t+=it.L*k+GAP+spare}
+}
+// 个人 fills the corner and bleeds past the left and bottom edges, like a foreground pier.
+const corner=[['personal-bed',-60,676,1.42],['personal-pair',12,762,.43]];
+const clouds=[['cloud-a',260,60,.8,.38],['cloud-b',820,250,.7,.3],['cloud-a',1250,880,.9,.32]];
+let selected='geren';
+const $=s=>document.querySelector(s),art=$('#art'),tint=$('#tint'),sel=$('#sel'),washes=$('#washes'),guides=$('#guides'),nav=$('.scope');
+const el=(tag,attrs)=>{const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e};
+const yAt=(d,x)=>H-(d-x*sb)/cb;
+const line=(d,x0=-80,x1=W+80)=>`M${x0} ${yAt(d,x0).toFixed(1)}L${x1} ${yAt(d,x1).toFixed(1)}`;
+const band=(d0,d1)=>`M-80 ${yAt(d0,-80)}L${W+80} ${yAt(d0,W+80)}L${W+80} ${yAt(d1,W+80)}L-80 ${yAt(d1,-80)}Z`;
+const img=(id,x,y,w,h,extra)=>el('image',Object.assign({href:id.startsWith('v16/')?`assets-v16/${id.slice(4)}.webp`:`assets-v20/${id}.webp`,x,y,width:w,height:h,preserveAspectRatio:'none'},extra||{}));
+regions.forEach((r,i)=>{
+ tint.append(el('path',{d:band(D[i],D[i+1]),fill:tints[i],opacity:'.28'}));
+ sel.append(el('path',{d:band(D[i]+16,D[i+1]-16),fill:'#edbd55',opacity:'0','data-reg':r[0]}));
+});
+// Broad soft mist along each boundary, broken so it never reads as a ruled line.
+D.slice(1,6).forEach((d,i)=>washes.append(el('path',{d:line(d),stroke:i%2?'#9fb2b8':'#b3bcb4','stroke-width':44,opacity:'.22','stroke-dasharray':'300 140 460 110','stroke-dashoffset':String(i*190)})));
+art.append(img('sun',1462,238,56,55,{opacity:'.75'}));
+for(const [id,x,y,s,o] of clouds){const [w,h]=cuts[id];art.append(img(id,x-w*s/2,y-h*s/2,w*s,h*s,{opacity:String(o)}))}
+let dots='';
+// Each sprite turns clockwise by (band angle - its measured ground slope) about the left end of its ground.
+for(const p of placed){const g=el('g',{transform:`translate(${p.px.toFixed(1)} ${p.py.toFixed(1)}) rotate(${(BETA-p.slope).toFixed(1)})`,'data-reg':regions[p.reg][0]});
+ g.append(img(p.id,-p.gx0*p.sc,-p.gy0*p.sc,p.w*p.sc,p.h*p.sc));art.append(g);
+ dots+=`<g transform="translate(${p.px.toFixed(1)} ${p.py.toFixed(1)}) rotate(${(BETA-p.slope).toFixed(1)})"><line x1="0" y1="0" x2="${((p.gx1-p.gx0)*p.sc).toFixed(1)}" y2="${((p.gy1-p.gy0)*p.sc).toFixed(1)}" stroke="#c0392b" stroke-width="4"/></g>`}
+for(const [id,x,y,k] of corner){const [w,h]=cuts[id];art.append(img(id,x,y,w*k,h*k,{'data-reg':'geren'}))}
+for(const sl of slots)dots+=`<g transform="translate(${sl.px.toFixed(1)} ${sl.py.toFixed(1)}) rotate(${BETA})"><rect x="0" y="${(-sl.F).toFixed(1)}" width="${sl.L.toFixed(1)}" height="${sl.F.toFixed(1)}" fill="#fff6" stroke="#8a5a22" stroke-dasharray="5 5"/><line x1="0" y1="0" x2="${sl.L.toFixed(1)}" y2="0" stroke="#8a5a22" stroke-width="4"/><text x="${(sl.L/2).toFixed(1)}" y="${(-sl.F/2).toFixed(1)}" text-anchor="middle" font-size="15" fill="#6b4c22">${sl.name}</text></g>`;
+const grounds=rows.map(r=>r.d0+.1*(r.d1-r.d0));
+guides.innerHTML='<g fill="none" stroke="#896d43" stroke-width="2">'+D.slice(1,6).map(d=>`<path d="${line(d)}"/>`).join('')+'</g><g fill="none" stroke="#896d43" stroke-width="1.2" stroke-dasharray="6 9">'+grounds.map(d=>`<path d="${line(d)}"/>`).join('')+'</g>'+dots+regions.map((r,i)=>{const d=(D[i]+Math.min(D[i+1],1400))/2,x=Math.max(30,(d-H*cb)/sb+40);return `<text x="${x}" y="${Math.min(yAt(d,x)-8,1000)}" font-size="30" fill="#6b4c22" font-family="Songti SC,serif">${r[1]}</text>`}).join('');
+for(const [id,name,motto,count] of regions){const b=document.createElement('button');b.type='button';b.dataset.reg=id;b.setAttribute('aria-label',`${name}, ${count} topics`);b.innerHTML=`<b>${name}</b><span>${motto} · ${count} 个话题</span>`;b.addEventListener('click',()=>{selected=id;paint()});nav.append(b)}
+function paint(){
+ nav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.reg===selected)));
+ sel.querySelectorAll('path').forEach(p=>p.setAttribute('opacity',p.dataset.reg===selected?'.42':'0'));
+ const r=regions.find(x=>x[0]===selected);$('.status').textContent=`${r[1]} · ${r[2]} · ${r[3]} 个话题`;
+}
+// Pointer selection: the scope is the perpendicular distance from the corner, in SVG units.
+$('#map').addEventListener('click',e=>{const m=e.currentTarget.getScreenCTM();if(!m)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(m.inverse());const d=p.x*sb+(H-p.y)*cb;const i=D.findIndex((r,k)=>d>=r&&d<D[k+1]);if(i>=0&&i<6){selected=regions[i][0];paint()}});
+$('#guide').addEventListener('click',e=>{const shown=guides.style.display==='none';guides.style.display=shown?'':'none';e.currentTarget.setAttribute('aria-pressed',String(shown));e.currentTarget.textContent=shown?'Hide positioning guide':'Show positioning guide'});
+$('#theme').addEventListener('click',e=>{const dark=document.body.classList.toggle('dark');e.currentTarget.setAttribute('aria-pressed',String(dark))});
+paint();
+})();
+</script></body></html>

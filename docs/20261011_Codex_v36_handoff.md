@@ -1,0 +1,31 @@
+# Codex v36 earlier personal turn and meandering route
+
+Updated October 11, 2026 by HOD/MTL Mdm Chun Kai Xin
+
+Owner requests a more meandering path following the supplied magenta gesture, with the personal path turning earlier into family. The magenta is geometry guidance only. Preserve v35 watercolor, long mist, local paving and all scenes, with small scene shifts allowed to keep subjects uphill of the revised path.
+
+## Result and checks
+
+Current preserved review: `docs/mockups/20261011_switchback-v36.html`. Generated output `exec-b6cecee8-bf35-473e-a8dc-b7135fa7ed86.png` is saved in `masters-v36/switchback-atlas.png`; display `assets-v36/switchback-atlas.webp` is 453,280 bytes. The foreground loop ends much earlier than v35, nearer the readers. Rounded meanders appear in the middle and upper approaches. This is an interpretation of the owner's gesture, not an exact centreline trace; the road follows scene clearances and local material transitions.
+
+School and family scenes shifted left slightly, so their click polygons, selection washes, numbered markers and approximate trail guide were redrawn. School crest/name overlay moved with the facade. The independent title and seal remain in the lower-right. The owner's annotated screenshot is archived unchanged in `references-v36/meander-owner-guide.jpg`, geometry reference only. No magenta appears in the generated artwork.
+
+Four family figures, six school teens in two trios and six playground children remain visible. Desktop screenshot `20261011_switchback-v36-preview.png` verified. Phone 375 x 812 and tablet 1024 x 768 have no horizontal overflow. Family and school terrace keyboard selection update the expected status. Browser warning/error log empty. JavaScript syntax and whitespace checks passed. Earlier versions remain preserved. Fine detail review, exact art/guide alignment and production integration remain pending. Work continues on `graphics/map-directions`, draft PR #1. Production homepage and student content are untouched.
+
+## Exact generation prompt
+
+Use case: precise-object-edit / composition adjustment.
+Asset type: cohesive six-scope watercolor atlas background.
+Input1 EDIT TARGET approved v35 watercolor painting. Input2 OWNER DRAWN ROUTE GUIDE on a small screenshot. Ignore ALL phone UI, webpage header/buttons, magenta colour and the existing code title. The magenta is a rough centreline gesture ONLY. Translate its bends into smooth natural paved S-curves, never draw magenta into output.
+Primary request: a much more meandering continuous winding route in the guide's fashion, with the PERSONAL foreground road turning EARLIER into FAMILY. Current road makes a huge foreground loop to far-right; shorten that to a compact rounded turn close to the reading pair. Other bends vary in width, slope and length, visibly flowing in broad S-curves with alternating left and right turns rather than repeated shelf-like parallel strips.
+Coordinate guide for1536x1024 image, approximate centreline anchors only, interpolate elegant tangent-continuous rounded curves, not straight/angular lines:
+PERSONAL begins at left-bottom around(40,895), passes reading rocks to(300,970), then compact early right hairpin around(390,910), returns leftward to(150,815). No personal path loop reaching x1050; its turn is beside the pair.
+FAMILY then curls around a rounded LEFT elbow around(115,690), travels past(280,650), swings gently down-right through(670,825) to(1030,865), and rounded RIGHT elbow around(1140,750). Leave family4 at roughly(470,690) on uphill side of family leg, adjust scene modestly if needed. This longer family S-curve replaces the old far-right personal loop.
+SCHOOL route returns from that right turn through(850,710),(600,660), sweeps leftward to(130,500), then a large loose LEFT elbow around(95,345) to(280,220). Keep its reddish school forecourt under the two student trios in front of school. Do not run pavement across school facade or through people.
+COMMUNITY route then sweeps down-right through(620,375),(990,485) to(1320,525), with rounded RIGHT elbow around(1400,410). Its local pavement passes below hawker and dragon, not through equipment.
+NATIONAL promenade returns leftward through(1100,345),(780,290) to(505,190), rounded LEFT elbow around(475,115).
+WORLD top route follows a loose upper S through(680,55),(840,115),(1030,95), with narrow local grounds leading past the world monuments. Preserve order along world terrace from nearest to farthest: Petronas at right, Borobudur, Angkor Wat, Bangkok temple, Great Wall toward upper-left.
+The guide is intentionally loose and may imply slope changes, not literal screen-coordinate tracing. Keep route spatially coherent and avoid crossings. Thin mist can partially hide transitions but ALL SIX scope legs must read as one meandering journey. Smooth roads only, no abrupt corners, no figure8/intersections. Foreground widest and distant progressively finer.
+Preserve full scenes, allowing SMALL local repositioning to sit uphill of revised bends: personal two reading students with both full shoes, family exactly TWO parents playing with TWO children, school facade plus EXACT SIX teens in TWO separate platonic groups of THREE with original uniforms/hair, hawker/HDB and dragon playground with SIX active casual-clothes children diverse skin tones/genders and elder, Singapore MBS/ArtScience/Merlion/supertrees and one sampan, all five world landmarks. No duplicated figures, no removals. Keep buildings upright, people coherent, relative sizes and details consistent with original. Keep school sign blank for code overlay.
+Keep translucent watercolor, fine broken charcoal ink, sparse long feathered grey-green mist ribbons not cloudclusters, pale xuanpaper. Roads change local material smoothly: personal grey-green garden walkway, family cool concrete with green park verges/granite, school muted clay-red brick/grey kerb, community grey pavement with blue-green playground patch, national pale blue-grey waterfront stone, world local stone/plaza terrain.
+Preserve large blank lower-right x1260-1536 y640-1024 for separate title and school seal. Open top-left sky can now carry broad unobtrusive road bend but should stay airy. No magenta, no pink guide line, no title, seal, numbers, labels, extra text, border, watermark, UI. Landscape1536x1024.

@@ -1,0 +1,226 @@
+<!doctype html><html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Claude original map: frozen visual snapshot</title><style>/* Base reset (the artifact preview supplied this; GitHub Pages does not) */
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+
+/* Layout: a sea-and-islands world map on the home view; islands open into landmark grids; each landmark is a topic page with stream doors and component tabs. */
+:root{
+  --paper:#F4F8F9;       /* 晴空 ground */
+  --surface:#FFFFFF;
+  --ink:#1B2A33;
+  --muted:#56707C;
+  --line:#D5E2E7;
+  --sea:#1F6F8B;         /* 碧海 */
+  --sea-deep:#16566C;
+  --sea-wash:#DCEBF1;
+  --hill:#3F7D58;        /* 青山 */
+  --hill-wash:#E2EFE6;
+  --sun:#D9702C;         /* 旭日 */
+  --sun-wash:#FBEADD;
+  --gold:#8A5A0F;        /* gold-ink for small gold text */
+  --gold-wash:#F5ECDA;
+  --island:#CFE3C8;
+  --island-shore:#F1E6C8;
+  --peak:#7FAE86;
+  --map-sea:#BFDCE8;
+  --map-wave:#A9CFDE;
+  --focus:#D9702C;
+  --f-display:"Noto Serif SC","Songti SC","STSong",serif;
+  --f-body:"Noto Sans SC","PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F1A20; --surface:#16252D; --ink:#E4EEF2; --muted:#9DB3BD; --line:#2A3D47;
+    --sea:#5AAFCB; --sea-deep:#7CC3DA; --sea-wash:#173543; --hill:#7BBE93; --hill-wash:#1A3326;
+    --sun:#F0A060; --sun-wash:#3A2615; --gold:#D9A956; --gold-wash:#33280F;
+    --island:#2F4A36; --island-shore:#4A4630; --peak:#4E7A58; --map-sea:#14303C; --map-wave:#1C3F4E; --focus:#F0A060;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1A20; --surface:#16252D; --ink:#E4EEF2; --muted:#9DB3BD; --line:#2A3D47;
+  --sea:#5AAFCB; --sea-deep:#7CC3DA; --sea-wash:#173543; --hill:#7BBE93; --hill-wash:#1A3326;
+  --sun:#F0A060; --sun-wash:#3A2615; --gold:#D9A956; --gold-wash:#33280F;
+  --island:#2F4A36; --island-shore:#4A4630; --peak:#4E7A58; --map-sea:#14303C; --map-wave:#1C3F4E; --focus:#F0A060;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:20px 48px}
+a{color:var(--sea)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.3;margin:0}
+p{margin:0}
+.gl{display:none;font-family:var(--f-body);font-size:.78em;color:var(--muted);font-weight:400;margin-left:.4em;letter-spacing:.01em}
+body.glosses .gl{display:inline}
+
+/* top bar */
+.nav{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.nav button,.nav a{border:1px solid transparent;background:none;padding:4px 12px;border-radius:99px;cursor:pointer;font-size:.92rem;color:var(--ink);text-decoration:none}
+.nav button:hover,.nav a:hover{border-color:var(--line)}
+.nav [aria-current="page"]{background:var(--ink);color:var(--paper)}
+.nav a{color:var(--sea);font-weight:700}
+.crumbs{margin:-8px 0 16px}
+.quote{font-family:var(--f-display);font-weight:600;font-size:1.15rem;color:var(--gold);letter-spacing:.08em}
+.route{fill:none;stroke:var(--gold);stroke-width:3;stroke-dasharray:2 9;stroke-linecap:round;opacity:.8}
+.isl .motto{font-family:var(--f-display);fill:var(--gold);font-weight:600;letter-spacing:.2em}
+.motto-h{font-size:.5em;color:var(--gold);margin-left:.6em;font-weight:600;letter-spacing:.2em}
+.unit{font-size:.8rem;color:var(--muted);margin-right:2px}
+.cr{font-size:.8rem;font-weight:700;color:var(--hill);background:var(--hill-wash);padding:1px 8px;border-radius:99px;white-space:nowrap}
+ol.cat{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.crow{width:100%;display:grid;grid-template-columns:4.5em minmax(0,1fr) auto auto;gap:10px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px;cursor:pointer}
+button.crow:hover{border-color:var(--sea)}
+.crow.off{opacity:.62;cursor:default}
+.cu{color:var(--muted);font-size:.88rem}
+.ct{font-family:var(--f-display);font-weight:900;font-size:1.05rem;min-width:0}
+@media (max-width:520px){.crow{grid-template-columns:4em minmax(0,1fr) auto}.crow .state{display:none}}
+
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand b{font-family:var(--f-display);font-size:1.35rem;font-weight:900;letter-spacing:.04em}
+.brand .en{font-size:.85rem;color:var(--muted);letter-spacing:.04em}
+.tag{font-size:.75rem;letter-spacing:.06em;padding:2px 8px;border-radius:99px;background:var(--sun-wash);color:var(--sun);font-weight:700;white-space:nowrap}
+.crumbs{display:flex;gap:6px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
+.crumbs button{background:none;border:0;padding:0;color:var(--sea);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+
+/* picker */
+.picker{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;margin-bottom:18px}
+.picker .lbl{font-weight:700;font-size:.92rem}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{border:1px solid var(--line);background:var(--paper);padding:3px 12px;border-radius:99px;cursor:pointer;font-size:.9rem}
+.seg button[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:var(--surface)}
+.picker .note{font-size:.82rem;color:var(--muted);flex-basis:100%}
+
+/* hero + map */
+.hero{display:grid;gap:6px;margin-bottom:14px}
+.hero h1{font-size:clamp(1.7rem,4.5vw,2.6rem);font-weight:900;letter-spacing:.03em}
+.hero p{color:var(--muted);max-width:62ch}
+.mapbox{background:var(--map-sea);border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.mapbox svg{display:block;width:100%;height:auto}
+.wave{fill:none;stroke:var(--map-wave);stroke-width:3;stroke-linecap:round}
+.isl{cursor:pointer}
+.isl .land{fill:var(--island);stroke:var(--island-shore);stroke-width:10;transition:filter .2s}
+.isl .pk{fill:var(--peak)}
+.isl .sun{fill:var(--sun);opacity:.85}
+.isl text{font-family:var(--f-display);fill:var(--ink);font-weight:900;text-anchor:middle}
+.isl .cnt{font-family:var(--f-body);font-weight:500;fill:var(--muted)}
+.isl:hover .land,.isl:focus-visible .land{filter:brightness(1.06)}
+.isl:focus{outline:none}
+.isl:focus-visible .land{stroke:var(--focus)}
+.isl.mine .land{stroke:var(--sun)}
+.ring{fill:none;stroke:var(--sun);stroke-width:4;stroke-dasharray:10 8;opacity:0}
+.isl.mine .ring{opacity:1}
+.maplegend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.85rem;color:var(--muted);margin-top:10px}
+
+details.team{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px}
+details.team summary{cursor:pointer;font-weight:700}
+details.team ul{margin:10px 0 0;padding-left:1.2em;display:grid;gap:4px;max-width:70ch}
+
+/* island view */
+.isle-head{display:grid;gap:4px;margin-bottom:16px}
+.isle-head h1{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:900}
+.isle-head p{color:var(--muted)}
+.district{margin-top:18px}
+.district h2{font-size:1.05rem;font-family:var(--f-body);font-weight:700;color:var(--muted);letter-spacing:.04em;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.lm{display:grid;gap:8px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;cursor:pointer;min-width:0}
+.lm:hover{border-color:var(--sea)}
+.lm[disabled]{cursor:default;opacity:.62}
+.lm[disabled]:hover{border-color:var(--line)}
+.lm .nm{font-family:var(--f-display);font-weight:900;font-size:1.12rem}
+.lm .row{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.lm.mine{border-color:var(--sun);box-shadow:0 0 0 2px var(--sun-wash)}
+.dot{font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:99px;border:1px solid currentColor}
+.s-G1{color:var(--hill)} .s-G2{color:var(--sea)} .s-G3{color:var(--sun)} .s-HCL{color:var(--gold)}
+.state{font-size:.75rem;color:var(--muted)}
+.state.on{color:var(--hill);font-weight:700}
+
+/* topic view */
+.thead{display:grid;gap:8px;padding-bottom:16px}
+.thead h1{font-size:clamp(2rem,6vw,3.2rem);font-weight:900;letter-spacing:.06em}
+.thead .meta{display:flex;gap:6px 14px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:.9rem}
+.thead .row,.lm .row{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.doors{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:6px}
+.door{position:relative;display:grid;gap:2px;text-align:left;padding:14px 14px 12px;border-radius:14px 14px 6px 6px;border:2px solid var(--line);background:var(--surface);cursor:pointer;min-width:0}
+.door .s{font-family:var(--f-display);font-weight:900;font-size:1.3rem}
+.door .u{font-size:.85rem;color:var(--muted)}
+.door .knob{position:absolute;right:14px;top:50%;width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.5}
+.door[aria-pressed="true"]{border-color:currentColor;background:var(--paper)}
+.door[aria-pressed="true"] .knob{opacity:1}
+.ladder{font-size:.82rem;color:var(--muted);display:flex;justify-content:space-between;gap:10px;margin-bottom:18px}
+.tools{display:flex;justify-content:flex-end;margin-bottom:8px}
+.toggle{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:3px 12px;font-size:.85rem;cursor:pointer}
+.toggle[aria-pressed="true"]{background:var(--hill-wash);border-color:var(--hill);color:var(--hill)}
+.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--paper);z-index:2;scrollbar-width:none}
+.tabs button{border:0;background:none;padding:10px 14px;cursor:pointer;white-space:nowrap;font-weight:500;color:var(--muted);border-bottom:3px solid transparent}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--sun);font-weight:700}
+.panel{padding-top:22px;display:grid;gap:22px}
+.panel h2{font-size:1.3rem;font-weight:900}
+.panel h3{font-size:1.05rem;font-family:var(--f-body);font-weight:700}
+.lead{font-size:1.06rem;max-width:62ch}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.two>*{min-width:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:grid;gap:10px;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--sea-wash);color:var(--sea-deep);padding:2px 10px;border-radius:99px;font-size:.92rem}
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.scene{background:var(--hill-wash);border-radius:var(--r);padding:14px 16px;font-size:.96rem}
+.scene b{display:block;font-size:.78rem;color:var(--hill);letter-spacing:.06em;margin-bottom:4px}
+ol.qs{margin:0;padding-left:1.6em;display:grid;gap:6px}
+ol.qs li::marker{color:var(--sun);font-weight:700}
+ul.ticks{margin:0;padding:0;list-style:none;display:grid;gap:5px}
+ul.ticks li{padding-left:1.3em;position:relative}
+ul.ticks li::before{content:"";position:absolute;left:0;top:.7em;width:.55em;height:.55em;border-radius:2px;background:var(--hill)}
+.steps{display:grid;gap:6px;margin:0;padding:0;list-style:none;counter-reset:st}
+.steps li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start}
+.steps li::before{counter-increment:st;content:counter(st);font-weight:700;font-size:.8rem;width:1.6em;height:1.6em;border-radius:50%;display:grid;place-items:center;background:var(--sea-wash);color:var(--sea-deep);margin-top:.25em}
+.frame{font-family:var(--f-display);background:var(--paper);border-left:3px solid var(--gold);padding:6px 12px;border-radius:0 6px 6px 0}
+
+/* edcafe */
+.ed{border:2px dashed var(--sea);background:var(--sea-wash);border-radius:var(--r);padding:16px 18px;display:grid;gap:10px;min-width:0}
+.ed .hd{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.ed .hd b{font-size:1.02rem}
+.pill{font-size:.72rem;font-weight:700;letter-spacing:.05em;padding:2px 8px;border-radius:99px;background:var(--surface);color:var(--sea-deep);border:1px solid var(--sea)}
+.chat{display:grid;gap:8px;background:var(--surface);border-radius:8px;padding:12px}
+.msg{max-width:88%;padding:8px 12px;border-radius:12px;font-size:.94rem;line-height:1.6}
+.msg.bot{background:var(--sea-wash);justify-self:start;border-bottom-left-radius:3px}
+.msg.me{background:var(--sun-wash);justify-self:end;border-bottom-right-radius:3px}
+.msg small{display:block;font-size:.7rem;color:var(--muted)}
+.notice{font-size:.8rem;color:var(--muted);line-height:1.55}
+.ed .slot{font-size:.85rem;color:var(--sea-deep)}
+
+.task{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:12px}
+.typ{display:inline-block;font-size:.8rem;font-weight:700;padding:2px 10px;border-radius:6px;background:var(--gold-wash);color:var(--gold);justify-self:start}
+.prompt{font-size:1.04rem;max-width:64ch}
+.genres{display:grid;gap:16px}
+.genre{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:12px}
+.genre .g{font-size:.8rem;font-weight:700;color:var(--hill);letter-spacing:.06em}
+.snote{font-size:.9rem;background:var(--paper);border-radius:8px;padding:8px 12px}
+
+article.model{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(18px,4vw,36px);display:grid;gap:14px}
+article.model h3{font-family:var(--f-display);font-size:1.5rem;font-weight:900;text-align:center}
+article.model .by{text-align:center;font-size:.85rem;color:var(--muted)}
+article.model p{text-indent:2em;max-width:38em;margin-inline:auto;font-size:1.04rem;line-height:1.95}
+mark{background:var(--sun-wash);color:inherit;padding:0 2px;border-radius:3px}
+mark sup{color:var(--sun);font-weight:700;font-size:.7em;margin-left:1px}
+ol.notes{margin:0;padding-left:1.5em;display:grid;gap:6px}
+ol.notes li::marker{color:var(--sun);font-weight:700}
+
+.res{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.rc{display:grid;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;text-decoration:none;color:var(--ink);min-width:0}
+a.rc:hover{border-color:var(--sea)}
+.rc .src{font-size:.75rem;font-weight:700;letter-spacing:.05em;color:var(--sea)}
+.rc .tt{font-weight:700}
+.rc .ds{font-size:.88rem;color:var(--muted)}
+.rc .todo{font-size:.75rem;color:var(--gold);font-weight:700}
+
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted);display:grid;gap:4px}
+.view{animation:rise .35s ease both}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@media (prefers-reduced-motion: reduce){.view{animation:none}*{transition:none!important}}
+@media (max-width:520px){.wrap{padding-inline:16px}.tabs button{padding:10px 10px}}
+</style><body><p style="padding:12px">Archived homepage snapshot, October 10, 2026. Controls are frozen. Source: a5b24a5.</p><div class="wrap" id="app"><div class="view"><header class="top"><div class="brand"><b>谈天说地</b><span class="en">Topic Atlas</span><span class="tag">示范版 · 内容待审</span></div><nav class="nav" aria-label="主菜单"><button data-go="world" aria-current="page">话题地图</button><button data-go="cat">课本目录</button><a href="https://btvssclunit.github.io/VocabSummit/" target="_blank" rel="noopener">词山学海 ↗</a></nav></header><section class="hero"><h1>华文话题地图</h1><p class="quote">《大学》：修身、齐家、治国、平天下。</p><p>学华文，也是认识自己、认识世界的过程。地图从个人出发，一路走向家庭、校园、社区、国家和世界。每个地方都有几个话题，走进话题，再选你的源流之门：口试会话、实用文、作文、范文和资源都在里面。</p></section><section class="picker" aria-label="我的课本"><span class="lbl">我的课本</span><div class="seg" role="group" aria-label="源流"><button data-ms="G1" aria-pressed="false">G1</button><button data-ms="G2" aria-pressed="false">G2</button><button data-ms="G3" aria-pressed="false">G3</button><button data-ms="HCL" aria-pressed="false">HCL</button></div><div class="seg" role="group" aria-label="年级"><button data-ml="s1" aria-pressed="false">中一</button><button data-ml="s2" aria-pressed="false">中二</button><button data-ml="s3" aria-pressed="false">中三</button><button data-ml="s4" aria-pressed="false">中四</button></div><span class="note">选好源流和年级，地图会标出你这一年的话题。选择只存在这台设备上。</span></section><div class="mapbox"><svg viewBox="0 0 1000 640" role="img" aria-label="话题地图：中间是个人，四周是家庭、校园、社区、国家和世界"><rect width="1000" height="640" fill="var(--map-sea)"></rect><path class="wave" d="M330 60 q15 -10 30 0 t30 0"></path><path class="wave" d="M40 80 q15 -10 30 0 t30 0"></path><path class="wave" d="M900 100 q15 -10 30 0 t30 0"></path><path class="wave" d="M380 135 q15 -10 30 0 t30 0"></path><path class="wave" d="M90 155 q15 -10 30 0 t30 0"></path><path class="wave" d="M850 175 q15 -10 30 0 t30 0"></path><path class="wave" d="M330 210 q15 -10 30 0 t30 0"></path><path class="wave" d="M40 230 q15 -10 30 0 t30 0"></path><path class="wave" d="M900 250 q15 -10 30 0 t30 0"></path><path class="wave" d="M380 285 q15 -10 30 0 t30 0"></path><path class="wave" d="M90 305 q15 -10 30 0 t30 0"></path><path class="wave" d="M850 325 q15 -10 30 0 t30 0"></path><path class="wave" d="M330 360 q15 -10 30 0 t30 0"></path><path class="wave" d="M40 380 q15 -10 30 0 t30 0"></path><path class="wave" d="M900 400 q15 -10 30 0 t30 0"></path><path class="wave" d="M380 435 q15 -10 30 0 t30 0"></path><path class="wave" d="M90 455 q15 -10 30 0 t30 0"></path><path class="wave" d="M850 475 q15 -10 30 0 t30 0"></path><path class="wave" d="M330 510 q15 -10 30 0 t30 0"></path><path class="wave" d="M40 530 q15 -10 30 0 t30 0"></path><path class="wave" d="M900 550 q15 -10 30 0 t30 0"></path><path class="wave" d="M380 585 q15 -10 30 0 t30 0"></path><path class="wave" d="M90 605 q15 -10 30 0 t30 0"></path><path class="wave" d="M850 625 q15 -10 30 0 t30 0"></path><circle cx="500" cy="64" r="30" fill="var(--sun)" opacity=".85"></circle><path class="route" d="M380 250 Q300 200 312 165 M300 190 Q500 110 680 150 M820 225 Q900 330 850 385 M760 500 Q680 560 625 560 M385 565 Q290 560 255 525"></path><g class="isl" data-reg="geren" role="button" tabindex="0" aria-label="个人，14个话题"><ellipse class="ring" cx="500" cy="318" rx="186" ry="136" transform="rotate(-3 500 318)"></ellipse><ellipse class="land" cx="500" cy="318" rx="168" ry="118" transform="rotate(-3 500 318)"></ellipse><path class="pk" d="M396.86800000000005 296.76 L435.1 254.28 L473.332 296.76 Z"></path><path class="pk" d="M444.776 296.76 L500 235.39999999999998 L555.224 296.76 Z"></path><path class="pk" d="M525.016 296.76 L559 259 L592.984 296.76 Z"></path><text class="motto" x="500" y="230.67999999999998" font-size="23">修身</text><text x="500" y="360.48" font-size="46">个人</text><text class="cnt" x="500" y="394.98" font-size="25">14 个话题</text></g><g class="isl" data-reg="jiating" role="button" tabindex="0" aria-label="家庭，3个话题"><ellipse class="ring" cx="215" cy="150" rx="126" ry="88" transform="rotate(6 215 150)"></ellipse><ellipse class="land" cx="215" cy="150" rx="108" ry="70" transform="rotate(6 215 150)"></ellipse><path class="pk" d="M153.82 137.4 L176.5 112.2 L199.18 137.4 Z"></path><path class="pk" d="M182.24 137.4 L215 101 L247.76 137.4 Z"></path><path class="pk" d="M229.84 137.4 L250 115 L270.16 137.4 Z"></path><text class="motto" x="215" y="98.2" font-size="16">齐家</text><text x="215" y="175.2" font-size="32">家庭</text><text class="cnt" x="215" y="199.2" font-size="18">3 个话题</text></g><g class="isl" data-reg="xiaoyuan" role="button" tabindex="0" aria-label="校园，4个话题"><ellipse class="ring" cx="790" cy="150" rx="136" ry="94" transform="rotate(-5 790 150)"></ellipse><ellipse class="land" cx="790" cy="150" rx="118" ry="76" transform="rotate(-5 790 150)"></ellipse><path class="pk" d="M723.576 136.32 L748.2 108.96 L772.8240000000001 136.32 Z"></path><path class="pk" d="M754.432 136.32 L790 96.79999999999998 L825.568 136.32 Z"></path><path class="pk" d="M806.112 136.32 L828 112 L849.888 136.32 Z"></path><text x="790" y="177.36" font-size="32">校园</text><text class="cnt" x="790" y="201.36" font-size="18">4 个话题</text></g><g class="isl" data-reg="shequ" role="button" tabindex="0" aria-label="社区，5个话题"><ellipse class="ring" cx="835" cy="465" rx="140" ry="100" transform="rotate(4 835 465)"></ellipse><ellipse class="land" cx="835" cy="465" rx="122" ry="82" transform="rotate(4 835 465)"></ellipse><path class="pk" d="M763.332 450.24 L789.9 420.72 L816.468 450.24 Z"></path><path class="pk" d="M796.624 450.24 L835 407.6 L873.376 450.24 Z"></path><path class="pk" d="M852.384 450.24 L876 424 L899.616 450.24 Z"></path><text x="835" y="494.52" font-size="32">社区</text><text class="cnt" x="835" y="518.52" font-size="18">5 个话题</text></g><g class="isl" data-reg="guojia" role="button" tabindex="0" aria-label="国家，5个话题"><ellipse class="ring" cx="505" cy="560" rx="140" ry="78" transform="rotate(-2 505 560)"></ellipse><ellipse class="land" cx="505" cy="560" rx="122" ry="60" transform="rotate(-2 505 560)"></ellipse><text class="motto" x="505" y="515.6" font-size="16">治国</text><text x="505" y="568" font-size="32">国家</text><text class="cnt" x="505" y="592" font-size="18">5 个话题</text></g><g class="isl" data-reg="shijie" role="button" tabindex="0" aria-label="世界，6个话题"><ellipse class="ring" cx="172" cy="468" rx="146" ry="104" transform="rotate(-6 172 468)"></ellipse><ellipse class="land" cx="172" cy="468" rx="128" ry="86" transform="rotate(-6 172 468)"></ellipse><path class="pk" d="M96.83599999999998 452.52 L124.69999999999999 421.56 L152.564 452.52 Z"></path><path class="pk" d="M131.752 452.52 L172 407.79999999999995 L212.248 452.52 Z"></path><path class="pk" d="M190.232 452.52 L215 425 L239.768 452.52 Z"></path><text class="motto" x="172" y="404.35999999999996" font-size="16">平天下</text><text x="172" y="498.96" font-size="32">世界</text><text class="cnt" x="172" y="522.96" font-size="18">6 个话题</text></g></svg></div><div class="maplegend"><span>点一个地方，看那里的话题。</span><span>示范版开放两个话题：校园的「新同学 新鲜事」和个人的「学无止境」。</span><span>想按课本顺序找？用上面的「课本目录」。</span></div><details class="team"><summary>给华文组老师：这个示范版展示什么？</summary><ul><li>按话题组织，代替印刷的话题校本。四个源流 92 个单元，整理成 37 个话题。</li><li>地图按话题的范围分区：个人（再分心态品格、成长追梦、学习生活）、家庭、校园、社区、国家、世界。这是初步分类，欢迎大家调整。</li><li>同一个话题只建一次，里面按源流开门：G1、G2、G3、HCL，顺序固定，往左支持多一点，往右挑战多一点。所有门都开放。</li><li>每个话题有六个部分：话题导读、口试会话、实用文、作文（记叙、议论、说明）、范文、资源库。</li><li>虚线框是 Edcafe 的位置：会话练习机器人和自动批改作业。老师在 Edcafe 建好后，把嵌入代码贴进来。</li><li>「我的课本」会在地图上标出学生这一年的话题；「课本目录」按单元顺序列出所有话题。</li><li>所有题目、导读和范文都是原创草稿，待审。课文只列篇名，不转载内容。</li></ul></details><footer class="foot"><span>百德中学 母语部 华文组 制作 · 统筹：HOD/MTL Mdm Chun Kai Xin</span><span>本网站不需要登录，不收集任何个人资料。网站内容均为华文组原创，课文只列出篇名。</span></footer></div></div></body></html>

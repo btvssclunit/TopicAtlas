@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Topic Atlas · Switchback trail v32</title>
+<style>
+:root{--page:#f0eadc;--surface:#f9f5e9;--ink:#35413a;--muted:#6c6c5b;--border:#cfc0a3;--gold:#976722}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.6 system-ui,sans-serif}main{max-width:1440px;padding:20px 28px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}h1{font:700 30px 'Songti SC',serif;margin:4px 0}.brand{width:280px;max-width:100%;text-align:center}.brand img{display:block;width:100%;height:auto}.brand span{display:block;font:18px Georgia,serif;letter-spacing:.08em;margin-top:-8px}.brand img,.title-sprite{pointer-events:none}body.dark .brand img{filter:brightness(0) invert(.9)}small{color:var(--muted)}a{color:var(--gold)}
+.tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap}button{font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:9px 14px}button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.atlas{width:min(100%,calc((100svh - 230px) * 1.5));min-width:min(100%,640px);margin:18px auto;border-radius:18px;overflow:hidden;background:#f5f0e3}.atlas svg{display:block;width:100%;height:auto;-webkit-tap-highlight-color:transparent}
+.scope{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}.scope button{text-align:left;padding:10px 12px}.scope b{display:block;font:700 23px 'Songti SC',serif}.scope span{font-size:12px;color:var(--muted)}.scope button[aria-pressed=true]{background:#e6d4a3;border:2px solid #9f7029;padding:9px 11px}.status{margin:10px 0;color:var(--muted)}.notes{font-size:13px;color:var(--muted)}
+.terrace{cursor:pointer;outline:none}.marker circle{fill:#f9f5e9;stroke:#7c725b;stroke-width:2}.marker text{font:500 24px system-ui;fill:#4c5348;pointer-events:none}.terrace[aria-pressed=true] .marker circle,.terrace:focus-visible .marker circle{fill:#e6d4a3;stroke:#976722;stroke-width:4}.terrace:focus-visible .hit{stroke:#976722;stroke-opacity:.35;stroke-width:8}.selection{opacity:0;transition:opacity .2s;pointer-events:none}.terrace[aria-pressed=true] .selection{opacity:.25}.guide-leg{fill:none;stroke:#956c32;stroke-width:3}.guide-turn{fill:none;stroke:#956c32;stroke-width:3;stroke-dasharray:7 9}
+body.dark{--page:#202622;--surface:#303831;--ink:#eee5d1;--muted:#c9c0ae;--border:#566153;--gold:#e6bf73}body.dark .scope button[aria-pressed=true]{background:#665536;color:#fff1d6}body.dark .atlas{box-shadow:0 0 0 1px #786b53}
+@media(max-width:900px){main{padding:14px}h1{font-size:26px}.scope b{font-size:21px}.scope button{padding:8px}.scope button[aria-pressed=true]{padding:7px}}
+@media(max-width:600px){main{padding:12px}.atlas{min-width:0;width:100%}.scope{grid-template-columns:repeat(3,minmax(0,1fr))}.tools{font-size:12px}.notes{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.selection{transition:none}}
+</style>
+</head>
+<body><main>
+<header><div><small>BVSS MTL CL UNIT · DESIGN STUDY 32</small><h1 class="brand"><img src="assets-v32/title-calligraphy.webp" alt="谈天说地"><span>Topic Atlas</span></h1></div><div class="tools"><button id="guide" aria-pressed="false">Show trail guide</button><button id="theme" aria-pressed="false">Dark surroundings</button><a href="20261011_switchback-v31.html">Previous draft</a><a href="20261011_atlas-moodboard-v29.html">Photo references</a><a href="20261011_brand-sprites-v32.html">Title and seal close-up</a><a href="20261010_design-history.html">Design history</a></div></header>
+<div class="atlas">
+<svg id="map" viewBox="0 0 1536 1024" role="group" aria-labelledby="atlas-title atlas-desc">
+<title id="atlas-title">Topic Atlas: six scopes on an uphill switchback trail</title><desc id="atlas-desc">A winding path climbs from the reading students at bottom-left through family, school, community and Singapore to ASEAN landmarks and the Great Wall. Choose a numbered terrace or a scope button below.</desc>
+<defs><filter id="wash" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<image href="assets-v31/switchback-atlas.webp" width="1536" height="1024" preserveAspectRatio="xMidYMid meet"/>
+<g id="terraces"></g><g id="guides" style="display:none" aria-hidden="true" pointer-events="none"></g>
+<g aria-hidden="true" pointer-events="none">
+<image class="title-sprite" href="assets-v32/title-calligraphy.webp" x="1120" y="787" width="370" height="127" preserveAspectRatio="xMidYMid meet"/>
+<text x="1305" y="928" fill="#465248" font-family="Georgia, Times New Roman, serif" font-size="26" letter-spacing="2" text-anchor="middle">Topic Atlas</text>
+<image href="assets-v32/school-seal.webp" x="1261" y="942" width="88" height="78" preserveAspectRatio="xMidYMid meet"/>
+</g>
+</svg></div>
+<nav class="scope" aria-label="Expanding topic scope"></nav><p class="status" aria-live="polite"></p>
+<p class="notes">Review draft 32. A separate brush-calligraphy title is paired with a smaller serif Topic Atlas. The distressed square school seal reads 百德中學 in traditional columns, starting at top-right. Title and seal are independent transparent sprites. The atlas remains a composition mockup.</p>
+</main>
+<script>(()=>{'use strict';
+const NS='http://www.w3.org/2000/svg', $=s=>document.querySelector(s);
+const regions=[['geren','个人','修身',14],['jiating','家庭','齐家',3],['xiaoyuan','校园','治国',4],['shequ','社区','治国',5],['guojia','国家','治国',5],['shijie','天下','平天下',6]];
+// Fixed painting coordinates. Hit areas follow actual scene silhouettes and taper at turns.
+const terraces=[
+ {area:'M0 786L310 788L460 890L1000 898L1140 963L1090 1024H0Z',leg:'M80 975Q520 1060 1060 946',marker:[70,997]},
+ {area:'M140 696L261 633L556 684L828 688L1001 790L1135 892L1031 922L408 842L144 789Z',leg:'M1040 880Q600 861 170 759',marker:[1100,889]},
+ {area:'M280 500L510 443L728 464L1058 527L1159 613L1228 667L1142 699L644 669L259 605L111 594Z',leg:'M165 581Q676 678 1180 660',marker:[149,609]},
+ {area:'M404 343L548 305L699 338L876 323L1116 365L1252 437L1230 476L758 471L421 450Z',leg:'M1207 451Q828 477 462 431',marker:[1245,475]},
+ {area:'M643 228L846 188L1049 224L1389 208L1500 293L1536 363L1145 357L926 325L675 303Z',leg:'M698 285Q1090 331 1480 318',marker:[674,311]},
+ {area:'M390 112L500 30L627 34L736 49L882 56L1060 68L1259 100L1320 21L1420 20L1536 132V224L1279 207L1038 188L725 203L445 172Z',leg:'M1440 183Q1040 164 667 166L510 114',marker:[1456,201]}
+];
+const el=(tag,attrs)=>{const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);return e;};
+let selected='geren';
+regions.forEach(([id,name,motto,count],i)=>{
+ const t=terraces[i],g=el('g',{class:'terrace',role:'button',tabindex:'0','data-reg':id,'aria-label':`${i+1}. ${name}, ${count} topics`,'aria-pressed':'false'});
+ g.append(el('path',{class:'selection',d:t.leg,fill:'none',stroke:'#d7a348','stroke-width':45,filter:'url(#wash)'}));
+ g.append(el('path',{class:'hit',d:t.area,fill:'transparent'}));
+ const marker=el('g',{class:'marker',transform:`translate(${t.marker.join(' ')})`});marker.append(el('circle',{r:22}));const text=el('text',{y:8,'text-anchor':'middle'});text.textContent=i+1;marker.append(text);g.append(marker);
+ g.addEventListener('click',()=>choose(id));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(id);}if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const next=(i+(e.key==='ArrowRight'?1:5))%6;$('.scope').children[next].focus();choose(regions[next][0]);}});$('#terraces').append(g);
+ $('#guides').append(el('path',{class:'guide-leg',d:t.leg}));
+ const b=document.createElement('button');b.type='button';b.dataset.reg=id;b.setAttribute('aria-label',`${name}, ${count} topics`);b.innerHTML=`<b>${name}</b><span>${motto} · ${count} 个话题</span>`;b.addEventListener('click',()=>choose(id));$('.scope').append(b);
+});
+['M1060 946C1130 915 1090 893 1040 880','M170 753C87 731 211 688 165 581','M1180 660C1280 629 1170 505 1207 451','M462 431C371 393 621 321 698 285','M1480 318C1560 296 1397 226 1420 186'].forEach(d=>$('#guides').append(el('path',{class:'guide-turn',d})));
+function choose(id){selected=id;paint();}
+function paint(){document.querySelectorAll('[data-reg]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.reg===selected)));const r=regions.find(x=>x[0]===selected);$('.status').textContent=`${r[1]} · ${r[2]} · ${r[3]} 个话题`;}
+$('#guide').addEventListener('click',e=>{const shown=$('#guides').style.display==='none';$('#guides').style.display=shown?'':'none';e.currentTarget.setAttribute('aria-pressed',String(shown));e.currentTarget.textContent=shown?'Hide trail guide':'Show trail guide';});
+$('#theme').addEventListener('click',e=>{const dark=document.body.classList.toggle('dark');e.currentTarget.setAttribute('aria-pressed',String(dark));});paint();
+})();</script>
+</body></html>
