@@ -288,3 +288,12 @@ a.rc:hover{border-color:var(--sea)}
 .vocab-section .res{margin-top:12px}
 .rc .tt{overflow-wrap:anywhere}
 .tabs{overflow-x:auto}
+
+/* Department practice: teacher-made tasks, guides and model texts inside the oral, functional and composition tabs. */
+.dept-list{display:grid;gap:16px;margin-top:18px}
+.dept-head{font-size:1rem;color:var(--hill);letter-spacing:.04em}
+.task.dept{border-left:4px solid var(--hill)}
+.dept-title{font-family:var(--f-display);font-size:1.2rem;font-weight:900;margin:0}
+.stimulus{margin:0;padding:12px 16px;background:var(--paper);border:1px dashed var(--line);border-radius:8px;font-size:.98rem;line-height:1.8;white-space:normal;max-width:64ch}
+.dept-src{font-size:.78rem;color:var(--muted);margin:0;justify-self:end}
+.dept-model{margin-top:4px}

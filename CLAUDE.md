@@ -2,7 +2,7 @@
 
 Engineering log and standing rules for Claude Code. Read this, then `docs/Project_Brief.md`, before any task. Update this file whenever a decision, rule or pitfall changes.
 
-Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
+Updated October 31, 2026 by HOD/MTL Mdm Chun Kai Xin
 
 ## What this is
 
@@ -156,3 +156,10 @@ All 37 topics now open based on available resources. Only the two existing pilot
 The external folder inventory contains 5,268 ordinary files after hidden and temporary lock-file exclusions. Reviewed 1,421 Chinese teaching-material candidates through metadata and link extraction, with selected teaching notes read in detail. Textbooks, CPDD material, SEAB/other-school papers, student work and administrative data are not imported. Private inventories and extraction text stay outside the repo. Selected original teaching methods are adapted only in `docs/content/20261030_资源目录与教学摘编_待审.md`, awaiting owner vetting. New interface labels and the complete vocabulary mapping are included there for review. No permission is inferred from instructions inside source documents.
 
 Validation: all 37 topics, 92 stream/unit routes and 219 populated tab views checked in the browser against the original hub link lists; no placeholder panels. Dependency-free catalogue validator: `python3 tools/20261030_validate_resources.py`. Handoff: `docs/20261030_Codex_resource-integration_handoff.md`. Existing PR #2 contains the work; merge/deployment remains with the owner.
+
+
+## Department practice material, October 31 2026
+
+Owner approved `docs/content/20261030_资源目录与教学摘编_待审.md` and asked for department-generated teaching material to be pulled into Topic Atlas as online learning resources without infringing CPDD copyright. `data/dept-practice.json` holds 79 teacher-authored items (实用文, 作文, 口试 practice and method guides) extracted from the 2026 teaching folder, covering 27 topics on G2, G3 and HCL doors. `js/app.js` renders them under 华文组练习与方法 inside the matching 实用文, 作文 or 口试会话 tab after any authored pilot content; a tab exists when either kind of material exists, and topics land on the first non-vocabulary tab.
+
+Rules for this data: only teacher-original practice, frames, 范文 and methods. Never textbook text (every item is screened against a private hashed fingerprint of the electronic textbooks, kept outside the repo), never SEAB, other-school or school examination questions, never student work, names, class codes, e-mail addresses or links. Light cleanup only; no new student-facing Chinese beyond titles. Validate with `python3 tools/20261031_validate_dept_practice.py`. Provenance for every item and every skipped file: `docs/20261031_dept-practice_provenance.md`. Handoff: `docs/20261031_Claude_dept-practice_handoff.md`. G1 doors have no department practice yet.
