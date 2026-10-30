@@ -1,0 +1,1992 @@
+{
+  "checked": "2026-10-30",
+  "unitLessons": {
+    "G1": [
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/5b11646c-ae21-43b1-bf9c-97e9f8007ba3/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/ab240eec-ffd8-48c7-bcc0-29cc7338074a/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/9b5a838e-6874-406c-9d37-690a9c4dbea7/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/2643330b-879d-47a1-83d3-6d145a12d90f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/82641e0d-dcbe-4005-b5eb-527cfb459713/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/c88f0950-0466-4ad3-a14b-f5a0ad72a751/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/543c4253-320e-4b76-b547-e0e5d9a548d6/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/11c0e06a-4bf5-4c8b-b931-40b10950ee9f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f5b58c0e-2fb7-4fa9-9ac9-7bf08b17978a/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/7def03e1-4ba7-4fb8-81da-d89a20f1e87f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/cd8e9b83-bc29-4ee5-9581-7331fb97ae1e/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f53898b2-4a35-4ba1-a9fd-b3cc682d29a3/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/b40bdafc-b21d-4761-b71e-04e2e0e51b9a/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/5b05fb5e-0faa-4616-87f1-7948fec68597/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/80b50f71-3448-4140-ac92-90c3caa8de45/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/d1a0e55c-9419-42c4-a891-b9f87791a657/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/1627916d-0f42-400c-9738-7ede5f8ea9bc/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/8c5d62c6-3f8d-4fb8-b86b-1d63c3d97c1c/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/1e69d947-4316-4c27-b910-be120d9cb773/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/91001002-04bb-45a3-ab76-6cfb92e62b9a/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/eff8a4dc-9fac-434f-87fa-f3ed18897113/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/cceaa97c-1d97-4ee6-a127-4d5b9ffb7ee6/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f8a0929c-2984-43d7-983a-a4a19c621ed5/cover"
+    ],
+    "G2": [
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/cb0a48d5-2ed8-4554-b7df-46e3d9dade1f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/2e37c550-93de-4d73-9bee-5e29215110f1/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/3abd5218-9f54-4812-8943-6d4279b1d245/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/5289a418-10cc-4a49-a16a-caa483ba7935/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/28666c42-b960-402d-8947-5790d6392289/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/d437d8f6-d7ab-4a7b-af6a-0ab765baa9db/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/dd0ee803-808a-40d4-991f-461038ce942c/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/e9b5ec75-b1a4-4efa-9a57-b94db5646737/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/91df5ed5-4d32-44f7-a857-36ecce789eb1/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/85295e47-6896-4737-b544-9d07a29965c2/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/bded1f8d-e3f1-43ad-ba9e-d7aff1b57980/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/2d22c722-bc7e-44a5-bb37-16a9bce1ab19/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/c5e22373-6769-47d3-b6fe-25a8d47833a7/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f95e53b9-3386-494b-8d7a-c4d7c96d5d11/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/20e0e73f-2089-4177-81e1-b473b67d4ca2/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/642ddd57-27f5-4490-afb3-188a61b271fd/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/5f75d961-fcda-4d2b-a452-b3bce3683404/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/c13d9b25-72ca-41b8-a472-270bd1d0d335/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/b354b48b-2c58-486d-8081-ad0c606615fd/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f8f2154f-d2a2-47c3-b4a1-ec2e2e163ec5/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/b0602586-80c2-444a-a560-2aa37149aa18/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/0699f5e4-67c6-4a91-a021-bd045848b392/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/949fd60e-649b-4565-9023-bb8efbbbeb93/cover"
+    ],
+    "G3": [
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/2ee5a61c-3596-481a-911a-e0de919ffaaa/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/0a09515e-a336-4571-afd2-4b6e6b69446a/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/c331f24a-05b4-4c98-a72f-5d5a74c04087/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/95a6a864-5fae-44e5-a392-20d3674cd8dc/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/a6beaab3-a978-4c9d-bd1f-0c4cd94bb46b/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/a2e6af88-7af0-46f3-9c50-e7c63732e0a8/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/85af09ed-e54c-407b-be12-ef4df0a53fb0/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/4709305f-a249-4a5d-9855-17bba3ebca2d/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/b420517d-12cd-4b18-b044-790b9ec4e51c/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/22dbfdf3-493c-4546-9808-0b8d24aa45c8/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/9ce3b822-459e-4015-b84c-8be42ab16f9b/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/545a7a00-8fae-49e5-b068-164f4d50f865/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/e207b200-b9f8-49c8-8455-6b9bfae8f1d0/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/11fa229a-eee9-4f53-b82b-c46c4bb0a86f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/8eb78940-ebe3-4e55-aebf-cbefa293803e/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/167defea-aad6-4c77-b577-c1b49b8bd7bd/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/98db9f58-6296-4019-a3ed-9f942cef3f05/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/eeedeef3-3df6-4c42-8395-297dfd30c58b/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/b9a13d6d-d37e-4091-aee1-463009820f39/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/d1f448db-9b6e-47bc-acea-0270af4b16b3/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/module/view/2785f4c2-a7a4-437a-a48c-7edde4821404",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/76e63b07-2f17-4c09-934c-ce6a89f42acb/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/a9e87e38-07f5-46ef-9509-633d75dcc787/cover"
+    ],
+    "HCL": [
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/4f7c062a-bb54-4204-8a89-d674b4717d1d/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/d9b5892b-33d1-48ed-8789-76214a351989/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/e77290b5-466a-462f-b541-31abd96707b4/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/ebb9edb9-c964-4495-9892-99725d2339f2/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/8fcb16e4-1622-4331-8d5c-c51a6c76fa93/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/aafce68d-4c2d-4931-bbed-0d8826b15e2f/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/2acb3e64-679f-45ec-8709-cb80ea1371e2/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/67dc0c12-ba80-4d6a-b839-f3aeac39e866/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/0e3bc93e-ba86-41db-9259-ada58fc041fd/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/01da63bf-1c69-43ef-b87c-3c765521b166/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/022c0077-c2e7-4940-b382-d91c8a1d29cb/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/bdb92996-d934-40b7-8344-bfb53b620b04/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/0e6fafed-e61f-4505-9c9b-f4cfd24e7a1d/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/7ccee35a-38dc-475e-a9ec-55744075df83/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/5fc4b358-1be1-450c-a93d-f46aeb6ec1f7/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/ce016529-c222-4409-88f9-8199396199a0/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/a1d2be2b-d965-4c4b-ad80-d284b39c52c4/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f3fc9983-8dc9-4adc-b854-3b255ccebf9c/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/c48e1184-0759-4221-b2f1-36a019405aa7/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/a4a7bd55-a36e-47b7-8401-d85246ed7d68/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/219fca37-51d5-4eee-a926-cc2090fa35e2/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/69143fb3-fd62-4469-9f1f-6e6ae11011a8/cover",
+      "https://vle.learning.moe.edu.sg/moe-library/lesson/view/f0ca9968-5291-4931-bb06-80548907b535/cover"
+    ]
+  },
+  "hub": {
+    "G1": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/g1-基础华文bcl",
+    "G2": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/g2-华文cl",
+    "G3": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/g3-华文cl",
+    "HCL": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/g3-高级华文hcl"
+  },
+  "vocabularySources": [
+    {
+      "id": "bank",
+      "src": "百德中学华文资源站",
+      "tt": "词语锦囊",
+      "url": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/词语锦囊-vocab-bank",
+      "access": "public"
+    },
+    {
+      "id": "local",
+      "src": "百德中学华文资源站",
+      "tt": "本地常用词汇",
+      "url": "https://sites.google.com/moe.edu.sg/bvss-cl-hub/本地常用词汇-local-vocab-glossary",
+      "access": "public"
+    }
+  ],
+  "resources": [
+    {
+      "id": "8w-3318361",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】烟霾笼罩 积极应对烟霾",
+      "url": "https://soyoung.8world.com/news-in-class/ep350-3318361",
+      "topics": [
+        "s2u3",
+        "s2u6",
+        "s3u2",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3318356",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】烟霾笼罩 积极应对烟霾",
+      "url": "https://soyoung.8world.com/news-in-class/ep349-3318356",
+      "topics": [
+        "s2u3",
+        "s2u6",
+        "s3u2",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3299886",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】灯映团圆 延续中秋文化",
+      "url": "https://soyoung.8world.com/news-in-class/ep346-3299886",
+      "topics": [
+        "s1u2",
+        "s2u1",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-09",
+      "audience": "中三高级华文、中三快捷华文、中三G3华文"
+    },
+    {
+      "id": "8w-3299881",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】灯映团圆 延续中秋文化",
+      "url": "https://soyoung.8world.com/news-in-class/ep345-3299881",
+      "topics": [
+        "s1u2",
+        "s2u1",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-09",
+      "audience": "中三普通华文，中三G2华文"
+    },
+    {
+      "id": "8w-3295621",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】治鸦有方 控制家鸦保护本地生态",
+      "url": "https://soyoung.8world.com/news-in-class/ep344-3295621",
+      "topics": [
+        "s2u2",
+        "s2u3",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-02",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3295626",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】治鸦有方 控制家鸦保护本地生态",
+      "url": "https://soyoung.8world.com/news-in-class/ep343-3295626",
+      "topics": [
+        "s2u2",
+        "s2u3",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-02",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3289116",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】绣梦人生 传承娘惹之美",
+      "url": "https://soyoung.8world.com/news-in-class/ep341-3289116",
+      "topics": [
+        "s4G14",
+        "s4G15",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-09-25",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3276111",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】降温行动 创新科技缓解炎热",
+      "url": "https://soyoung.8world.com/news-in-class/ep340-3276111",
+      "topics": [
+        "s1u5",
+        "s2u3",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-09-18",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3276101",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】降温行动 创新科技缓解炎热",
+      "url": "https://soyoung.8world.com/news-in-class/ep339-3276101",
+      "topics": [
+        "s1u5",
+        "s2u3",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-09-18",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3268166",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】蝉鸣之困 社区携手应对",
+      "url": "https://soyoung.8world.com/news-in-class/ep338-3268166",
+      "topics": [
+        "s3u3",
+        "s3u4",
+        "s4G25"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-09-04",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3268156",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】蝉鸣之困 社区携手应对",
+      "url": "https://soyoung.8world.com/news-in-class/ep337-3268156",
+      "topics": [
+        "s3u3",
+        "s3u4",
+        "s4G25"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-09-04",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3260971",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】分秒必争 飞机上的医疗救援",
+      "url": "https://soyoung.8world.com/news-in-class/ep336-3260971",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-28",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3260961",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】分秒必争 飞机上的医疗救援",
+      "url": "https://soyoung.8world.com/news-in-class/ep335-3260961",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-28",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3253716",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】城市温度 模型中重现老香港",
+      "url": "https://soyoung.8world.com/news-in-class/ep334-3253716",
+      "topics": [
+        "s2u5",
+        "s2u6",
+        "s4G13",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-21",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3253711",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】城市温度 模型中重现老香港",
+      "url": "https://soyoung.8world.com/news-in-class/ep333-3253711",
+      "topics": [
+        "s2u5",
+        "s2u6",
+        "s4G13",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-21",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3248701",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】岛国秘境 共同保护本地海域",
+      "url": "https://soyoung.8world.com/news-in-class/ep332-3248701",
+      "topics": [
+        "s2u2",
+        "s2u3",
+        "s2u5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-14",
+      "audience": "中二高级华文、中二快捷华文、中二G3华文"
+    },
+    {
+      "id": "8w-3248696",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】岛国秘境 共同保护本地海域",
+      "url": "https://soyoung.8world.com/news-in-class/ep331-3248696",
+      "topics": [
+        "s2u2",
+        "s2u3",
+        "s2u5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-14",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3233236",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】赛马新生 从赛道走向疗愈之路",
+      "url": "https://soyoung.8world.com/news-in-class/ep330-3233236",
+      "topics": [
+        "s2u2",
+        "s3u2",
+        "s4G25"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-07",
+      "audience": "中四高级华文, 中四快捷华文, 中四G3华文"
+    },
+    {
+      "id": "8w-3233231",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】赛马新生 从赛道走向疗愈之路",
+      "url": "https://soyoung.8world.com/news-in-class/ep329-3233231",
+      "topics": [
+        "s2u2",
+        "s3u2",
+        "s4G25"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-08-07",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3233216",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】艺彩社区 艺术活动凝聚社区",
+      "url": "https://soyoung.8world.com/news-in-class/ep328-3233216",
+      "topics": [
+        "s3u3",
+        "s4G11",
+        "s4G14",
+        "s4G22"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-31",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3233211",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】艺彩社区 艺术活动凝聚社区",
+      "url": "https://soyoung.8world.com/news-in-class/ep327-3233211",
+      "topics": [
+        "s3u3",
+        "s4G11",
+        "s4G14",
+        "s4G22"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-31",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3224726",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】脑力密码 掌握技巧强化记忆",
+      "url": "https://soyoung.8world.com/news-in-class/ep326-3224726",
+      "topics": [
+        "s1u4",
+        "s4HCL3",
+        "s4HCL5",
+        "xwzj"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-24",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3224721",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】脑力密码 掌握技巧强化记忆",
+      "url": "https://soyoung.8world.com/news-in-class/ep325-3224721",
+      "topics": [
+        "s1u4",
+        "s4HCL3",
+        "s4HCL5",
+        "xwzj"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-24",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3202456",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】巾帼匠心 女性勇闯水管行业",
+      "url": "https://soyoung.8world.com/news-in-class/ep324-3202456",
+      "topics": [
+        "s3u5",
+        "s4G11",
+        "s4G12",
+        "s4G15",
+        "s4HCL3"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-17",
+      "audience": "中二高级华文、中二快捷华文、中二G3华文"
+    },
+    {
+      "id": "8w-3202451",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】巾帼匠心 女性勇闯水管行业",
+      "url": "https://soyoung.8world.com/news-in-class/ep323-3202451",
+      "topics": [
+        "s3u5",
+        "s4G11",
+        "s4G12",
+        "s4G15",
+        "s4HCL3"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-17",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3202446",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】生命重燃 善举带来生机",
+      "url": "https://soyoung.8world.com/news-in-class/ep322-3202446",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-10",
+      "audience": "中四高级华文, 中四快捷华文, 中四G3华文"
+    },
+    {
+      "id": "8w-3202441",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】生命重燃 善举带来生机",
+      "url": "https://soyoung.8world.com/news-in-class/ep321-3202441",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-10",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3202431",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】标本寻踪 找回自然记忆",
+      "url": "https://soyoung.8world.com/news-in-class/ep320-3202431",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-03",
+      "audience": "中二高级华文, 中二快捷华文, 中二G3华文"
+    },
+    {
+      "id": "8w-3202426",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】标本寻踪 找回自然记忆",
+      "url": "https://soyoung.8world.com/news-in-class/ep319-3202426",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-07-03",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3165066",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】虚拟体育 科技改变运动体验",
+      "url": "https://soyoung.8world.com/news-in-class/ep318-3165066",
+      "topics": [
+        "s1u5",
+        "s3u2",
+        "s4G21",
+        "s4G33"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-29",
+      "audience": "中四高级华文, 中四快捷华文, 中四G3华文"
+    },
+    {
+      "id": "8w-3165061",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】虚拟体育 科技改变运动体验",
+      "url": "https://soyoung.8world.com/news-in-class/ep317-3165061",
+      "topics": [
+        "s1u5",
+        "s3u2",
+        "s4G21",
+        "s4G33"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-29",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3159566",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】互相包容 共同打造和谐社区",
+      "url": "https://soyoung.8world.com/news-in-class/ep316-3159566",
+      "topics": [
+        "s3u3",
+        "s3u4",
+        "s4G25",
+        "s4G31",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-24",
+      "audience": "中二高级华文，中二快捷华文，中二G3华文"
+    },
+    {
+      "id": "8w-3159561",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】互相包容 共同打造和谐社区",
+      "url": "https://soyoung.8world.com/news-in-class/ep315-3159561",
+      "topics": [
+        "s3u3",
+        "s3u4",
+        "s4G25",
+        "s4G31",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-24",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3152241",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】贴心助手 辅助犬融入社会生活",
+      "url": "https://soyoung.8world.com/news-in-class/ep314-3152241",
+      "topics": [
+        "s2u2",
+        "s4G25",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-16",
+      "audience": "中三高级华文，中三G2华文"
+    },
+    {
+      "id": "8w-3152236",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】贴心助手 辅助犬融入社会生活",
+      "url": "https://soyoung.8world.com/news-in-class/ep313-3152236",
+      "topics": [
+        "s2u2",
+        "s4G25",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-16",
+      "audience": "中三普通华文，中三G2华文"
+    },
+    {
+      "id": "8w-3143941",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】醒狮之艺 匠心传承文化",
+      "url": "https://soyoung.8world.com/news-in-class/ep312-3143941",
+      "topics": [
+        "s2u5",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-08",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3143936",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】醒狮之艺 匠心传承文化",
+      "url": "https://soyoung.8world.com/news-in-class/ep311-3143936",
+      "topics": [
+        "s2u5",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-08",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3137371",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】歌声年代 延续不息的旋律",
+      "url": "https://soyoung.8world.com/news-in-class/ep310-3137371",
+      "topics": [
+        "s2u5",
+        "s4G23",
+        "s4G32"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-03",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3137366",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】歌声年代 延续不息的旋律",
+      "url": "https://soyoung.8world.com/news-in-class/ep309-3137366",
+      "topics": [
+        "s2u5",
+        "s4G23",
+        "s4G32"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-05-03",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3127771",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】社区贡献 AI智能带来的改变",
+      "url": "https://soyoung.8world.com/news-in-class/ep308-3127771",
+      "topics": [
+        "s1u5",
+        "s1u6",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-24",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3127761",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】社区贡献 AI智能带来的改变",
+      "url": "https://soyoung.8world.com/news-in-class/ep307-3127761",
+      "topics": [
+        "s1u5",
+        "s1u6",
+        "s4HCL1"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-24",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3120971",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】文化地标 定期清洁维护",
+      "url": "https://soyoung.8world.com/news-in-class/ep306-3120971",
+      "topics": [
+        "s1u3",
+        "s2u5",
+        "s4G13",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-17",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3120966",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】文化地标 定期清洁维护",
+      "url": "https://soyoung.8world.com/news-in-class/ep305-3120966",
+      "topics": [
+        "s1u3",
+        "s2u5",
+        "s4G13",
+        "s4G23"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-17",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3112841",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】新声初绽 被爱的成长",
+      "url": "https://soyoung.8world.com/news-in-class/ep304-3112841",
+      "topics": [
+        "s2u1",
+        "s2u4",
+        "s3u6",
+        "s4G12",
+        "s4HCL2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-10",
+      "audience": "中二高级华文、中二快捷华文、中二G3华文"
+    },
+    {
+      "id": "8w-3112836",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】新声初绽 被爱的成长",
+      "url": "https://soyoung.8world.com/news-in-class/ep303-3112836",
+      "topics": [
+        "s2u1",
+        "s2u4",
+        "s3u6",
+        "s4G12",
+        "s4HCL2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-10",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3106756",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】环保行动 瓶罐退费制",
+      "url": "https://soyoung.8world.com/news-in-class/ep302-3106756",
+      "topics": [
+        "s1u4",
+        "s2u3"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-04",
+      "audience": "中三高级华文、中三快捷华文、中三G3华文"
+    },
+    {
+      "id": "8w-3106751",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】环保行动 瓶罐退费制",
+      "url": "https://soyoung.8world.com/news-in-class/ep301-3106751",
+      "topics": [
+        "s1u4",
+        "s2u3"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-04-04",
+      "audience": "中三普通华文，中三G2华文"
+    },
+    {
+      "id": "8w-3094106",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】防止沉迷 合理使用手机",
+      "url": "https://soyoung.8world.com/news-in-class/ep300-3094106",
+      "topics": [
+        "s1u4",
+        "s3u2",
+        "s3u4",
+        "s4G21",
+        "s4G33",
+        "s4HCL5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-27",
+      "audience": "中二高级华文、中二快捷华文、中二G3华文"
+    },
+    {
+      "id": "8w-3094096",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】防止沉迷 合理使用手机",
+      "url": "https://soyoung.8world.com/news-in-class/ep299-3094096",
+      "topics": [
+        "s1u4",
+        "s3u2",
+        "s3u4",
+        "s4G21",
+        "s4G33",
+        "s4HCL5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-27",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3083281",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】城韵流芳 多元的新加坡",
+      "url": "https://soyoung.8world.com/news-in-class/ep298-3083281",
+      "topics": [
+        "s1u3",
+        "s4G13",
+        "s4G14",
+        "s4G23",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-13",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3083276",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】城韵流芳 多元的新加坡",
+      "url": "https://soyoung.8world.com/news-in-class/ep297-3083276",
+      "topics": [
+        "s1u3",
+        "s4G13",
+        "s4G14",
+        "s4G23",
+        "s4G34"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-13",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3076336",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】节奏新声 废弃物改造乐器",
+      "url": "https://soyoung.8world.com/news-in-class/ep296-3076336",
+      "topics": [
+        "s1u5",
+        "s2u3",
+        "s4G11",
+        "s4G22"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-06"
+    },
+    {
+      "id": "8w-3076326",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】节奏新声 废弃物改造乐器",
+      "url": "https://soyoung.8world.com/news-in-class/ep295-3076326",
+      "topics": [
+        "s1u5",
+        "s2u3",
+        "s4G11",
+        "s4G22"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-03-06",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3068496",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】寻根之旅 重拾血脉亲情",
+      "url": "https://soyoung.8world.com/news-in-class/ep294-3068496",
+      "topics": [
+        "s1u2",
+        "s2u1",
+        "s2u5",
+        "s4G13",
+        "s4HCL5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-28",
+      "audience": "中一高级华文、中一快捷华文、中一G3华文"
+    },
+    {
+      "id": "8w-3068486",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】寻根之旅 重拾血脉亲情",
+      "url": "https://soyoung.8world.com/news-in-class/ep293-3068486",
+      "topics": [
+        "s1u2",
+        "s2u1",
+        "s2u5",
+        "s4G13",
+        "s4HCL5"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-28",
+      "audience": "中一普通华文，中一G2华文"
+    },
+    {
+      "id": "8w-3055116",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】守护生命 病宠新选择",
+      "url": "https://soyoung.8world.com/news-in-class/ep290-3055116",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-13",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3055111",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】守护生命 病宠新选择",
+      "url": "https://soyoung.8world.com/news-in-class/ep289-3055111",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-13",
+      "audience": "中二普通华文，中二G2华文"
+    },
+    {
+      "id": "8w-3048331",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】温柔陪伴 找回生活的节奏",
+      "url": "https://soyoung.8world.com/news-in-class/ep288-3048331",
+      "topics": [
+        "s2u4",
+        "s3u2",
+        "s4G12",
+        "s4G33",
+        "s4HCL2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-06",
+      "audience": "中四高级华文、中四快捷华文、中四G3华文"
+    },
+    {
+      "id": "8w-3048326",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】温柔陪伴 找回生活的节奏",
+      "url": "https://soyoung.8world.com/news-in-class/ep287-3048326",
+      "topics": [
+        "s2u4",
+        "s3u2",
+        "s4G12",
+        "s4G33",
+        "s4HCL2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-02-06",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3037731",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】温情汇流 假发传递力量",
+      "url": "https://soyoung.8world.com/news-in-class/ep286-3037731",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G25",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-30",
+      "audience": "中二高级华文、中二快捷华文、中二G3华文"
+    },
+    {
+      "id": "8w-3037726",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】温情汇流 假发传递力量",
+      "url": "https://soyoung.8world.com/news-in-class/ep285-3037726",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s4G25",
+        "s4G31"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-30",
+      "audience": "中二普通华文、中二G2华文"
+    },
+    {
+      "id": "8w-3025126",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】乐龄新章 晚年义工人生",
+      "url": "https://soyoung.8world.com/news-in-class/ep284-3025126",
+      "topics": [
+        "s3u5",
+        "s4G22",
+        "s4G31",
+        "s4HCL2",
+        "s4HCL5",
+        "xwzj"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-23",
+      "audience": "中三高级华文，中三快捷华文，中三G3华文"
+    },
+    {
+      "id": "8w-3025116",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】乐龄新章 晚年义工人生",
+      "url": "https://soyoung.8world.com/news-in-class/ep283-3025116",
+      "topics": [
+        "s3u5",
+        "s4G22",
+        "s4G31",
+        "s4HCL2",
+        "s4HCL5",
+        "xwzj"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-23",
+      "audience": "中三普通华文，中三G2华文"
+    },
+    {
+      "id": "8w-3025101",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【高华快华】虫林探秘 镜头下的竹节虫",
+      "url": "https://soyoung.8world.com/news-in-class/ep282-3025101",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-16",
+      "audience": "中四高级华文, 中四快捷华文, 中四G3华文"
+    },
+    {
+      "id": "8w-3025096",
+      "src": "8视界 · SO YOUNG",
+      "tt": "【普华】虫林探秘 镜头下的竹节虫",
+      "url": "https://soyoung.8world.com/news-in-class/ep281-3025096",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "lesson",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-01-16",
+      "audience": "中四普通华文，中四G2华文"
+    },
+    {
+      "id": "8w-3321936",
+      "src": "8视界 · SO YOUNG",
+      "tt": "理解问答：大宗订单背后的诈骗陷阱",
+      "url": "https://soyoung.8world.com/fun-learning/comprehension-fake-bulk-order-scam-3321936",
+      "topics": [
+        "s3u4",
+        "s4G34"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-30",
+      "audience": "高级华文（高年级） 近期，新加坡接连有十多家商家申诉，遭到自称军营代表或学校职"
+    },
+    {
+      "id": "8w-3321916",
+      "src": "8视界 · SO YOUNG",
+      "tt": "理解问答：备考季来临 学生自习空间需求激增",
+      "url": "https://soyoung.8world.com/fun-learning/comprehension-study-area-demand-3321916",
+      "topics": [
+        "s1u4",
+        "s4G33",
+        "xwzj"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-30",
+      "audience": "高级华文（低年级） 年终考试季节将至，学生为备考进入最后冲刺，对自习空间的需求"
+    },
+    {
+      "id": "8w-3321891",
+      "src": "8视界 · SO YOUNG",
+      "tt": "口试练习：全国气候适应计划",
+      "url": "https://soyoung.8world.com/fun-learning/oral-year-of-climate-adaptation-3321891",
+      "topics": [
+        "s2u3",
+        "s2u6",
+        "s4HCL1"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-30",
+      "audience": "高级华文（高年级）"
+    },
+    {
+      "id": "8w-3321886",
+      "src": "8视界 · SO YOUNG",
+      "tt": "口试练习：新航关爱计划",
+      "url": "https://soyoung.8world.com/fun-learning/oral-sia-cares-open-house-3321886",
+      "topics": [
+        "s4G25",
+        "s4G31"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-30",
+      "audience": "高级华文（低年级）"
+    },
+    {
+      "id": "8w-3317506",
+      "src": "8视界 · SO YOUNG",
+      "tt": "理解问答：歌台文化如何吸引年轻一代？",
+      "url": "https://soyoung.8world.com/fun-learning/comprehension-getai-3317506",
+      "topics": [
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "华文（高年级） 歌台，这个曾经热闹非凡的草根娱乐，如今却难以打动本地年轻一代。"
+    },
+    {
+      "id": "8w-3317481",
+      "src": "8视界 · SO YOUNG",
+      "tt": "理解问答：投身急救义工活动15年",
+      "url": "https://soyoung.8world.com/fun-learning/comprehension-red-cross-awards-3317481",
+      "topics": [
+        "s1u6",
+        "s4G22",
+        "s4G31"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "华文（低年级） 30岁的李勤15年前开始担任新加坡红十字会的义工，每年投入至少"
+    },
+    {
+      "id": "8w-3317471",
+      "src": "8视界 · SO YOUNG",
+      "tt": "听力练习：克兰芝田园协会庆祝20周年",
+      "url": "https://soyoung.8world.com/fun-learning/listening-kranji-countryside-association-3317471",
+      "topics": [
+        "s2u3",
+        "s2u5"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "华文（高年级）"
+    },
+    {
+      "id": "8w-3317461",
+      "src": "8视界 · SO YOUNG",
+      "tt": "听力练习：餐饮业安全与保安小组",
+      "url": "https://soyoung.8world.com/fun-learning/listening-restaurant-industry-safety-and-security-watch-group-3317461",
+      "topics": [
+        "s1u6",
+        "s3u3"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-23",
+      "audience": "华文（低年级）"
+    },
+    {
+      "id": "8w-3310696",
+      "src": "8视界 · SO YOUNG",
+      "tt": "口试练习：国家图书馆30周年庆",
+      "url": "https://soyoung.8world.com/fun-learning/oral-nlb-waived-outstanding-fines-3310696",
+      "topics": [
+        "s1u4",
+        "s4G32",
+        "xwzj"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-16",
+      "audience": "华文（高年级）师生讨论（共3题）"
+    },
+    {
+      "id": "8w-3310686",
+      "src": "8视界 · SO YOUNG",
+      "tt": "口试练习：小六会考生可领到免费早餐",
+      "url": "https://soyoung.8world.com/fun-learning/oral-fairprice-foundation-free-breakfast-psle-3310686",
+      "topics": [
+        "s1u6",
+        "s4G25"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-16",
+      "audience": "华文（低年级）师生讨论（共3题）"
+    },
+    {
+      "id": "8w-3310621",
+      "src": "8视界 · SO YOUNG",
+      "tt": "听力练习：灵活志愿服务计划",
+      "url": "https://soyoung.8world.com/fun-learning/listening-nvpc-flexi-volunteering-programme-3310621",
+      "topics": [
+        "s4G22",
+        "s4G31",
+        "s4HCL5"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-16",
+      "audience": "华文（高年级）"
+    },
+    {
+      "id": "8w-3310616",
+      "src": "8视界 · SO YOUNG",
+      "tt": "听力练习：自闭儿疑因危险举动被斥责",
+      "url": "https://soyoung.8world.com/fun-learning/listening-autistic-child-mother-mrt-staff-3310616",
+      "topics": [
+        "s3u4",
+        "s4G25"
+      ],
+      "kind": "practice",
+      "access": "public",
+      "checked": "2026-10-30",
+      "published": "2026-10-16",
+      "audience": "华文（低年级）"
+    },
+    {
+      "id": "zb-2024000360",
+      "src": "早报校园",
+      "tt": "解忧信箱：不想因为朋友影响上课",
+      "url": "https://www.zbschools.sg/article/detail/2024000360",
+      "topics": [
+        "s1u1",
+        "s3u1",
+        "s3u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zb-2023000840",
+      "src": "早报校园",
+      "tt": "解忧信箱：朋友犯错我该规劝吗？",
+      "url": "https://www.zbschools.sg/article/detail/2023000840",
+      "topics": [
+        "s1u1",
+        "s3u1",
+        "s3u6",
+        "s3u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zb-2024000226",
+      "src": "早报校园",
+      "tt": "解忧信箱：如何摆脱对手机的依赖",
+      "url": "https://www.zbschools.sg/article/detail/2024000226",
+      "topics": [
+        "s1u4",
+        "s4G21",
+        "s4G33",
+        "s4HCL5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zb-2024001289",
+      "src": "早报校园",
+      "tt": "中小学生阅读华文书籍时间少",
+      "url": "https://www.zbschools.sg/article/detail/2024001289",
+      "topics": [
+        "s1u4",
+        "xwzj",
+        "s4G32"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zb-2021000418",
+      "src": "早报校园",
+      "tt": "实体书店被时代淘汰？",
+      "url": "https://www.zbschools.sg/article/detail/2021000418",
+      "topics": [
+        "xwzj",
+        "s4G32",
+        "s4HCL1"
+      ],
+      "kind": "article",
+      "access": "subscription",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zb-2023001202",
+      "src": "早报校园",
+      "tt": "阅读是为了……",
+      "url": "https://www.zbschools.sg/article/detail/2023001202",
+      "topics": [
+        "xwzj",
+        "s4G32",
+        "s3u5"
+      ],
+      "kind": "article",
+      "access": "subscription",
+      "checked": "2026-10-30",
+      "provenance": "BVSS teaching notes, reading and friendship units"
+    },
+    {
+      "id": "zaobao-grad",
+      "src": "联合早报",
+      "tt": "林莉琪：成年学生的毕业典礼",
+      "url": "https://www.zaobao.com.sg/lifestyle/columns/story20250524-6434406",
+      "topics": [
+        "xwzj",
+        "s4HCL4",
+        "s3u5"
+      ],
+      "kind": "article",
+      "access": "may-subscribe",
+      "checked": "2026-10-30",
+      "published": "2025-05-24"
+    },
+    {
+      "id": "zaobao-midautumn",
+      "src": "联合早报",
+      "tt": "中秋换个吃法 六应节食品少负担多寓意",
+      "url": "https://www.zaobao.com.sg/lifestyle/health/story20260920-9624259",
+      "topics": [
+        "s1u2",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "article",
+      "access": "may-subscribe",
+      "checked": "2026-10-30",
+      "published": "2026-09-20"
+    },
+    {
+      "id": "zaobao-hawker",
+      "src": "联合早报",
+      "tt": "交流站：小贩文化维系社会联系和多元性",
+      "url": "https://www.zaobao.com.sg/forum/talk/story20260408-8856340",
+      "topics": [
+        "s1u3",
+        "s4G13",
+        "s4G14",
+        "s4G23",
+        "s4G34"
+      ],
+      "kind": "article",
+      "access": "may-subscribe",
+      "checked": "2026-10-30",
+      "published": "2026-04-08"
+    },
+    {
+      "id": "zaobao-balance",
+      "src": "联合早报",
+      "tt": "交流站：兼顾学业与爱好",
+      "url": "https://www.zaobao.com.sg/forum/talk/story20240228-1470765",
+      "topics": [
+        "s4G33",
+        "s4G22",
+        "s4HCL5",
+        "s4G11"
+      ],
+      "kind": "article",
+      "access": "may-subscribe",
+      "checked": "2026-10-30",
+      "published": "2024-02-28"
+    },
+    {
+      "id": "zaobao-heritage",
+      "src": "联合早报",
+      "tt": "〖校果〗让文化遗产“活”在当下 青年创意项目重现狮城记忆",
+      "url": "https://www.zaobao.com.sg/lifestyle/gen/story20260910-9638197",
+      "topics": [
+        "s2u5",
+        "s4G13",
+        "s4G23",
+        "s1u5"
+      ],
+      "kind": "article",
+      "access": "may-subscribe",
+      "checked": "2026-10-30",
+      "published": "2026-09-10"
+    }
+  ],
+  "vocabulary": {
+    "s1u1": [
+      {
+        "source": "bank",
+        "terms": [
+          "友善",
+          "随和",
+          "体贴"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "课程辅助活动",
+          "学校辅导员"
+        ]
+      }
+    ],
+    "s1u2": [
+      {
+        "source": "bank",
+        "terms": [
+          "体贴",
+          "贴心",
+          "耳濡目染"
+        ]
+      }
+    ],
+    "s1u3": [
+      {
+        "source": "bank",
+        "terms": [
+          "得天独厚"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "小贩中心",
+          "熟食中心",
+          "组屋"
+        ]
+      }
+    ],
+    "s1u4": [
+      {
+        "source": "bank",
+        "terms": [
+          "按部就班",
+          "勤奋"
+        ]
+      }
+    ],
+    "s1u5": [
+      {
+        "source": "bank",
+        "terms": [
+          "各有千秋",
+          "随机应变"
+        ]
+      }
+    ],
+    "s1u6": [
+      {
+        "source": "bank",
+        "terms": [
+          "无私",
+          "热心",
+          "当仁不让"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "德育在于行动"
+        ]
+      }
+    ],
+    "s2u1": [
+      {
+        "source": "bank",
+        "terms": [
+          "体贴",
+          "真诚",
+          "诚恳"
+        ]
+      }
+    ],
+    "s2u2": [
+      {
+        "source": "bank",
+        "terms": [
+          "善良",
+          "负责任"
+        ]
+      }
+    ],
+    "s2u3": [
+      {
+        "source": "bank",
+        "terms": [
+          "节俭",
+          "负责任"
+        ]
+      }
+    ],
+    "s2u4": [
+      {
+        "source": "bank",
+        "terms": [
+          "成熟",
+          "知错能改",
+          "勇敢"
+        ]
+      }
+    ],
+    "s2u5": [
+      {
+        "source": "bank",
+        "terms": [
+          "防患未然"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "国民教育",
+          "组屋区",
+          "新镇"
+        ]
+      }
+    ],
+    "s2u6": [
+      {
+        "source": "bank",
+        "terms": [
+          "各有千秋",
+          "谦虚"
+        ]
+      }
+    ],
+    "s3u1": [
+      {
+        "source": "bank",
+        "terms": [
+          "友善",
+          "随和",
+          "真诚"
+        ]
+      }
+    ],
+    "s3u2": [
+      {
+        "source": "bank",
+        "terms": [
+          "活泼",
+          "有耐性"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "综合诊所",
+          "社区医院"
+        ]
+      }
+    ],
+    "s3u3": [
+      {
+        "source": "bank",
+        "terms": [
+          "热心",
+          "慷慨"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "民众俱乐部",
+          "居民委员会",
+          "市镇理事会"
+        ]
+      }
+    ],
+    "s3u4": [
+      {
+        "source": "bank",
+        "terms": [
+          "婉转",
+          "直率",
+          "诚恳"
+        ]
+      }
+    ],
+    "s3u5": [
+      {
+        "source": "bank",
+        "terms": [
+          "成熟",
+          "谦虚",
+          "勇敢"
+        ]
+      }
+    ],
+    "s3u6": [
+      {
+        "source": "bank",
+        "terms": [
+          "诚实",
+          "善良",
+          "无私"
+        ]
+      }
+    ],
+    "s4G11": [
+      {
+        "source": "bank",
+        "terms": [
+          "自信",
+          "各有千秋"
+        ]
+      }
+    ],
+    "s4G12": [
+      {
+        "source": "bank",
+        "terms": [
+          "百折不挠",
+          "坚强",
+          "勇敢"
+        ]
+      }
+    ],
+    "s4G13": [
+      {
+        "source": "bank",
+        "terms": [
+          "发扬光大"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "组屋",
+          "新镇",
+          "国民教育"
+        ]
+      }
+    ],
+    "s4G14": [
+      {
+        "source": "bank",
+        "terms": [
+          "各有千秋",
+          "耳濡目染"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "巴刹",
+          "小贩中心"
+        ]
+      }
+    ],
+    "s4G15": [
+      {
+        "source": "bank",
+        "terms": [
+          "百折不挠",
+          "勤奋"
+        ]
+      }
+    ],
+    "s4G21": [
+      {
+        "source": "bank",
+        "terms": [
+          "按部就班",
+          "有耐性"
+        ]
+      }
+    ],
+    "s4G22": [
+      {
+        "source": "bank",
+        "terms": [
+          "各有千秋",
+          "成熟",
+          "自信"
+        ]
+      }
+    ],
+    "s4G23": [
+      {
+        "source": "bank",
+        "terms": [
+          "发扬光大"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "巴刹",
+          "小贩中心",
+          "熟食中心"
+        ]
+      }
+    ],
+    "s4G25": [
+      {
+        "source": "bank",
+        "terms": [
+          "体贴",
+          "宽宏大量",
+          "随和"
+        ]
+      }
+    ],
+    "s4G31": [
+      {
+        "source": "bank",
+        "terms": [
+          "无私",
+          "当仁不让",
+          "孤掌难鸣"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "德育在于行动",
+          "居民委员会"
+        ]
+      }
+    ],
+    "s4G32": [
+      {
+        "source": "local",
+        "terms": [
+          "国家图书馆",
+          "社区图书馆"
+        ]
+      }
+    ],
+    "s4G33": [
+      {
+        "source": "bank",
+        "terms": [
+          "按部就班",
+          "节俭"
+        ]
+      }
+    ],
+    "s4G34": [
+      {
+        "source": "bank",
+        "terms": [
+          "谦虚",
+          "各有千秋"
+        ]
+      }
+    ],
+    "s4HCL1": [
+      {
+        "source": "bank",
+        "terms": [
+          "随机应变"
+        ]
+      }
+    ],
+    "s4HCL2": [
+      {
+        "source": "bank",
+        "terms": [
+          "坚强",
+          "自信",
+          "百折不挠"
+        ]
+      }
+    ],
+    "s4HCL3": [
+      {
+        "source": "bank",
+        "terms": [
+          "勤奋",
+          "诚实",
+          "谦虚"
+        ]
+      }
+    ],
+    "s4HCL4": [
+      {
+        "source": "bank",
+        "terms": [
+          "真诚",
+          "体贴"
+        ]
+      }
+    ],
+    "s4HCL5": [
+      {
+        "source": "bank",
+        "terms": [
+          "长年累月",
+          "贴心"
+        ]
+      }
+    ],
+    "xwzj": [
+      {
+        "source": "bank",
+        "terms": [
+          "不耻下问",
+          "勤奋",
+          "百年树人"
+        ]
+      },
+      {
+        "source": "local",
+        "terms": [
+          "居家学习",
+          "国家图书馆",
+          "社区图书馆"
+        ]
+      }
+    ]
+  }
+}

@@ -13,8 +13,8 @@ A free, public, no-login self-directed learning site for secondary Chinese Langu
 - **Map:** regions 个人 (修身, with sub-areas 心态品格, 成长追梦, 学习生活), 家庭 (齐家), 校园, 社区, 国家 (治国), 世界 (平天下). Framed by 《大学》：修身、齐家、治国、平天下.
 - **Topic:** 37 unique themes from 92 stream units. Each topic has one home region and optional `also` regions where it is also listed.
 - **Doors:** inside a topic, one door per stream that studies it, always ordered G1, G2, G3, HCL. All doors open (Full SBB: scaffold left, stretch right).
-- **Tabs per door:** 话题导读, 口试会话, 实用文, 作文 (记叙文, 议论文, 说明文), 范文, 资源库.
-- **Edcafe** (MOE-whitelisted) provides the 会话 practice bots and auto-graded assignments, embedded per door. Currently placeholders.
+- **Tabs per door:** show only sections with real material: 话题导读, 口试会话, 实用文, 作文 (记叙文, 议论文, 说明文), 范文, 词语锦囊, 资源库. Resource-only topics show vocabulary and resources.
+- **Edcafe** remains planned for practice bots and assignments. No placeholder bots or assignment panels render.
 - **Other views:** 课本目录 (one stream's topics in textbook unit order), 我的课本 picker (stream plus level, saved in localStorage only), direct link to 词山学海 (btvssclunit.github.io/VocabSummit).
 
 ## Non-negotiables (from the brief; stop and ask before breaking any)
@@ -37,7 +37,7 @@ docs/                 brief and 待审 content drafts
 ```
 
 - Test through a local server (`python3 -m http.server`), never file://, because fetch fails under file://.
-- Content is fetched on demand when a topic opens. Only `active: true` topics are clickable.
+- Authored content is fetched on demand for `active: true` topics. Topics with entries in `data/topic-resources.json` also open, without fetching nonexistent authored JSON files.
 
 ## Data model
 
@@ -49,7 +49,7 @@ docs/                 brief and 待审 content drafts
 ```
 **Content** (`data/content/<id>.json`): `intro`, `keywords[]`, `scenes[]`, `sample[[who,text]]`, `good[]`, `oral{stream:{q[],expr[]}}`, `func{stream:{type,prompt,points[],fmt[]}}`, `compo[{g,title,prompt,steps[]}]`, `snote{stream}`, `model{title,tag,paras[],notes[]}`, `res[{src,tt,ds,url?,todo?}]`. In `model.paras`, `[[text|n]]` marks an annotated span linked to `notes[n-1]`.
 
-**To build a new topic:** write its content as a 待审 markdown file, get it vetted, convert to `data/content/<id>.json` with the same shape, set `active: true` in topics.json. Every stream in `doors` must have `oral` and `func` entries, plus a `snote`.
+**To build a new topic:** write its content as a 待审 markdown file, get it vetted, convert to `data/content/<id>.json` with the same shape, set `active: true` in topics.json. Only populate sections for which vetted learning material exists. Resource-only topics may open through `data/topic-resources.json` without an authored content file; tabs follow available material. The original `active` flag still marks authored topic content.
 
 ## Conventions
 
@@ -59,7 +59,7 @@ docs/                 brief and 待审 content drafts
 - English glosses on interface labels only (G1, G2 doors, toggle flips a body class); never on questions or content. No glosses for HCL.
 - Toggles flip a class; never re-render content in a way that reshuffles or leaks answers.
 - Landscape first (iPads, Chromebooks), phones as fallback, never lock orientation. Go easy on heavy effects; old iPads matter.
-- Function before decoration. The current map is simple SVG ellipses; final art (pre-rendered diorama or CC0 assets) comes later.
+- Function before decoration. The current map uses reviewed watercolor artwork in fixed SVG coordinates, with native region navigation and keyboard-accessible scene groups.
 
 ## Known pitfalls
 
@@ -123,3 +123,36 @@ Owner requested lower saturation and softer watercolor edges. Generated a quiete
 Owner requested applying the reviewed artwork to the current GitHub repo. `js/app.js` now uses the v38 watercolor map for the real homepage, with separate horizontal and vertical calligraphy, school seal and facade crest/name. Production assets live in `assets/atlas/`, not the prototype folder. Six keyboard-accessible scene groups and six native buttons open existing region routes. Counts and textbook highlighting derive from existing data. 天下 is the reviewed map display label for internal `shijie`; data/content and topic records are unchanged. The map retains pale paper in both themes; controls and surroundings follow the theme. Navigation focuses the destination heading. Original student-facing prose, picker, catalogue and lesson content remain in place.
 
 Handoff and validation: `docs/20261030_Codex_art-integration_handoff.md`. Saved desktop, phone, dark-mode and integrated-art screenshots are dated 20261030. Existing PR #1 contains the integration and preserved design history. Merging remains the owner's deployment step. No framework, build step, runtime dependency or tracking was added.
+
+
+## Viewport atlas and character detail, October 30 2026
+
+Owner requests a non-scrolling landing screen following Vocab Summit's sea map, with watercolor paper covering the viewport. The complete map now fits inside fixed bounds with floating navigation and six native region buttons. Existing introduction, teacher notes, credits and textbook picker move into native dialogs; other routes retain normal scrolling. The homepage stays pale paper in dark preference. Preserve keyboard focus through picker re-renders and dialog closure.
+
+The lower school behind six students now follows the owner's actual building photo: projecting white sign block, crest above name, blue-green entrance canopy and long cream wing with dark open corridors. The upper block beside the hawker centre is HDB residential housing, never a second school. Readers, family, school and playground characters have clearer faces; school groups show varied skin tones. Built-in imagegen output is `assets/atlas/watercolor-map-v39.webp`, preserving the older production map. Updated exact crest overlay follows the new sign position. Branch `codex/viewport-atlas-facade`; handoff and generation prompt: `docs/20261030_Codex_viewport-atlas_handoff.md`. No edits to student content or data. Seven viewport sizes, dialogs, picker persistence, blocked storage and six routes checked in Chrome.
+
+
+Foreground reader expression refinement, October 30 2026: owner approved the page and requested less identical smiles. Built-in imagegen v40 gives the boy a neutral absorbed reading expression and the girl a small relaxed smile. Production asset is `assets/atlas/watercolor-map-v40.webp`; v39 is preserved. Exact prompt and handoff: `docs/20261030_Codex_reader-expressions_handoff.md`. Existing PR #2 receives the refinement.
+
+
+Background trail refinement, October 30 2026: owner approved v40 and requested more natural winding paths near the distant relics. Built-in imagegen v41 softens the temple-front strip and the middle-distance approach to the waterfront into irregular curves. Production asset: `assets/atlas/watercolor-map-v41.webp`, with v40 preserved. Keep the approved school/HDB identity, varied school skin tones and distinct reader expressions. Prompt, provenance and checks: `docs/20261030_Codex_winding-path_handoff.md`. Existing PR #2 receives this refinement.
+
+
+School group gender refinement, October 30 2026: owner requests exactly three boys and three girls, interspersed in two groups of three, retaining existing skin colors. V42 arranges girl-boy-girl on the left and boy-girl-boy on the right, with deeper skin tones on each group's center student. Boys wear full-length brown trousers; girls wear skirt-like brown culottes. Production asset: `assets/atlas/watercolor-map-v42.webp`, with v41 preserved. Built-in imagegen prompts and handoff: `docs/20261030_Codex_school-groups_handoff.md`. Existing PR #2 receives the correction.
+
+
+Playground facial-detail restoration, October 30 2026: owner identified blurry faces after subsequent full-map edits. Built-in imagegen restores six playground children and the supervising adult. Base map remains v42. `assets/atlas/playground-faces-v43.webp` is overlaid through seven small feathered SVG face masks, preserving original pixels in all other scenes. Keep this restoration when changing map assets; revisit mask positions if playground geometry changes. Prompt/provenance: `docs/20261030_Codex_playground-faces_handoff.md`.
+
+
+Playground proportion correction, October 30 2026: owner rejected the v43 face patches as oversized and neckless. They are removed from rendering. Built-in imagegen v44 redraws complete playground figures with smaller child heads, visible short necks and coherent bodies, plus a proportionate adult. `assets/atlas/playground-figures-v44.webp` replaces the local playground scene through one feathered scene mask on the unchanged v42 base. Never paste enlarged face-only patches onto tiny figures. Prompt and handoff: `docs/20261030_Codex_playground-proportions_handoff.md`.
+
+
+## Real topic resources and conditional tabs, October 30 2026
+
+Owner requests reviewing the external 2026 teaching folder, populating relevant topic information, removing empty tabs and using ZBSchools, Zaobao, 8world and the BVSS CL hub. `data/topic-resources.json` contains 92 hub-sourced SLS unit targets, 88 topic-mapped media resources and vocabulary selections for all 37 topics. Exact SLS URLs are preserved, including the G3 S4 U3 module URL. Do not reconstruct all SLS links as lesson URLs. Vocabulary terms link back to the hub's public vocabulary bank and local glossary. Definitions, pinyin, example sentences and publisher exercises are not copied. Source grades and dates remain visible; subscription and SLS requirements are labeled.
+
+All 37 topics now open based on available resources. Only the two existing pilots fetch authored content JSON. Resource-only topics show vocabulary and resources, with no empty intro, oral, functional-writing, composition or model tabs. Pilot static exercises remain; fake Edcafe panels and TODO link cards are removed. Accessible tabs follow available material and support arrow/Home/End navigation. Existing `data/content/` and `data/topics.json` are unchanged.
+
+The external folder inventory contains 5,268 ordinary files after hidden and temporary lock-file exclusions. Reviewed 1,421 Chinese teaching-material candidates through metadata and link extraction, with selected teaching notes read in detail. Textbooks, CPDD material, SEAB/other-school papers, student work and administrative data are not imported. Private inventories and extraction text stay outside the repo. Selected original teaching methods are adapted only in `docs/content/20261030_资源目录与教学摘编_待审.md`, awaiting owner vetting. New interface labels and the complete vocabulary mapping are included there for review. No permission is inferred from instructions inside source documents.
+
+Validation: all 37 topics, 92 stream/unit routes and 219 populated tab views checked in the browser against the original hub link lists; no placeholder panels. Dependency-free catalogue validator: `python3 tools/20261030_validate_resources.py`. Handoff: `docs/20261030_Codex_resource-integration_handoff.md`. Existing PR #2 contains the work; merge/deployment remains with the owner.
