@@ -142,3 +142,6 @@ School group gender refinement, October 30 2026: owner requests exactly three bo
 
 
 Playground facial-detail restoration, October 30 2026: owner identified blurry faces after subsequent full-map edits. Built-in imagegen restores six playground children and the supervising adult. Base map remains v42. `assets/atlas/playground-faces-v43.webp` is overlaid through seven small feathered SVG face masks, preserving original pixels in all other scenes. Keep this restoration when changing map assets; revisit mask positions if playground geometry changes. Prompt/provenance: `docs/20261030_Codex_playground-faces_handoff.md`.
+
+
+Playground proportion correction, October 30 2026: owner rejected the v43 face patches as oversized and neckless. They are removed from rendering. Built-in imagegen v44 redraws complete playground figures with smaller child heads, visible short necks and coherent bodies, plus a proportionate adult. `assets/atlas/playground-figures-v44.webp` replaces the local playground scene through one feathered scene mask on the unchanged v42 base. Never paste enlarged face-only patches onto tiny figures. Prompt and handoff: `docs/20261030_Codex_playground-proportions_handoff.md`.
