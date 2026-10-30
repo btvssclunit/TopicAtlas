@@ -86,7 +86,7 @@ for item in DATA['items']:
         errors.append(f'{iid}: title and type required')
     if not item.get('source'):
         errors.append(f'{iid}: source required')
-    has_body = any(item.get(f) for f in ['prompt', 'steps', 'questions', 'frame', 'checks']) or (item.get('model') or {}).get('paras')
+    has_body = any(item.get(f) for f in ['prompt', 'steps', 'questions', 'frame', 'checks', 'points', 'fmt', 'expr']) or (item.get('model') or {}).get('paras')
     if not has_body:
         errors.append(f'{iid}: no learning material')
     joined = ''

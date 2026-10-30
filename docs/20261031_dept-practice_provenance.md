@@ -155,3 +155,48 @@ Updated October 31, 2026 by HOD/MTL Mdm Chun Kai Xin
 | G3/S4/2026中四复习笔记（6）：阅读理解二 .docx | Revision guide quotes reading-comprehension exam items, including the 2025 中三年终考 question with its marked 参考答案; not method-only. |
 | G3 HCL/S4/作文/Q5_议论文笔记_培养兴趣爱好.docx | Entirely built on the 2025 past-year 材料作文 question (关键词, 论点, examples, 开头模板, 金句 all topic-specific); the remaining generic structure is already covered by the 材料作文方法论 item. |
 | G3 HCL/S4/口试训练/2026 4HC3 口试复习材料 （编辑中）.docx | Marked 编辑中; consists of video transcripts/scene descriptions and PEEL sample reports built on them (报告二 is the 2021 国家会考 video); the only generic frame (开场白 + PEEL) is already in the 口试冲刺卡 item. |
+
+## PDF 补充收录（October 31 2026）
+
+教学文件夹内共有 404 个 PDF。按路径与文件名先排除：CPDD 电子课本、作业本、教师手册与活动本答案（含拼音课文），SEAB、N 水准与外校试卷、本校 WA、EOY、SA 与预考文件、讲评与考试范围，学生作品，课文词语笔记与巩固、核心、生活空间练习（均以课文为本），校务文件（EPMS、时间表、Journeying Together），以及工具使用说明。余下 61 个候选中，45 个是已处理 docx 或 pptx 的 PDF 导出件，不重复收录。其余 20 个逐一读取（文字层缺失的 4 个以 macOS 内置文字识别处理），收录 13 个新项目并补充 3 个现有项目。全部新文字通过课文指纹比对；《4NA 单元二写作课件》中的倒叙示例段落与课文《我的五样》重合，已排除。
+
+### 新增项目
+
+| 项目 | 话题（依据） | 源文件 | 整理改动 |
+| --- | --- | --- | --- |
+| `g3-s4-personal-email-revision` 私人电邮复习 | 中四 G3 四个单元（inferred，通用复习） | G3/S4/2026中四复习笔记（1）：私人电邮.pdf | Removed all SEAB past-year question texts and year codes (J2020 sample reply, N2020/N2022/J2023 prompts, the 小练笔 历届考题范围 line and the year table); kept the format table, the reply skeleton, the teacher's mark-allocation advice, answering techniques and sentence bank. Pinyin dropped. |
+| `g3-s4-official-email-revision` 公务电邮复习 | 中四 G3 四个单元（inferred，通用复习） | G3/S4/2026中四复习笔记（2）：公务电邮 .pdf | Removed the three SEAB question texts in the 主题 table (kept only the resulting 主题 lines), the 2021 sample question and its named e-mail addresses, and the year-code map of question types. Kept checklist, format rules, skeleton, four question types, 反映情况 structure and 参考句式. “学学生宣传” corrected to “向学生宣传”. |
+| `g3-s4-narrative-revision` 记叙文复习 | 中四 G3 四个单元（inferred，通用复习） | G3/S4/2026中四复习笔记（3）： 记叙文.pdf | Removed the 审题范例 table of SEAB questions and their marking notes; kept the general lessons from it as two steps (every keyword, 详略, first person, 启示). Kept structure, skills list, three teacher-written endings and the idiom list without pinyin. “别以善小而不为” written as 勿以善小而不为. |
+| `g3-s4-character-feelings-wordbank` 人物描写词库 | 中四 G3 四个单元（inferred，通用复习） | G3/S4/2026中四复习笔记（3）： 记叙文.pdf（第六、七部分） | Tables for four character types × three feelings × calm/agitated flattened into paragraphs; English column headings dropped. Duplicate 吩咐 removed from the 命令 list. |
+| `g3-s4-suggestions-pigss` 提出建议 | 中四 G3 四个单元，走进社区，沟通你我他，小人物 大贡献（inferred，通用方法） | G3/S4/2026中四复习笔记：提出建议.pdf<br>G3/S3/公务电邮/2026中四复习笔记：提出建议.pdf（同一文件）<br>G2/S1/口语训练/BVSS 中一 口语教学.pdf（想法部分） | Same 建议/如何进行/原因 structure and five angles appear in the Sec 1 G2 oral deck, so streams G2 and G3. Removed pinyin and English keyword glosses, the PIGSS acronym and the 路演 fragment completed only to the end of its sentence frame. “亲自关系” corrected to 亲子关系; “一一些” to 一些. |
+| `g2-s1-oral-see-think-wonder` 录像会话三步法 | 新同学 新鲜事，相约狮城，习惯的力量，小人物 大贡献（inferred，中一 G2 口试通用） | G2/S1/口语训练/BVSS 中一 口语教学.pdf<br>G2/S1/口语训练/WONDER 笔记.pdf（文字识别） | Slide titles triplicated by the export were collapsed. English step names SEE/THINK/WONDER rendered as 看、想、答; SAO as 情况、动作、结果; English and pinyin feeling columns dropped. Questions that only make sense with the class video (你做过录像中的事吗) left out; six stand-alone practice questions kept. The 皮皮 mascot lines and Wayground break removed. |
+| `g2-s2-oral-topic-notes` 口试话题复习 | 绿色生活，心系家园（inferred） | G2/S2/《口试话题复习资料》.pdf（扫描件，文字识别） | Pages 1 to 4 (tips, PEEL, three handwritten topic tables) kept. The printed 口试答题指引 on 再循环计划 and the 话题4 减少塑料污染 参考答案 (pages 4 to 5) were not used: layout and wording suggest a published source rather than department writing. English glosses removed; 识别 errors corrected from context (口朗读 → 朗读). No year on the file. |
+| `g2-s2-personal-email-format` 私人电邮格式 | 爱的表达，关爱动物，成长的足迹（inferred，配合现有 G2 中二电邮练习） | G2/S2/4文化站/电邮和作文/电邮格式 私人电邮.pdf（文字识别） | Same table as the Sec 4 revision note; kept as a short G2 card. |
+| `g3-s2-compo-camping-model-2` 范文二：从争执到理解 | 爱的表达（inferred，同 `g3-s2-compo-camping-persuasion`） | G3/S2/LSB/写作/作文/中二 作文二 范文.pdf | Teacher's parenthetical annotations converted to notes; em dashes replaced by colons. Prompt copied from the existing G3 camping item. |
+| `hcl-s4-oral-discussion-peel` 口试讨论方法 | 中四 HCL 五个单元（inferred，通用方法） | G3 HCL/S4/口试训练/高华口试 - 讨论复习材料.pdf（第一、二、四部分） | Removed class code, 预考冲刺 label and the direct quotations of SEAB grade descriptors (等级1 要求 column); kept the teacher's 对应做法 wording. PEEL letters rendered as 界定、展开、举例、扣题 and 立场、理由、例子、扣题. |
+| `hcl-s4-oral-discuss-entrepreneurship` 创业精神 | 成功的要素（inferred） | G3 HCL/S4/口试训练/高华口试 - 讨论复习材料.pdf（话题一）<br>G3 HCL/S4/口试训练/2026 4HC3 口头报告 - 创业精神.pdf（组织分论点栏） | The 旁白/采访 video transcript and all evidence sentences that cite the video were excluded; only the teacher's two sets of three sub-points and conclusions are kept as frames. Predicted questions and the 论证题 示范 kept; the 解释题 示范 dropped because it cites a video scene. |
+| `hcl-s4-oral-discuss-wet-market` 湿巴刹 | 适应的力量（inferred） | G3 HCL/S4/口试训练/高华口试 - 讨论复习材料.pdf（话题二） | 解释题 示范 shortened by removing the sentence that cites the video interviewee; 论证题 示范 kept whole. |
+| `hcl-s4-oral-discuss-green-housing` 环保型居住环境 | 绿色生活（inferred，HCL 门） | G3 HCL/S4/口试训练/高华口试 - 讨论复习材料.pdf（话题三） | 解释题 示范 shortened by removing “录像里就有几个很具体的例子” framing; the examples themselves kept. 论证题 示范 kept whole. |
+
+### 补充现有项目
+
+| 项目 | 源文件 | 补充内容 |
+| --- | --- | --- |
+| `g3-s2-siren-email-mother` | G3/S2/LSB/写作/电邮/2C3A中二 电邮一 反馈.pdf | Class feedback added as 自检 (checks): unified stance, S P1E1 P2E2 order, five examples of points that fail to score and how to fix them, PWH for suggestions. Class code removed. |
+| `g2-s3-lunshuowen-qingshaonian-wangluo` | G2/S3/LSB/写作/写作/作文4 议论文 compo4.pdf（文字识别） | 论据库 added as points. The quotation attributed to a named entrepreneur was not added. |
+| `g2-s4-daoxu-shixian-mubiao` | G2/S4/单元二/写作/4NA 单元二写作-课件.pdf（文字识别） | Steps replaced with the deck's material-selection questions and the three 倒叙 methods with their prompt questions. The 顺叙/倒叙 comparison paragraph was excluded (textbook overlap). |
+
+### 读取后未收录的 PDF
+
+| 文件 | 原因 |
+| --- | --- |
+| G2/S3/LSB/单元一/单元一/3.1.pdf | 他校（德能中学）生活空间练习。 |
+| G3 HCL/S4/口试训练/高级华文口头报告评分标准.pdf | SEAB 评分指引。 |
+| G3 HCL/S4/口试训练/2026 4HC3 口头报告 - 创业精神.pdf（旁白/采访与证据栏） | 考试录像文字稿与引用录像的证据；只取教师分论点。 |
+| G3/S1/2026实用文-私人电邮/2026 1G3 电邮二 （ 中学生活）-上课笔记.pdf | 同名 docx 已收录。 |
+| G2/S2/2G2 term 1/作文和电邮/作文一/作文一 范文改版.pdf | 与已收录范文相同，仅加教师标注，标注已在现有项目中。 |
+| G2/S2/6. 中二普通学术/05. 单元三/写作/课件_2N单元三写作（公务电邮-食物垃圾） (1).pdf | 同一课件的 pptx 已收录，内容一致（教师姓名未收录）。 |
+| G3 HCL/S4/口试训练/Harvard PZ MTV Generate-Sort-Connect-Elaborate.pdf | 外部出版物。 |
+| G3 HCL/S4/口试训练/历届考题整理/…、G3/S4/O水准历届口试话题.pdf、G3 HCL/S4/口试训练/20260305 GSCE 湿巴刹.pdf | 历届考题整理。 |
+| G3/S4/历年校本/S4 Revision Booklet P1、P3 | 历年试卷汇编。 |
+| G3/S1/早报阅读材料/zbschools-userguide-teachers.pdf | 工具使用说明。 |

@@ -35,6 +35,16 @@ Full per-item provenance (source file names under the CL folder, stated versus i
 - Vocabulary 词语笔记 files are tied to textbook passages and stay out; the hub vocabulary bank links remain the vocabulary source.
 - The two 20261029 drafts (中一单元一 教师范文与笔记, 中二单元二 关爱动物) still await the owner's vetting; their [新拟] sentences are not published.
 
+## PDF pass, October 31 2026
+
+The 404 PDF files in the teaching folder were inventoried after the docx/pptx pass. Most are CPDD textbooks, workbooks, teacher guides, examination papers, student work, textbook-based worksheets or school administration, and were excluded by path. Of 61 remaining candidates, 45 were PDF exports of files already processed; the other 20 were read (4 image-only files through macOS text recognition). Result: 13 new items and 3 extended items, bringing the data file to 92 items on 31 topics.
+
+- G3 Sec 4 now has material: four 复习笔记 guides (私人电邮, 公务电邮, 记叙文 structure and endings, 人物描写词库) on all four G3 Sec 4 topics, plus a shared 提出建议 method that also serves G2.
+- HCL Sec 4 gains the discussion-stage method (two question types, PEEL frames, rescue phrases) and three discussion practice sets (创业精神, 湿巴刹, 环保型居住环境) with predicted examiner questions and teacher model answers.
+- G2 Sec 1 gains the 看、想、答 oral method; G2 Sec 2 gains oral topic notes and the e-mail format card.
+- Every SEAB question text, year code, grade-descriptor quotation and examination-video transcript in these files was removed; the 4NA 倒叙 example paragraph was dropped after the textbook fingerprint matched 《我的五样》.
+- Owner should check: the three HCL discussion topics are public oral-examination topics by wording; the questions and answers are the teacher's. The G2 Sec 2 《口试话题复习资料》 scan mixes handwritten teacher notes with two printed pages that look published; only the teacher pages were used.
+
 ## Validation
 
 - `python3 tools/20261031_validate_dept_practice.py`: structure, topic and door mapping, hygiene rules (no e-mail, URL, blanks, class codes, pinyin, exam or page references), textbook screen. PASS, 79 items.
