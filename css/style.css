@@ -279,3 +279,12 @@ a.rc:hover{border-color:var(--sea)}
 @media (max-width:520px){.wrap{padding-inline:16px}.tabs button{padding:10px 10px}}
 
 .atlas-heading{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Verified resource links and source vocabulary, with no empty resource cards. */
+.resource-meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.75rem;color:var(--muted);align-items:center}
+.resource-meta>span{border:1px solid var(--line);border-radius:99px;padding:1px 7px}
+.vocab-section{margin-top:16px}
+.vocab-section .chips{margin:12px 0}
+.vocab-section .res{margin-top:12px}
+.rc .tt{overflow-wrap:anywhere}
+.tabs{overflow-x:auto}
