@@ -133,3 +133,6 @@ The lower school behind six students now follows the owner's actual building pho
 
 
 Foreground reader expression refinement, October 30 2026: owner approved the page and requested less identical smiles. Built-in imagegen v40 gives the boy a neutral absorbed reading expression and the girl a small relaxed smile. Production asset is `assets/atlas/watercolor-map-v40.webp`; v39 is preserved. Exact prompt and handoff: `docs/20261030_Codex_reader-expressions_handoff.md`. Existing PR #2 receives the refinement.
+
+
+Background trail refinement, October 30 2026: owner approved v40 and requested more natural winding paths near the distant relics. Built-in imagegen v41 softens the temple-front strip and the middle-distance approach to the waterfront into irregular curves. Production asset: `assets/atlas/watercolor-map-v41.webp`, with v40 preserved. Keep the approved school/HDB identity, varied school skin tones and distinct reader expressions. Prompt, provenance and checks: `docs/20261030_Codex_winding-path_handoff.md`. Existing PR #2 receives this refinement.

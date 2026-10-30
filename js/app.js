@@ -64,7 +64,7 @@ function atlasScene(r,i){
 }
 function atlasMap(){
   return '<div class="atlas-stage"><div class="mapbox atlas-map"><svg viewBox="0 0 1536 1024" role="group" aria-label="话题地图">'+
-   '<image href="assets/atlas/watercolor-map-v40.webp" width="1536" height="1024" aria-hidden="true"/>'+
+   '<image href="assets/atlas/watercolor-map-v41.webp" width="1536" height="1024" aria-hidden="true"/>'+
    SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div></div>'+
    '<nav class="atlas-regions" aria-label="话题地图">'+REGIONS.map(function(r,i){
     return '<button data-reg="'+r.id+'" class="atlas-region'+(regionMine(r.id)?' mine':'')+'"><span class="atlas-index" aria-hidden="true">'+(i+1)+'</span><span><b>'+atlasName(r)+'</b><span class="atlas-meta">'+(r.motto?esc(r.motto)+' · ':'')+countR(r.id)+' 个话题</span></span>'+(regionMine(r.id)?'<span class="atlas-mine">我的课本</span>':'')+'</button>';
