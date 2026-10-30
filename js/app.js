@@ -62,10 +62,15 @@ function atlasScene(r,i){
    '<path class="atlas-hit" d="'+g.area+'"/><g class="atlas-marker" transform="translate('+g.marker.join(' ')+')">'+
    '<circle r="22"/><text y="8" text-anchor="middle">'+(i+1)+'</text></g></g>';
 }
+// Face-only restoration keeps every approved scene outside the playground faces intact.
+var PLAYGROUND_FACES=[[1012,434],[1074,452],[1150,432],[1178,472],[1222,450],[1262,455],[1325,430]];
+function playgroundFaces(){
+  return '<defs><radialGradient id="play-face-feather"><stop offset="65%" stop-color="white"/><stop offset="100%" stop-color="black"/></radialGradient><mask id="play-face-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024"><rect width="1536" height="1024" fill="black"/>'+PLAYGROUND_FACES.map(function(p){return '<ellipse cx="'+p[0]+'" cy="'+p[1]+'" rx="16" ry="17" fill="url(#play-face-feather)"/>';}).join('')+'</mask></defs><image href="assets/atlas/playground-faces-v43.webp" width="1536" height="1024" mask="url(#play-face-mask)" aria-hidden="true" pointer-events="none"/>';
+}
 function atlasMap(){
   return '<div class="atlas-stage"><div class="mapbox atlas-map"><svg viewBox="0 0 1536 1024" role="group" aria-label="话题地图">'+
    '<image href="assets/atlas/watercolor-map-v42.webp" width="1536" height="1024" aria-hidden="true"/>'+
-   SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div></div>'+
+   playgroundFaces()+SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div></div>'+
    '<nav class="atlas-regions" aria-label="话题地图">'+REGIONS.map(function(r,i){
     return '<button data-reg="'+r.id+'" class="atlas-region'+(regionMine(r.id)?' mine':'')+'"><span class="atlas-index" aria-hidden="true">'+(i+1)+'</span><span><b>'+atlasName(r)+'</b><span class="atlas-meta">'+(r.motto?esc(r.motto)+' · ':'')+countR(r.id)+' 个话题</span></span>'+(regionMine(r.id)?'<span class="atlas-mine">我的课本</span>':'')+'</button>';
    }).join("")+'</nav>';

@@ -139,3 +139,6 @@ Background trail refinement, October 30 2026: owner approved v40 and requested m
 
 
 School group gender refinement, October 30 2026: owner requests exactly three boys and three girls, interspersed in two groups of three, retaining existing skin colors. V42 arranges girl-boy-girl on the left and boy-girl-boy on the right, with deeper skin tones on each group's center student. Boys wear full-length brown trousers; girls wear skirt-like brown culottes. Production asset: `assets/atlas/watercolor-map-v42.webp`, with v41 preserved. Built-in imagegen prompts and handoff: `docs/20261030_Codex_school-groups_handoff.md`. Existing PR #2 receives the correction.
+
+
+Playground facial-detail restoration, October 30 2026: owner identified blurry faces after subsequent full-map edits. Built-in imagegen restores six playground children and the supervising adult. Base map remains v42. `assets/atlas/playground-faces-v43.webp` is overlaid through seven small feathered SVG face masks, preserving original pixels in all other scenes. Keep this restoration when changing map assets; revisit mask positions if playground geometry changes. Prompt/provenance: `docs/20261030_Codex_playground-faces_handoff.md`.
