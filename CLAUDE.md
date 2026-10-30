@@ -136,3 +136,6 @@ Foreground reader expression refinement, October 30 2026: owner approved the pag
 
 
 Background trail refinement, October 30 2026: owner approved v40 and requested more natural winding paths near the distant relics. Built-in imagegen v41 softens the temple-front strip and the middle-distance approach to the waterfront into irregular curves. Production asset: `assets/atlas/watercolor-map-v41.webp`, with v40 preserved. Keep the approved school/HDB identity, varied school skin tones and distinct reader expressions. Prompt, provenance and checks: `docs/20261030_Codex_winding-path_handoff.md`. Existing PR #2 receives this refinement.
+
+
+School group gender refinement, October 30 2026: owner requests exactly three boys and three girls, interspersed in two groups of three, retaining existing skin colors. V42 arranges girl-boy-girl on the left and boy-girl-boy on the right, with deeper skin tones on each group's center student. Boys wear full-length brown trousers; girls wear skirt-like brown culottes. Production asset: `assets/atlas/watercolor-map-v42.webp`, with v41 preserved. Built-in imagegen prompts and handoff: `docs/20261030_Codex_school-groups_handoff.md`. Existing PR #2 receives the correction.
