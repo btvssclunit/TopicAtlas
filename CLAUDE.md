@@ -117,3 +117,9 @@ Continuous path follow-up, October 11 2026: owner identified doubled personal ro
 ### 20261011 · Codex v38 muted watercolor review
 
 Owner requested lower saturation and softer watercolor edges. Generated a quieter palette with simplified pathside foliage and atmospheric 写意 distance, retaining finer 工笔 subjects. Review draft: `docs/mockups/20261011_switchback-v38.html`. Preserved continuous route and independent school identity/title/seal overlays. Production integration remains pending owner review. Exact prompt and asset provenance: `docs/20261011_Codex_v38_handoff.md`.
+
+## Homepage art integration, October 30 2026
+
+Owner requested applying the reviewed artwork to the current GitHub repo. `js/app.js` now uses the v38 watercolor map for the real homepage, with separate horizontal and vertical calligraphy, school seal and facade crest/name. Production assets live in `assets/atlas/`, not the prototype folder. Six keyboard-accessible scene groups and six native buttons open existing region routes. Counts and textbook highlighting derive from existing data. 天下 is the reviewed map display label for internal `shijie`; data/content and topic records are unchanged. The map retains pale paper in both themes; controls and surroundings follow the theme. Navigation focuses the destination heading. Original student-facing prose, picker, catalogue and lesson content remain in place.
+
+Handoff and validation: `docs/20261030_Codex_art-integration_handoff.md`. Saved desktop, phone, dark-mode and integrated-art screenshots are dated 20261030. Existing PR #1 contains the integration and preserved design history. Merging remains the owner's deployment step. No framework, build step, runtime dependency or tracking was added.

@@ -33,7 +33,7 @@ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp
 function top(crumbs,here){
   var c=crumbs.length>1?'<nav class="crumbs" aria-label="位置">'+crumbs.map(function(x,i){return i<crumbs.length-1?'<button data-go="'+x[1]+'">'+x[0]+'</button><span aria-hidden="true">›</span>':'<span>'+x[0]+'</span>';}).join("")+'</nav>':"";
   function nb(id,label){return '<button data-go="'+id+'"'+(here===id?' aria-current="page"':'')+'>'+label+'</button>';}
-  return '<header class="top"><div class="brand"><b>谈天说地</b><span class="en">Topic Atlas</span><span class="tag">示范版 · 内容待审</span></div>'+
+  return '<header class="top"><div class="brand"><span class="brand-lockup"><img src="assets/atlas/title-calligraphy.webp" width="224" height="81" alt="谈天说地"><span class="en">Topic Atlas</span></span><span class="tag">示范版 · 内容待审</span></div>'+
    '<nav class="nav" aria-label="主菜单">'+nb("world","话题地图")+nb("cat","课本目录")+'<a href="'+VS+'" target="_blank" rel="noopener">词山学海 ↗</a></nav></header>'+c;
 }
 function picker(){
@@ -45,37 +45,35 @@ function foot(){return '<footer class="foot"><span>百德中学 母语部 华文
 function countR(rid){return TOPICS.filter(function(t){return t.region===rid;}).length;}
 
 /* ---------- world ---------- */
-var GEO={
- geren:{cx:500,cy:318,rx:168,ry:118,rot:-3,fs:46},
- jiating:{cx:215,cy:150,rx:108,ry:70,rot:6,fs:32},
- xiaoyuan:{cx:790,cy:150,rx:118,ry:76,rot:-5,fs:32},
- shequ:{cx:835,cy:465,rx:122,ry:82,rot:4,fs:32},
- guojia:{cx:505,cy:560,rx:122,ry:60,rot:-2,fs:32},
- shijie:{cx:172,cy:468,rx:128,ry:86,rot:-6,fs:32}
+var ATLAS_SCENES={
+ geren:{area:'M0 760L170 735L460 792L760 850L820 950L710 1024H0Z',marker:[65,995]},
+ jiating:{area:'M30 640L250 550L300 570L350 550L435 550L490 615L490 690L640 740L700 790L660 840L435 802L306 769L110 779L0 790Z',marker:[616,777]},
+ xiaoyuan:{area:'M110 510L370 435L680 450L825 510L1000 580L1080 690L950 744L650 720L490 690L490 615L435 550L350 550L300 570L250 550L50 600Z',marker:[1030,675]},
+ shequ:{area:'M290 336L548 305L699 338L876 323L1116 345L1370 373L1460 476L1430 560L1040 535L758 471L335 450Z',marker:[1432,530]},
+ guojia:{area:'M490 211L720 185L1049 224L1389 208L1500 293L1536 363L1145 357L926 325L590 322Z',marker:[665,309]},
+ shijie:{area:'M390 112L500 30L627 34L736 49L882 56L1060 68L1259 100L1320 21L1420 20L1536 132V224L1279 207L1038 188L725 203L445 222Z',marker:[1456,201]}
 };
-function isle(r){
-  var g=GEO[r.id],mine=regionMine(r.id)?" mine":"",n=countR(r.id);
-  var pk=function(x,y,h){return '<path class="pk" d="M'+(x-h*0.9)+' '+y+' L'+x+' '+(y-h)+' L'+(x+h*0.9)+' '+y+' Z"/>';};
-  var base=g.cy-g.ry*0.18;
-  var peaks=pk(g.cx-g.ry*0.55,base,g.ry*0.36)+pk(g.cx,base,g.ry*0.52)+pk(g.cx+g.ry*0.5,base,g.ry*0.32);
-  var motto=r.motto?'<text class="motto" x="'+g.cx+'" y="'+(g.cy-g.ry*0.18-g.ry*0.56)+'" font-size="'+Math.round(g.fs*0.5)+'">'+r.motto+'</text>':"";
-  return '<g class="isl'+mine+'" data-reg="'+r.id+'" role="button" tabindex="0" aria-label="'+r.name+'，'+n+'个话题">'+
-   '<ellipse class="ring" cx="'+g.cx+'" cy="'+g.cy+'" rx="'+(g.rx+18)+'" ry="'+(g.ry+18)+'" transform="rotate('+g.rot+' '+g.cx+' '+g.cy+')"/>'+
-   '<ellipse class="land" cx="'+g.cx+'" cy="'+g.cy+'" rx="'+g.rx+'" ry="'+g.ry+'" transform="rotate('+g.rot+' '+g.cx+' '+g.cy+')"/>'+
-   (r.id==="guojia"?"":peaks)+motto+
-   '<text x="'+g.cx+'" y="'+(g.cy+(r.id==="guojia"?8:g.ry*0.36))+'" font-size="'+g.fs+'">'+r.name+'</text>'+
-   '<text class="cnt" x="'+g.cx+'" y="'+(g.cy+(r.id==="guojia"?8:g.ry*0.36)+g.fs*0.75)+'" font-size="'+Math.round(g.fs*0.55)+'">'+n+' 个话题</text></g>';
+var SCHOOL_IDENTITY="<g id=\"school-identity\" aria-hidden=\"true\" pointer-events=\"none\">\n<path d=\"M445 499L506 516V579L445 562Z\" fill=\"#fbf3e6\" stroke=\"#b5ad9d\" stroke-width=\"0.7\"/>\n<image href=\"assets/atlas/bvss-crest.png\" x=\"461\" y=\"515\" width=\"30\" height=\"30\"/>\n<g fill=\"#244f43\" font-family=\"Arial,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" transform=\"rotate(14 476 553)\"><text x=\"476\" y=\"553\" font-size=\"9.5\" textLength=\"54\" lengthAdjust=\"spacingAndGlyphs\">BUKIT VIEW</text><text x=\"476\" y=\"564\" font-size=\"6.6\" textLength=\"54\" lengthAdjust=\"spacingAndGlyphs\">SECONDARY SCHOOL</text></g>\n</g>\n";
+var ATLAS_BRANDING="<g aria-hidden=\"true\" pointer-events=\"none\">\n<image class=\"title-sprite\" href=\"assets/atlas/title-vertical.webp\" x=\"1375\" y=\"643\" width=\"115\" height=\"354\" preserveAspectRatio=\"xMidYMid meet\"/>\n<text transform=\"translate(1335 709) rotate(90)\" fill=\"#465248\" font-family=\"Georgia, Times New Roman, serif\" font-size=\"25\" letter-spacing=\"2\">Topic Atlas</text>\n<image href=\"assets/atlas/school-seal.webp\" x=\"1291\" y=\"892\" width=\"88\" height=\"88\" preserveAspectRatio=\"xMidYMid meet\"/>\n</g>";
+function atlasName(r){return r.id==="shijie"?"天下":r.name;}
+function atlasScene(r,i){
+  var g=ATLAS_SCENES[r.id],mine=regionMine(r.id),label=atlasName(r)+'，'+countR(r.id)+'个话题';
+  return '<g class="atlas-scene'+(mine?' mine':'')+'" data-reg="'+r.id+'" role="button" tabindex="0" aria-label="'+esc(label)+'">'+
+   '<path class="atlas-hit" d="'+g.area+'"/><g class="atlas-marker" transform="translate('+g.marker.join(' ')+')">'+
+   '<circle r="22"/><text y="8" text-anchor="middle">'+(i+1)+'</text></g></g>';
+}
+function atlasMap(){
+  return '<div class="mapbox atlas-map"><svg viewBox="0 0 1536 1024" role="group" aria-label="话题地图">'+
+   '<image href="assets/atlas/watercolor-map.webp" width="1536" height="1024" aria-hidden="true"/>'+
+   SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div>'+
+   '<nav class="atlas-regions" aria-label="话题地图">'+REGIONS.map(function(r,i){
+    return '<button data-reg="'+r.id+'" class="atlas-region'+(regionMine(r.id)?' mine':'')+'"><span class="atlas-index" aria-hidden="true">'+(i+1)+'</span><span><b>'+atlasName(r)+'</b><span class="atlas-meta">'+(r.motto?esc(r.motto)+' · ':'')+countR(r.id)+' 个话题</span></span>'+(regionMine(r.id)?'<span class="atlas-mine">我的课本</span>':'')+'</button>';
+   }).join("")+'</nav>';
 }
 function world(){
-  var waves="";for(var i=0;i<8;i++){var y=60+i*75,x=(i%2)*50;waves+='<path class="wave" d="M'+(330+x)+' '+y+' q15 -10 30 0 t30 0"/><path class="wave" d="M'+(40+x)+' '+(y+20)+' q15 -10 30 0 t30 0"/><path class="wave" d="M'+(900-x)+' '+(y+40)+' q15 -10 30 0 t30 0"/>';}
-  var route='<path class="route" d="M380 250 Q300 200 312 165 M300 190 Q500 110 680 150 M820 225 Q900 330 850 385 M760 500 Q680 560 625 560 M385 565 Q290 560 255 525"/>';
-  var svg='<svg viewBox="0 0 1000 640" role="img" aria-label="话题地图：中间是个人，四周是家庭、校园、社区、国家和世界">'+
-   '<rect width="1000" height="640" fill="var(--map-sea)"/>'+waves+
-   '<circle cx="500" cy="64" r="30" fill="var(--sun)" opacity=".85"/>'+route+
-   REGIONS.map(isle).join("")+'</svg>';
-  app.innerHTML='<div class="view">'+top([["话题地图","world"]],"world")+
+  app.innerHTML='<div class="view atlas-home">'+top([["话题地图","world"]],"world")+
    '<section class="hero"><h1>华文话题地图</h1><p class="quote">《大学》：修身、齐家、治国、平天下。</p><p>学华文，也是认识自己、认识世界的过程。地图从个人出发，一路走向家庭、校园、社区、国家和世界。每个地方都有几个话题，走进话题，再选你的源流之门：口试会话、实用文、作文、范文和资源都在里面。</p></section>'+
-   picker()+'<div class="mapbox">'+svg+'</div>'+
+   atlasMap()+picker()+
    '<div class="maplegend"><span>点一个地方，看那里的话题。</span><span>示范版开放两个话题：校园的「新同学 新鲜事」和个人的「学无止境」。</span><span>想按课本顺序找？用上面的「课本目录」。</span></div>'+
    '<details class="team"><summary>给华文组老师：这个示范版展示什么？</summary><ul>'+
    '<li>按话题组织，代替印刷的话题校本。四个源流 92 个单元，整理成 37 个话题。</li>'+
@@ -196,6 +194,7 @@ function topicView(id){
 
 /* ---------- routing ---------- */
 function render(){
+  document.body.classList.toggle("atlas-world",S.view==="world");
   if(S.view==="world")world();
   else if(S.view==="region")regionView(S.region);
   else if(S.view==="cat")catView();
@@ -206,6 +205,7 @@ function go(v){
   else if(v==="cat")S.view="cat";
   else if(v.indexOf("reg:")===0){S.view="region";S.region=v.slice(4);}
   render();window.scrollTo(0,0);
+  var heading=app.querySelector("h1");if(heading){heading.setAttribute("tabindex","-1");heading.focus({preventScroll:true});}
 }
 app.addEventListener("click",function(e){
   var b=e.target.closest("[data-go],[data-reg],[data-topic],[data-door],[data-tab],[data-ms],[data-ml],[data-cs],[data-gloss]");

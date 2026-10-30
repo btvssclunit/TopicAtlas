@@ -19,3 +19,7 @@ Original built-in generated art TopicAtlas-quarter-v5 through v9; compact WebP/J
 `bvss-crest.png` is the actual institutional crest, used at the owner's explicit request, not claimed as original/CC0. Source: https://www.bukitviewsec.moe.edu.sg/our-story/logo-n-song/ ; original asset https://isomer-user-content.by.gov.sg/943/38af9e75-6fdb-4c89-875f-3581678564f7/bvss-School-logo-w-no-background-high-res-300x300.png . Actual facade and attire photographs served as references, not site artwork.
 
 The NParks photo moodboard is reference-only and links original species/photo credit pages; it is not part of the student-facing atlas. Photos remain NParks/photographers' copyright. See `docs/20261010_modular-atlas.md` and the Claude handoff for reference sources and constraints.
+
+## Production watercolor atlas, October 30 2026
+
+`assets/atlas/watercolor-map.webp` is the unchanged v38 generated display artwork. `title-calligraphy.webp` and `school-seal.webp` are unchanged v32 sprites; `title-vertical.webp` is the unchanged v33 sprite. Exact prompts and full masters remain in the corresponding dated handoffs and mockup archive. `bvss-crest.png` is the owner-requested institutional crest credited above. The SVG facade label is editable code. These five files total 589,534 bytes; production does not load the archived masters or reference photos. No new generation or third-party photography was used for integration.
