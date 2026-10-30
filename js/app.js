@@ -53,7 +53,7 @@ var ATLAS_SCENES={
  guojia:{area:'M490 211L720 185L1049 224L1389 208L1500 293L1536 363L1145 357L926 325L590 322Z',marker:[665,309]},
  shijie:{area:'M390 112L500 30L627 34L736 49L882 56L1060 68L1259 100L1320 21L1420 20L1536 132V224L1279 207L1038 188L725 203L445 222Z',marker:[1456,201]}
 };
-var SCHOOL_IDENTITY="<g id=\"school-identity\" aria-hidden=\"true\" pointer-events=\"none\">\n<path d=\"M445 499L506 516V579L445 562Z\" fill=\"#fbf3e6\" stroke=\"#b5ad9d\" stroke-width=\"0.7\"/>\n<image href=\"assets/atlas/bvss-crest.png\" x=\"461\" y=\"515\" width=\"30\" height=\"30\"/>\n<g fill=\"#244f43\" font-family=\"Arial,sans-serif\" font-weight=\"bold\" text-anchor=\"middle\" transform=\"rotate(14 476 553)\"><text x=\"476\" y=\"553\" font-size=\"9.5\" textLength=\"54\" lengthAdjust=\"spacingAndGlyphs\">BUKIT VIEW</text><text x=\"476\" y=\"564\" font-size=\"6.6\" textLength=\"54\" lengthAdjust=\"spacingAndGlyphs\">SECONDARY SCHOOL</text></g>\n</g>\n";
+var SCHOOL_IDENTITY='<g id="school-identity" aria-hidden="true" pointer-events="none"><image href="assets/atlas/bvss-crest.png" x="560" y="507" width="30" height="30"/></g>';
 var ATLAS_BRANDING="<g aria-hidden=\"true\" pointer-events=\"none\">\n<image class=\"title-sprite\" href=\"assets/atlas/title-vertical.webp\" x=\"1375\" y=\"643\" width=\"115\" height=\"354\" preserveAspectRatio=\"xMidYMid meet\"/>\n<text transform=\"translate(1335 709) rotate(90)\" fill=\"#465248\" font-family=\"Georgia, Times New Roman, serif\" font-size=\"25\" letter-spacing=\"2\">Topic Atlas</text>\n<image href=\"assets/atlas/school-seal.webp\" x=\"1291\" y=\"892\" width=\"88\" height=\"88\" preserveAspectRatio=\"xMidYMid meet\"/>\n</g>";
 function atlasName(r){return r.id==="shijie"?"天下":r.name;}
 function atlasScene(r,i){
@@ -63,17 +63,23 @@ function atlasScene(r,i){
    '<circle r="22"/><text y="8" text-anchor="middle">'+(i+1)+'</text></g></g>';
 }
 function atlasMap(){
-  return '<div class="mapbox atlas-map"><svg viewBox="0 0 1536 1024" role="group" aria-label="话题地图">'+
-   '<image href="assets/atlas/watercolor-map.webp" width="1536" height="1024" aria-hidden="true"/>'+
-   SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div>'+
+  return '<div class="atlas-stage"><div class="mapbox atlas-map"><svg viewBox="0 0 1536 1024" role="group" aria-label="话题地图">'+
+   '<image href="assets/atlas/watercolor-map-v39.webp" width="1536" height="1024" aria-hidden="true"/>'+
+   SCHOOL_IDENTITY+REGIONS.map(atlasScene).join("")+ATLAS_BRANDING+'</svg></div></div>'+
    '<nav class="atlas-regions" aria-label="话题地图">'+REGIONS.map(function(r,i){
     return '<button data-reg="'+r.id+'" class="atlas-region'+(regionMine(r.id)?' mine':'')+'"><span class="atlas-index" aria-hidden="true">'+(i+1)+'</span><span><b>'+atlasName(r)+'</b><span class="atlas-meta">'+(r.motto?esc(r.motto)+' · ':'')+countR(r.id)+' 个话题</span></span>'+(regionMine(r.id)?'<span class="atlas-mine">我的课本</span>':'')+'</button>';
    }).join("")+'</nav>';
 }
 function world(){
+  var openPanel=app.querySelector('dialog[open]');
+  var panelId=openPanel?openPanel.id:null;
+  var focused=document.activeElement;
+  var pickerFocus=focused&&focused.matches('[data-ms],[data-ml]')?{key:focused.hasAttribute('data-ms')?'data-ms':'data-ml',value:focused.getAttribute(focused.hasAttribute('data-ms')?'data-ms':'data-ml')}:null;
   app.innerHTML='<div class="view atlas-home">'+top([["话题地图","world"]],"world")+
-   '<section class="hero"><h1>华文话题地图</h1><p class="quote">《大学》：修身、齐家、治国、平天下。</p><p>学华文，也是认识自己、认识世界的过程。地图从个人出发，一路走向家庭、校园、社区、国家和世界。每个地方都有几个话题，走进话题，再选你的源流之门：口试会话、实用文、作文、范文和资源都在里面。</p></section>'+
-   atlasMap()+picker()+
+   '<h1 class="atlas-heading">华文话题地图</h1><div class="atlas-tools"><button data-panel="atlas-intro">华文话题地图</button><button data-panel="atlas-picker">我的课本</button></div>'+
+   atlasMap()+
+   '<dialog class="atlas-panel" id="atlas-intro" aria-labelledby="atlas-heading"><button class="panel-close" data-close aria-label="Close">×</button>'+
+   '<section class="hero"><h2 id="atlas-heading">华文话题地图</h2><p class="quote">《大学》：修身、齐家、治国、平天下。</p><p>学华文，也是认识自己、认识世界的过程。地图从个人出发，一路走向家庭、校园、社区、国家和世界。每个地方都有几个话题，走进话题，再选你的源流之门：口试会话、实用文、作文、范文和资源都在里面。</p></section>'+
    '<div class="maplegend"><span>点一个地方，看那里的话题。</span><span>示范版开放两个话题：校园的「新同学 新鲜事」和个人的「学无止境」。</span><span>想按课本顺序找？用上面的「课本目录」。</span></div>'+
    '<details class="team"><summary>给华文组老师：这个示范版展示什么？</summary><ul>'+
    '<li>按话题组织，代替印刷的话题校本。四个源流 92 个单元，整理成 37 个话题。</li>'+
@@ -83,7 +89,11 @@ function world(){
    '<li>虚线框是 Edcafe 的位置：会话练习机器人和自动批改作业。老师在 Edcafe 建好后，把嵌入代码贴进来。</li>'+
    '<li>「我的课本」会在地图上标出学生这一年的话题；「课本目录」按单元顺序列出所有话题。</li>'+
    '<li>所有题目、导读和范文都是原创草稿，待审。课文只列篇名，不转载内容。</li></ul></details>'+
-   foot()+'</div>';
+   foot()+'</dialog><dialog class="atlas-panel" id="atlas-picker" aria-label="我的课本"><button class="panel-close" data-close aria-label="Close">×</button>'+picker()+'</dialog></div>';
+  if(panelId){
+    document.getElementById(panelId).showModal();
+    if(pickerFocus)app.querySelector('['+pickerFocus.key+'="'+pickerFocus.value+'"]').focus();
+  }
 }
 
 /* ---------- region ---------- */
@@ -208,8 +218,10 @@ function go(v){
   var heading=app.querySelector("h1");if(heading){heading.setAttribute("tabindex","-1");heading.focus({preventScroll:true});}
 }
 app.addEventListener("click",function(e){
-  var b=e.target.closest("[data-go],[data-reg],[data-topic],[data-door],[data-tab],[data-ms],[data-ml],[data-cs],[data-gloss]");
+  var b=e.target.closest("[data-panel],[data-close],[data-go],[data-reg],[data-topic],[data-door],[data-tab],[data-ms],[data-ml],[data-cs],[data-gloss]");
   if(!b||b.disabled)return;
+  if(b.dataset.panel){document.getElementById(b.dataset.panel).showModal();return;}
+  if(b.hasAttribute("data-close")){b.closest("dialog").close();return;}
   if(b.hasAttribute("data-go")){if(b.dataset.go)go(b.dataset.go);return;}
   if(b.dataset.reg){go("reg:"+b.dataset.reg);return;}
   if(b.dataset.topic){S.view="topic";S.topic=b.dataset.topic;S.door=b.dataset.pref||null;S.tab="intro";render();window.scrollTo(0,0);return;}
@@ -220,6 +232,11 @@ app.addEventListener("click",function(e){
   if(b.dataset.cs){S.catS=b.dataset.cs;render();return;}
   if(b.hasAttribute("data-gloss")){S.gloss=!S.gloss;render();return;}
 });
+app.addEventListener("close",function(e){
+  if(!e.target.matches('.atlas-panel'))return;
+  var trigger=app.querySelector('[data-panel="'+e.target.id+'"]');
+  if(trigger)trigger.focus();
+},true);
 app.addEventListener("keydown",function(e){
   if(e.key!=="Enter"&&e.key!==" ")return;
   var g=e.target.closest("g[data-reg]");
