@@ -1555,7 +1555,7 @@
       ],
       "kind": "article",
       "access": "public",
-      "checked": "2026-10-30",
+      "checked": "2026-10-31",
       "provenance": "BVSS teaching notes, reading and friendship units",
       "abs": "“解忧信箱”：一位同学喜欢和身边外向的朋友聊天，却想在课堂上专心。辅导员建议坦诚表达感受，并提出几种说法。适合思考怎样既维持友谊又顾及学习。",
       "img": "assets/media/zb-2024000360.webp"
@@ -1573,7 +1573,7 @@
       ],
       "kind": "article",
       "access": "public",
-      "checked": "2026-10-30",
+      "checked": "2026-10-31",
       "provenance": "BVSS teaching notes, reading and friendship units",
       "abs": "“解忧信箱”两封来信：该不该规劝犯错的朋友？父母对成绩要求太高怎么办？辅导员的回复可以帮助你从不同角度看友谊和家庭的压力。",
       "img": "assets/media/zb-2023000840.webp"
@@ -1591,7 +1591,7 @@
       ],
       "kind": "article",
       "access": "public",
-      "checked": "2026-10-30",
+      "checked": "2026-10-31",
       "provenance": "BVSS teaching notes, reading and friendship units",
       "abs": "“解忧信箱”：一直用手机和家人沟通，这样好吗？辅导员把手机比作双刃剑，建议先想清楚自己的需要，再和家人开放地沟通。",
       "img": "assets/media/zb-2024000226.webp"
@@ -1608,7 +1608,7 @@
       ],
       "kind": "article",
       "access": "public",
-      "checked": "2026-10-30",
+      "checked": "2026-10-31",
       "provenance": "BVSS teaching notes, reading and friendship units",
       "abs": "报道华文教研中心的调查：不少中小学生每周阅读华文书籍不到一小时。文章提到影响阅读的三个因素和学生喜欢的读物类型。谈阅读习惯时可以引用数据。",
       "img": "assets/media/zb-2024001289.webp"
@@ -1623,10 +1623,10 @@
         "s4G32",
         "s4HCL1"
       ],
-      "kind": "article",
-      "access": "subscription",
-      "checked": "2026-10-30",
-      "provenance": "BVSS teaching notes, reading and friendship units",
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "provenance": "早报校园 读报教育 话题栏目",
       "abs": "讨论实体书店在网络时代的处境，从一家新书店登陆新加坡谈起。全文需要订阅早报校园才能阅读，只能看到开头。",
       "img": "assets/media/zb-2021000418.webp"
     },
@@ -1640,10 +1640,10 @@
         "s4G32",
         "s3u5"
       ],
-      "kind": "article",
-      "access": "subscription",
-      "checked": "2026-10-30",
-      "provenance": "BVSS teaching notes, reading and friendship units",
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "provenance": "早报校园 读报教育 话题栏目",
       "abs": "以“生活富足是否等于精神富足”开头，谈阅读的意义。全文需要订阅早报校园才能阅读，只能看到开头。",
       "img": "assets/media/zb-2023001202.webp"
     },
@@ -1733,6 +1733,2925 @@
       "published": "2026-09-10",
       "abs": "报道大学生的文化遗产项目展：街头冰淇淋绘本、战时料理工作坊、牛车水老店路线。适合谈年轻人怎样让文化遗产“活”起来。",
       "img": "assets/media/zaobao-heritage.webp"
+    },
+    {
+      "id": "zb-2026000746",
+      "src": "早报校园",
+      "tt": "【快捷】数码防卫刻不容缓",
+      "url": "https://www.zbschools.sg/article/detail/2026000746",
+      "topics": [
+        "s2u6",
+        "s4G34",
+        "s4G33",
+        "s4HCL1"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-07-01",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：看一段关于数码防卫的新闻短片，再按口试题目练习说话，另有思维导图可参考。适合谈网络诈骗、假信息和保护个人资料时，用来整理观点和例子。",
+      "img": "assets/media/zb-2026000746.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000747",
+      "src": "早报校园",
+      "tt": "【高华】数码防卫刻不容缓",
+      "url": "https://www.zbschools.sg/article/detail/2026000747",
+      "topics": [
+        "s2u6",
+        "s4G34",
+        "s4G33",
+        "s4HCL1"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-07-01",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：看一段关于数码防卫的新闻短片，再按口试题目练习说话，另有思维导图可参考。适合谈网络诈骗、假信息和保护个人资料时，用来整理观点和例子。",
+      "img": "assets/media/zb-2026000747.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000671",
+      "src": "早报校园",
+      "tt": "【快捷】自动贩卖机",
+      "url": "https://www.zbschools.sg/article/detail/2026000671",
+      "topics": [
+        "s1u5",
+        "s3u3",
+        "s4HCL1"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-20",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片围绕越来越多的自动贩卖机，配口试题目和思维导图。可以练习谈科技给生活带来的方便与问题，以及它对小商贩和社区的影响。",
+      "img": "assets/media/zb-2026000671.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000673",
+      "src": "早报校园",
+      "tt": "【高华】自动贩卖机",
+      "url": "https://www.zbschools.sg/article/detail/2026000673",
+      "topics": [
+        "s1u5",
+        "s3u3",
+        "s4HCL1"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-20",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片围绕越来越多的自动贩卖机，配口试题目和思维导图。可以练习谈科技给生活带来的方便与问题，以及它对小商贩和社区的影响。",
+      "img": "assets/media/zb-2026000673.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000603",
+      "src": "早报校园",
+      "tt": "【快捷】青少年屏幕时间",
+      "url": "https://www.zbschools.sg/article/detail/2026000603",
+      "topics": [
+        "s1u4",
+        "s4G21",
+        "s4G33",
+        "s4HCL5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-06",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈青少年的屏幕时间，配口试题目和思维导图。练习时可以说说自己的使用习惯、过度使用的影响，以及学校和家长怎样帮助。",
+      "img": "assets/media/zb-2026000603.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000604",
+      "src": "早报校园",
+      "tt": "【高华】青少年屏幕时间",
+      "url": "https://www.zbschools.sg/article/detail/2026000604",
+      "topics": [
+        "s1u4",
+        "s4G21",
+        "s4G33",
+        "s4HCL5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-06",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈青少年的屏幕时间，配口试题目和思维导图。练习时可以说说自己的使用习惯、过度使用的影响，以及学校和家长怎样帮助。",
+      "img": "assets/media/zb-2026000604.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000485",
+      "src": "早报校园",
+      "tt": "【快捷】社区活动",
+      "url": "https://www.zbschools.sg/article/detail/2026000485",
+      "topics": [
+        "s3u3",
+        "s4G31",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-04-22",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片介绍邻里的社区活动，配口试题目和思维导图。可以练习谈参加社区活动的收获、怎样吸引年轻人参与，以及邻里关系为什么重要。",
+      "img": "assets/media/zb-2026000485.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000486",
+      "src": "早报校园",
+      "tt": "【高华】社区活动",
+      "url": "https://www.zbschools.sg/article/detail/2026000486",
+      "topics": [
+        "s3u3",
+        "s4G31",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-04-22",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片介绍邻里的社区活动，配口试题目和思维导图。可以练习谈参加社区活动的收获、怎样吸引年轻人参与，以及邻里关系为什么重要。",
+      "img": "assets/media/zb-2026000486.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000416",
+      "src": "早报校园",
+      "tt": "【快捷】中学生消费与理财",
+      "url": "https://www.zbschools.sg/article/detail/2026000416",
+      "topics": [
+        "s1u4",
+        "s2u4",
+        "s4G33"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-04-08",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈中学生的消费和理财，配口试题目和思维导图。可以练习谈零用钱怎样用、为什么要储蓄，以及怎样抵挡冲动消费。",
+      "img": "assets/media/zb-2026000416.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000417",
+      "src": "早报校园",
+      "tt": "【高华】中学生消费与理财",
+      "url": "https://www.zbschools.sg/article/detail/2026000417",
+      "topics": [
+        "s1u4",
+        "s2u4",
+        "s4G33"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-04-08",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈中学生的消费和理财，配口试题目和思维导图。可以练习谈零用钱怎样用、为什么要储蓄，以及怎样抵挡冲动消费。",
+      "img": "assets/media/zb-2026000417.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000340134",
+      "src": "早报校园",
+      "tt": "【快捷】课外活动的利与弊",
+      "url": "https://www.zbschools.sg/article/detail/2026000340134",
+      "topics": [
+        "s1u1",
+        "s4G33",
+        "s4G22"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-25",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈课外活动的利与弊，配口试题目和思维导图。可以练习谈课外活动带来的成长、怎样兼顾学业，以及自己选择活动的理由。",
+      "img": "assets/media/zb-2026000340134.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000340",
+      "src": "早报校园",
+      "tt": "【高华】课外活动的利与弊",
+      "url": "https://www.zbschools.sg/article/detail/2026000340",
+      "topics": [
+        "s1u1",
+        "s4G33",
+        "s4G22"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-25",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈课外活动的利与弊，配口试题目和思维导图。可以练习谈课外活动带来的成长、怎样兼顾学业，以及自己选择活动的理由。",
+      "img": "assets/media/zb-2026000340.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000270",
+      "src": "早报校园",
+      "tt": "【快捷】居家安全与火患",
+      "url": "https://www.zbschools.sg/article/detail/2026000270",
+      "topics": [
+        "s2u5",
+        "s3u3"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈居家安全和火患，配口试题目和思维导图。可以练习说明家里常见的火患隐患、怎样预防，以及发生火患时该怎么做。",
+      "img": "assets/media/zb-2026000270.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000271",
+      "src": "早报校园",
+      "tt": "【高华】居家安全与火患",
+      "url": "https://www.zbschools.sg/article/detail/2026000271",
+      "topics": [
+        "s2u5",
+        "s3u3"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈居家安全和火患，配口试题目和思维导图。可以练习说明家里常见的火患隐患、怎样预防，以及发生火患时该怎么做。",
+      "img": "assets/media/zb-2026000271.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2026000219",
+      "src": "早报校园",
+      "tt": "【快捷】与年长者沟通",
+      "url": "https://www.zbschools.sg/article/detail/2026000219",
+      "topics": [
+        "s3u4",
+        "s1u2",
+        "s4G31",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-02-18",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样和年长者沟通，配口试题目和思维导图。可以练习谈和祖父母相处的经验、两代人之间的隔阂，以及怎样多一点耐心和体谅。",
+      "img": "assets/media/zb-2026000219.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2026000220",
+      "src": "早报校园",
+      "tt": "【高华】与年长者沟通",
+      "url": "https://www.zbschools.sg/article/detail/2026000220",
+      "topics": [
+        "s3u4",
+        "s1u2",
+        "s4G31",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-02-18",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样和年长者沟通，配口试题目和思维导图。可以练习谈和祖父母相处的经验、两代人之间的隔阂，以及怎样多一点耐心和体谅。",
+      "img": "assets/media/zb-2026000220.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025071000120",
+      "src": "早报校园",
+      "tt": "【快捷】追星一族",
+      "url": "https://www.zbschools.sg/article/detail/2025071000120",
+      "topics": [
+        "s4G33",
+        "s4G11",
+        "s2u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-10",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈青少年追星，配口试题目和思维导图。可以练习谈追星的乐趣和代价、怎样理性消费和安排时间，以及偶像对自己的影响。",
+      "img": "assets/media/zb-2025071000120.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2025071000120274",
+      "src": "早报校园",
+      "tt": "【高华】追星一族",
+      "url": "https://www.zbschools.sg/article/detail/2025071000120274",
+      "topics": [
+        "s4G33",
+        "s4G11",
+        "s2u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-10",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈青少年追星，配口试题目和思维导图。可以练习谈追星的乐趣和代价、怎样理性消费和安排时间，以及偶像对自己的影响。",
+      "img": "assets/media/zb-2025071000120274.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025071000120307",
+      "src": "早报校园",
+      "tt": "【快捷】康疗花园",
+      "url": "https://www.zbschools.sg/article/detail/2025071000120307",
+      "topics": [
+        "s3u2",
+        "s3u3",
+        "s4G31"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-10",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片介绍公园里的康疗花园，配口试题目和思维导图。可以练习谈绿色空间对身心健康的好处，以及怎样让年长者和社区居民受益。",
+      "img": "assets/media/zb-2025071000120307.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2025071000120307198",
+      "src": "早报校园",
+      "tt": "【高华】康疗花园",
+      "url": "https://www.zbschools.sg/article/detail/2025071000120307198",
+      "topics": [
+        "s3u2",
+        "s3u3",
+        "s4G31"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-10",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片介绍公园里的康疗花园，配口试题目和思维导图。可以练习谈绿色空间对身心健康的好处，以及怎样让年长者和社区居民受益。",
+      "img": "assets/media/zb-2025071000120307198.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000680",
+      "src": "早报校园",
+      "tt": "【快捷】阅读的力量",
+      "url": "https://www.zbschools.sg/article/detail/2025000680",
+      "topics": [
+        "xwzj",
+        "s1u4",
+        "s4G32"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-02",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈阅读的力量，配口试题目和思维导图。可以练习谈自己的阅读习惯、阅读带来的改变，以及怎样让更多同学爱上阅读。",
+      "img": "assets/media/zb-2025000680.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2025000681",
+      "src": "早报校园",
+      "tt": "【高华】阅读的力量",
+      "url": "https://www.zbschools.sg/article/detail/2025000681",
+      "topics": [
+        "xwzj",
+        "s1u4",
+        "s4G32"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-02",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈阅读的力量，配口试题目和思维导图。可以练习谈自己的阅读习惯、阅读带来的改变，以及怎样让更多同学爱上阅读。",
+      "img": "assets/media/zb-2025000681.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000614",
+      "src": "早报校园",
+      "tt": "【快捷】向校园霸凌说不",
+      "url": "https://www.zbschools.sg/article/detail/2025000614",
+      "topics": [
+        "s3u1",
+        "s1u1",
+        "s3u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-05-21",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈校园霸凌，配口试题目和思维导图。可以练习谈霸凌对受害者的伤害、旁观者可以做什么，以及学校怎样营造友善的环境。",
+      "img": "assets/media/zb-2025000614.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2025000614191",
+      "src": "早报校园",
+      "tt": "【高华】向校园霸凌说不",
+      "url": "https://www.zbschools.sg/article/detail/2025000614191",
+      "topics": [
+        "s3u1",
+        "s1u1",
+        "s3u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-05-21",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈校园霸凌，配口试题目和思维导图。可以练习谈霸凌对受害者的伤害、旁观者可以做什么，以及学校怎样营造友善的环境。",
+      "img": "assets/media/zb-2025000614191.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000557",
+      "src": "早报校园",
+      "tt": "【快捷】减少依赖社交媒体",
+      "url": "https://www.zbschools.sg/article/detail/2025000557",
+      "topics": [
+        "s4G33",
+        "s4G21",
+        "s2u6",
+        "s1u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-05-07",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样减少对社交媒体的依赖，配口试题目和思维导图。可以练习谈社交媒体的利与弊、自己的使用情况，以及控制使用时间的方法。",
+      "img": "assets/media/zb-2025000557.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2025000558",
+      "src": "早报校园",
+      "tt": "【高华】减少依赖社交媒体",
+      "url": "https://www.zbschools.sg/article/detail/2025000558",
+      "topics": [
+        "s4G33",
+        "s4G21",
+        "s2u6",
+        "s1u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-05-07",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样减少对社交媒体的依赖，配口试题目和思维导图。可以练习谈社交媒体的利与弊、自己的使用情况，以及控制使用时间的方法。",
+      "img": "assets/media/zb-2025000558.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000493",
+      "src": "早报校园",
+      "tt": "【快捷】关爱独居老人",
+      "url": "https://www.zbschools.sg/article/detail/2025000493",
+      "topics": [
+        "s4G31",
+        "s3u3",
+        "s1u6",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-04-23",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈关爱独居老人，配口试题目和思维导图。可以练习谈独居老人面对的困难、邻里和义工能提供的帮助，以及年轻人可以怎样参与。",
+      "img": "assets/media/zb-2025000493.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-202500049316012",
+      "src": "早报校园",
+      "tt": "【高华】关爱独居老人",
+      "url": "https://www.zbschools.sg/article/detail/202500049316012",
+      "topics": [
+        "s4G31",
+        "s3u3",
+        "s1u6",
+        "s4G25"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-04-23",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈关爱独居老人，配口试题目和思维导图。可以练习谈独居老人面对的困难、邻里和义工能提供的帮助，以及年轻人可以怎样参与。",
+      "img": "assets/media/zb-202500049316012.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000425",
+      "src": "早报校园",
+      "tt": "【快捷】减少电子垃圾",
+      "url": "https://www.zbschools.sg/article/detail/2025000425",
+      "topics": [
+        "s2u3",
+        "s1u5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-04-09",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈电子垃圾问题，配口试题目和思维导图。可以练习谈旧手机和电器为什么不能随便丢、怎样回收，以及减少电子垃圾的个人做法。",
+      "img": "assets/media/zb-2025000425.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-202500042500676",
+      "src": "早报校园",
+      "tt": "【高华】减少电子垃圾",
+      "url": "https://www.zbschools.sg/article/detail/202500042500676",
+      "topics": [
+        "s2u3",
+        "s1u5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-04-09",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈电子垃圾问题，配口试题目和思维导图。可以练习谈旧手机和电器为什么不能随便丢、怎样回收，以及减少电子垃圾的个人做法。",
+      "img": "assets/media/zb-202500042500676.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2025000361",
+      "src": "早报校园",
+      "tt": "【快捷】终身学习的意义",
+      "url": "https://www.zbschools.sg/article/detail/2025000361",
+      "topics": [
+        "xwzj",
+        "s4HCL5",
+        "s3u5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-03-26",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈终身学习，配口试题目和思维导图。可以练习谈为什么离开学校后还要继续学习、身边的例子，以及自己想学的新技能。",
+      "img": "assets/media/zb-2025000361.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-20250003610057623",
+      "src": "早报校园",
+      "tt": "【高华】终身学习的意义",
+      "url": "https://www.zbschools.sg/article/detail/20250003610057623",
+      "topics": [
+        "xwzj",
+        "s4HCL5",
+        "s3u5"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-03-26",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈终身学习，配口试题目和思维导图。可以练习谈为什么离开学校后还要继续学习、身边的例子，以及自己想学的新技能。",
+      "img": "assets/media/zb-20250003610057623.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2024000858",
+      "src": "早报校园",
+      "tt": "【高华】与野生动物共存",
+      "url": "https://www.zbschools.sg/article/detail/2024000858",
+      "topics": [
+        "s2u2",
+        "s2u3"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-06-26",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈人与野生动物共存，配口试题目和思维导图。可以练习谈野猪、猴子出现在住宅区的原因，以及居民、政府各自可以怎么做。",
+      "img": "assets/media/zb-2024000858.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2024000745",
+      "src": "早报校园",
+      "tt": "【快捷】打造包容社会",
+      "url": "https://www.zbschools.sg/article/detail/2024000745",
+      "topics": [
+        "s4G25",
+        "s4G31",
+        "s3u3"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-05-15",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样打造包容的社会，配口试题目和思维导图。可以练习谈特需人士和年长者面对的不便、无障碍设施的意义，以及个人能做的小事。",
+      "img": "assets/media/zb-2024000745.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2024000747",
+      "src": "早报校园",
+      "tt": "【高华】打造包容社会",
+      "url": "https://www.zbschools.sg/article/detail/2024000747",
+      "topics": [
+        "s4G25",
+        "s4G31",
+        "s3u3"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-05-15",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈怎样打造包容的社会，配口试题目和思维导图。可以练习谈特需人士和年长者面对的不便、无障碍设施的意义，以及个人能做的小事。",
+      "img": "assets/media/zb-2024000747.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2024000665",
+      "src": "早报校园",
+      "tt": "【快捷】居家学习日的意义",
+      "url": "https://www.zbschools.sg/article/detail/2024000665",
+      "topics": [
+        "xwzj",
+        "s1u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-05-01",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈居家学习日，配口试题目和思维导图。可以练习谈在家学习的好处和困难、怎样安排时间和保持专注，以及自己的经验。",
+      "img": "assets/media/zb-2024000665.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2024000667",
+      "src": "早报校园",
+      "tt": "【高华】居家学习日的意义",
+      "url": "https://www.zbschools.sg/article/detail/2024000667",
+      "topics": [
+        "xwzj",
+        "s1u4"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-05-01",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈居家学习日，配口试题目和思维导图。可以练习谈在家学习的好处和困难、怎样安排时间和保持专注，以及自己的经验。",
+      "img": "assets/media/zb-2024000667.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2024000528",
+      "src": "早报校园",
+      "tt": "【快捷】为心理健康护航",
+      "url": "https://www.zbschools.sg/article/detail/2024000528",
+      "topics": [
+        "s3u2",
+        "s4HCL1",
+        "s4HCL2"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-04-03",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈青少年的心理健康，配口试题目和思维导图。可以练习谈压力的来源、纾解压力的方法，以及怎样帮助身边情绪低落的朋友。",
+      "img": "assets/media/zb-2024000528.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2024000457",
+      "src": "早报校园",
+      "tt": "【快捷】电子竞技受瞩目",
+      "url": "https://www.zbschools.sg/article/detail/2024000457",
+      "topics": [
+        "s4G21",
+        "s4G33"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-03-20",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈电子竞技，配口试题目和思维导图。可以练习谈电竞算不算运动、打游戏的利与弊，以及怎样在兴趣和学业之间取得平衡。",
+      "img": "assets/media/zb-2024000457.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2024000459",
+      "src": "早报校园",
+      "tt": "【高华】电子竞技受瞩目",
+      "url": "https://www.zbschools.sg/article/detail/2024000459",
+      "topics": [
+        "s4G21",
+        "s4G33"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-03-20",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈电子竞技，配口试题目和思维导图。可以练习谈电竞算不算运动、打游戏的利与弊，以及怎样在兴趣和学业之间取得平衡。",
+      "img": "assets/media/zb-2024000459.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2024000364",
+      "src": "早报校园",
+      "tt": "【快捷】人工智能崛起",
+      "url": "https://www.zbschools.sg/article/detail/2024000364",
+      "topics": [
+        "s1u5",
+        "s4HCL1",
+        "s4G34"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-03-06",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈人工智能的崛起，配口试题目和思维导图。可以练习谈人工智能怎样改变学习和工作、带来的隐忧，以及我们应该怎样使用它。",
+      "img": "assets/media/zb-2024000364.webp",
+      "audience": "快捷华文版"
+    },
+    {
+      "id": "zb-2024000366",
+      "src": "早报校园",
+      "tt": "【高华】人工智能崛起",
+      "url": "https://www.zbschools.sg/article/detail/2024000366",
+      "topics": [
+        "s1u5",
+        "s4HCL1",
+        "s4G34"
+      ],
+      "kind": "oral",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-03-06",
+      "provenance": "早报校园 口试 看录像说话栏目",
+      "abs": "口试练习：短片谈人工智能的崛起，配口试题目和思维导图。可以练习谈人工智能怎样改变学习和工作、带来的隐忧，以及我们应该怎样使用它。",
+      "img": "assets/media/zb-2024000366.webp",
+      "audience": "高级华文版"
+    },
+    {
+      "id": "zb-2023001277",
+      "src": "早报校园",
+      "tt": "培养自学能力受益终身",
+      "url": "https://www.zbschools.sg/article/detail/2023001277",
+      "topics": [
+        "xwzj",
+        "s1u4"
+      ],
+      "kind": "talk",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2023-08-23",
+      "provenance": "早报校园 口试 说说看栏目",
+      "abs": "“说说看”口试练习：文章从一项全球学生阅读能力调查谈起，讨论怎样通过阅读培养自学华文的能力，附练习题目。适合谈学习方法和阅读习惯。",
+      "img": "assets/media/zb-2023001277.webp"
+    },
+    {
+      "id": "zb-2021001681",
+      "src": "早报校园",
+      "tt": "回收电子垃圾",
+      "url": "https://www.zbschools.sg/article/detail/2021001681",
+      "topics": [
+        "s2u3"
+      ],
+      "kind": "talk",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2021-08-25",
+      "provenance": "早报校园 口试 说说看栏目",
+      "abs": "“说说看”口试练习：旧电池、旧手机该怎么处理？文章谈电子垃圾的回收，附练习题目。可以练习谈回收渠道和个人该负的责任。",
+      "img": "assets/media/zb-2021001681.webp"
+    },
+    {
+      "id": "zb-2021001906",
+      "src": "早报校园",
+      "tt": "推迟上课时间",
+      "url": "https://www.zbschools.sg/article/detail/2021001906",
+      "topics": [
+        "s3u2",
+        "s4HCL5"
+      ],
+      "kind": "talk",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2021-09-29",
+      "provenance": "早报校园 口试 说说看栏目",
+      "abs": "“说说看”口试练习：学校推迟上课时间，学生会睡得更多吗？文章谈睡眠和作息，附练习题目。适合谈健康生活和时间安排。",
+      "img": "assets/media/zb-2021001906.webp"
+    },
+    {
+      "id": "zb-2021001208",
+      "src": "早报校园",
+      "tt": "迈开创业的步伐",
+      "url": "https://www.zbschools.sg/article/detail/2021001208",
+      "topics": [
+        "s4G15",
+        "s4HCL3",
+        "s1u5"
+      ],
+      "kind": "talk",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2021-06-30",
+      "provenance": "早报校园 口试 说说看栏目",
+      "abs": "“说说看”口试练习：年轻人边读书边创业，有什么优势和难题？文章附练习题目。适合谈追梦、创新和回馈社会。",
+      "img": "assets/media/zb-2021001208.webp"
+    },
+    {
+      "id": "zb-2022000524",
+      "src": "早报校园",
+      "tt": "邻里购物券助邻里",
+      "url": "https://www.zbschools.sg/article/detail/2022000524",
+      "topics": [
+        "s3u3",
+        "s2u5"
+      ],
+      "kind": "talk",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2022-03-09",
+      "provenance": "早报校园 口试 说说看栏目",
+      "abs": "“说说看”口试练习：邻里购物券对居民、邻里商店和小贩帮助大吗？文章附练习题目。适合谈社区和政府措施的话题。",
+      "img": "assets/media/zb-2022000524.webp"
+    },
+    {
+      "id": "zb-2024000139",
+      "src": "早报校园",
+      "tt": "你敢冒险吗？",
+      "url": "https://www.zbschools.sg/article/detail/2024000139",
+      "topics": [
+        "s4G12",
+        "s4HCL3",
+        "s4G15"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-01-24",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "一项价值观调查发现本地青壮年最有冒险精神。四位中学生、大专生分享自己敢不敢冒险、冒险前要准备什么。适合谈面对挑战和追梦时的勇气与理智。",
+      "img": "assets/media/zb-2024000139.webp"
+    },
+    {
+      "id": "zb-2024000050",
+      "src": "早报校园",
+      "tt": "上课也能玩游戏？",
+      "url": "https://www.zbschools.sg/article/detail/2024000050",
+      "topics": [
+        "s4G21",
+        "s1u5",
+        "xwzj"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-01-10",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "老师用互动游戏软件上课，学生喜欢吗？几位中学生和一位家长说出正反看法：有人觉得有趣又有效，有人担心依赖游戏、抄答案。适合练习议论文的正反论证。",
+      "img": "assets/media/zb-2024000050.webp"
+    },
+    {
+      "id": "zb-2023000400",
+      "src": "早报校园",
+      "tt": "选择热忱还是前程？",
+      "url": "https://www.zbschools.sg/article/detail/2023000400",
+      "topics": [
+        "s4G15",
+        "s4HCL3",
+        "s3u5"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-03-08",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "大学毕业生就业调查显示电脑相关科系薪水最高。几位年轻人谈选科系时该跟热门还是跟兴趣。适合谈理想与现实、追梦的代价。",
+      "img": "assets/media/zb-2023000400.webp"
+    },
+    {
+      "id": "zb-2023000325",
+      "src": "早报校园",
+      "tt": "人工智能超越想象？",
+      "url": "https://www.zbschools.sg/article/detail/2023000325",
+      "topics": [
+        "s1u5",
+        "s4HCL1"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-02-22",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "聊天机器人和人工智能绘画引起热议，几位学生和一位摄影师谈它对创作、学习和真假信息的影响。可以用来谈科技的利与弊，以及怎样善用新工具。",
+      "img": "assets/media/zb-2023000325.webp"
+    },
+    {
+      "id": "zb-2023000069",
+      "src": "早报校园",
+      "tt": "如何定义成功？",
+      "url": "https://www.zbschools.sg/article/detail/2023000069",
+      "topics": [
+        "s4HCL3",
+        "s4G22",
+        "s4G11"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-01-11",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "本地展开青少年成功指标调查。几位中学生和一位家长各自定义成功：自由做喜欢的事、重视过程、坚持做好人、平安健康。适合谈价值观和人生目标。",
+      "img": "assets/media/zb-2023000069.webp"
+    },
+    {
+      "id": "zb-2022001535",
+      "src": "早报校园",
+      "tt": "少了籍贯少了根？",
+      "url": "https://www.zbschools.sg/article/detail/2022001535",
+      "topics": [
+        "s4G23",
+        "s4G14",
+        "s4G13"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-08-24",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "电子出生证一度取消籍贯栏，引起华社关注。几位中学生和一位退休教育工作者谈籍贯和方言对身份认同的意义。适合谈文化传承和寻根。",
+      "img": "assets/media/zb-2022001535.webp"
+    },
+    {
+      "id": "zb-2022001438",
+      "src": "早报校园",
+      "tt": "天下事与我何干？",
+      "url": "https://www.zbschools.sg/article/detail/2022001438",
+      "topics": [
+        "s2u6",
+        "s4G34"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-08-10",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "调查发现年轻一代其实关心国际大事。几位学生谈战争、邻国政策怎样影响本地物价和生活，以及关心时事的好处。适合谈与世界相连的话题。",
+      "img": "assets/media/zb-2022001438.webp"
+    },
+    {
+      "id": "zb-2022001321",
+      "src": "早报校园",
+      "tt": "与人交流的勇气何来？",
+      "url": "https://www.zbschools.sg/article/detail/2022001321",
+      "topics": [
+        "s3u4",
+        "s1u1",
+        "s3u3"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-07-27",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "一位画家在公共场所为陌生人画像并送出，引发讨论。几位中学生谈主动打招呼的勇气，也有人提醒要先征得同意。适合谈人与人之间的距离和善意。",
+      "img": "assets/media/zb-2022001321.webp"
+    },
+    {
+      "id": "zb-2022001236",
+      "src": "早报校园",
+      "tt": "追梦的代价有多大？",
+      "url": "https://www.zbschools.sg/article/detail/2022001236",
+      "topics": [
+        "s4G15",
+        "s2u4",
+        "s2u1"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-07-13",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "一位青年放弃上大学去当擦鞋匠，后来赢得世界比赛。几位中学生和一位家长谈该不该为梦想放弃升学。适合谈行行出状元和父母的支持。",
+      "img": "assets/media/zb-2022001236.webp"
+    },
+    {
+      "id": "zb-2022001006",
+      "src": "早报校园",
+      "tt": "如何建立有爱的家庭？",
+      "url": "https://www.zbschools.sg/article/detail/2022001006",
+      "topics": [
+        "s2u1",
+        "s1u2"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-05-18",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "“新加坡家庭誓约”列出倾听、陪伴、感恩等六点。几位中学生和一位家庭律师谈自己家怎样相处、吵架后怎样和好。适合谈家庭关系和爱的表达。",
+      "img": "assets/media/zb-2022001006.webp"
+    },
+    {
+      "id": "zb-2022000857",
+      "src": "早报校园",
+      "tt": "玩笑要适度",
+      "url": "https://www.zbschools.sg/article/detail/2022000857",
+      "topics": [
+        "s3u1",
+        "s3u4"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-04-20",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "颁奖礼上一个过火的玩笑引发一记耳光。几位中学生谈玩笑的界限、怎样用自嘲化解尴尬，以及不该用暴力回应。适合谈朋友相处和说话的分寸。",
+      "img": "assets/media/zb-2022000857.webp"
+    },
+    {
+      "id": "zb-2022000748",
+      "src": "早报校园",
+      "tt": "我们有多幸福？",
+      "url": "https://www.zbschools.sg/article/detail/2022000748",
+      "topics": [
+        "s4HCL2",
+        "s2u5",
+        "s4G13"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-04-06",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "新加坡在全球幸福报告中排名第二十七。几位学生和一位家长谈本地的小确幸、安稳的生活，也指出社会支持度有待提高。适合谈幸福和心系家园。",
+      "img": "assets/media/zb-2022000748.webp"
+    },
+    {
+      "id": "zb-2021000938",
+      "src": "早报校园",
+      "tt": "用塑料袋要收费",
+      "url": "https://www.zbschools.sg/article/detail/2021000938",
+      "topics": [
+        "s2u3"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2021-05-05",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "政府宣布超市塑料袋将收费，几位中学生和一位工程师谈收费模式是否公平、该收多少，以及提高环保意识才是治本之道。适合练习多角度论证。",
+      "img": "assets/media/zb-2021000938.webp"
+    },
+    {
+      "id": "zb-2023000829",
+      "src": "早报校园",
+      "tt": "因年少而无知？",
+      "url": "https://www.zbschools.sg/article/detail/2023000829",
+      "topics": [
+        "s3u5",
+        "s4G12",
+        "s2u6"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-05-17",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "三成多诈骗受害者是年轻人。几位学生和一位工程师谈骗子怎样利用心理、父母怎样教导，以及向官方渠道查证的重要。适合谈防骗和人生教训。",
+      "img": "assets/media/zb-2023000829.webp"
+    },
+    {
+      "id": "zb-2024000285",
+      "src": "早报校园",
+      "tt": "新年不再穿新衣？",
+      "url": "https://www.zbschools.sg/article/detail/2024000285",
+      "topics": [
+        "s1u2",
+        "s2u3",
+        "s4G14"
+      ],
+      "kind": "topic",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-02-21",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "越来越多年轻人穿二手衣拜年。几位学生和一位幼教老师各有看法：有人坚持新年要穿新衣，有人认为团聚比新衣更重要。适合谈传统习俗与环保。",
+      "img": "assets/media/zb-2024000285.webp"
+    },
+    {
+      "id": "zb-2026092800565",
+      "src": "早报校园",
+      "tt": "话题：社媒每天限用三小时，你能接受吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026092800565",
+      "topics": [
+        "s4G33",
+        "s2u6",
+        "s4G21"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-09-30",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "社交媒体带来资讯和朋友，却也占去越来越多时间。本期话题讨论每天限用三小时的建议，登录后可看新闻背景和学生的正反看法。适合谈自律与平衡。",
+      "img": "assets/media/zb-2026092800565.webp"
+    },
+    {
+      "id": "zb-2026001163",
+      "src": "早报校园",
+      "tt": "话题：阅读有奖！奖励能换来好习惯吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026001163",
+      "topics": [
+        "s1u4",
+        "xwzj"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-09-16",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "全民阅读运动推出“阅读大挑战”，每天阅读就能累积奖励。本期话题讨论奖励能不能换来好习惯，登录后可看学生看法。适合谈习惯的养成。",
+      "img": "assets/media/zb-2026001163.webp"
+    },
+    {
+      "id": "zb-2026001015",
+      "src": "早报校园",
+      "tt": "话题：父母可以查看孩子的手机吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026001015",
+      "topics": [
+        "s2u1",
+        "s3u4"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-08-12",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "手机里有聊天记录和照片，父母能不能查看？本期话题从网络安全和个人隐私两方面讨论，登录后可看学生和家长的看法。适合谈亲子信任与沟通。",
+      "img": "assets/media/zb-2026001015.webp"
+    },
+    {
+      "id": "zb-2026000912",
+      "src": "早报校园",
+      "tt": "话题：管教还是伤害？重新检视“藤条教育”",
+      "url": "https://www.zbschools.sg/article/detail/2026000912",
+      "topics": [
+        "s2u1",
+        "s2u4"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-07-29",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "“不打不成器”的观念还适用吗？本期话题重新检视体罚，登录后可看新闻背景和不同立场的看法。适合谈家庭教育和成长。",
+      "img": "assets/media/zb-2026000912.webp"
+    },
+    {
+      "id": "zb-2026000588",
+      "src": "早报校园",
+      "tt": "话题：60层高组屋来了，你想住吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026000588",
+      "topics": [
+        "s2u5",
+        "s1u3"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-06",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "政府计划在珍珠山建超过六十层的组屋。本期话题讨论高楼生活的利与弊，登录后可看新闻背景和学生看法。适合谈家园和城市规划。",
+      "img": "assets/media/zb-2026000588.webp"
+    },
+    {
+      "id": "zb-2026000400",
+      "src": "早报校园",
+      "tt": "话题：地球升温 学校降温",
+      "url": "https://www.zbschools.sg/article/detail/2026000400",
+      "topics": [
+        "s2u3",
+        "s3u2"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-04-08",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "气温逐年上升，炎热影响校园学习。本期话题讨论学校可以怎样降温，登录后可看新闻背景和学生看法。适合谈气候变化与绿色生活。",
+      "img": "assets/media/zb-2026000400.webp"
+    },
+    {
+      "id": "zb-2026000254",
+      "src": "早报校园",
+      "tt": "话题：离开屏幕，你还能学习吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026000254",
+      "topics": [
+        "xwzj",
+        "s4G33",
+        "s1u4"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "大学举办活动鼓励学生减少屏幕时间。本期话题讨论离开屏幕还能不能学习，登录后可看学生看法。适合谈学习方式和数码习惯。",
+      "img": "assets/media/zb-2026000254.webp"
+    },
+    {
+      "id": "zb-2026000203",
+      "src": "早报校园",
+      "tt": "话题：瓶罐退费制能鼓励环保吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026000203",
+      "topics": [
+        "s2u3"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-02-18",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "饮料瓶罐退费制今年落实，每个瓶罐多付一角押金。本期话题讨论它能不能改变回收习惯，登录后可看新闻背景和学生看法。适合谈环保政策。",
+      "img": "assets/media/zb-2026000203.webp"
+    },
+    {
+      "id": "zb-2026000002",
+      "src": "早报校园",
+      "tt": "话题：禁用手机有用吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026000002",
+      "topics": [
+        "s1u1",
+        "s4G33",
+        "s4HCL1"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-01-07",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "中学生在校必须存放手机和智能手表。本期话题讨论禁令有没有用，登录后可看新闻背景和学生的不同看法。适合谈校园生活和自律。",
+      "img": "assets/media/zb-2026000002.webp"
+    },
+    {
+      "id": "zb-2025001089",
+      "src": "早报校园",
+      "tt": "话题：诈骗防不胜防？",
+      "url": "https://www.zbschools.sg/article/detail/2025001089",
+      "topics": [
+        "s2u6",
+        "s4G34",
+        "s3u5"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-09-17",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "钓鱼信息、假求职和冒充官员是本地常见的诈骗。本期话题讨论为什么防不胜防，登录后可看新闻背景和学生看法。适合谈网络安全和警惕心。",
+      "img": "assets/media/zb-2025001089.webp"
+    },
+    {
+      "id": "zb-2025000995",
+      "src": "早报校园",
+      "tt": "话题：你愿意慢下来吗？",
+      "url": "https://www.zbschools.sg/article/detail/2025000995",
+      "topics": [
+        "s4HCL5",
+        "s4G33",
+        "s3u2"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-08-27",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "园艺、针织、烘焙等“阿嫲的嗜好”在年轻人中流行。本期话题讨论慢生活，登录后可看新闻背景和学生看法。适合谈时间、压力与平衡。",
+      "img": "assets/media/zb-2025000995.webp"
+    },
+    {
+      "id": "zb-2025000886",
+      "src": "早报校园",
+      "tt": "话题：一起远离电子烟",
+      "url": "https://www.zbschools.sg/article/detail/2025000886",
+      "topics": [
+        "s3u2",
+        "s3u5"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-08-13",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "小学生放学途中被兜售电子烟，校方加强巡逻。本期话题讨论青少年怎样远离电子烟，登录后可看新闻背景和学生看法。适合谈健康和拒绝诱惑。",
+      "img": "assets/media/zb-2025000886.webp"
+    },
+    {
+      "id": "zb-2025000801",
+      "src": "早报校园",
+      "tt": "话题：每一口都是家的味道",
+      "url": "https://www.zbschools.sg/article/detail/2025000801",
+      "topics": [
+        "s1u2",
+        "s4G23",
+        "s4G13"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-30",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "建国六十年之际，一项调查问国人心目中最有代表性的食品和风味。本期话题谈家的味道，登录后可看学生看法。适合谈饮食文化和家园情。",
+      "img": "assets/media/zb-2025000801.webp"
+    },
+    {
+      "id": "zb-2025000281",
+      "src": "早报校园",
+      "tt": "话题：年轻小贩传承美食文化",
+      "url": "https://www.zbschools.sg/article/detail/2025000281",
+      "topics": [
+        "s4G23",
+        "s4G15",
+        "s1u3"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-03-05",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "小贩文化已列入非物质文化遗产名录。本期话题谈年轻人接手摊位传承美食，登录后可看新闻背景和学生看法。适合谈文化传承与职业选择。",
+      "img": "assets/media/zb-2025000281.webp"
+    },
+    {
+      "id": "zb-2024001255",
+      "src": "早报校园",
+      "tt": "终身学习好处多",
+      "url": "https://www.zbschools.sg/article/detail/2024001255",
+      "topics": [
+        "xwzj",
+        "s4HCL5"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-09-11",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "国庆群众大会宣布加强技能培训补助。本期话题谈终身学习的好处，登录后可看新闻背景和学生看法。适合谈学无止境和为未来做准备。",
+      "img": "assets/media/zb-2024001255.webp"
+    },
+    {
+      "id": "zb-2024001086",
+      "src": "早报校园",
+      "tt": "环保从何做起？",
+      "url": "https://www.zbschools.sg/article/detail/2024001086",
+      "topics": [
+        "s2u3"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-08-07",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "更多家庭参与垃圾回收，回收量却没有相应增加。本期话题讨论环保该从何做起，登录后可看新闻背景和学生看法。适合谈绿色生活的实际行动。",
+      "img": "assets/media/zb-2024001086.webp"
+    },
+    {
+      "id": "zb-2023001563",
+      "src": "早报校园",
+      "tt": "“躺”和“卷”怎么选？",
+      "url": "https://www.zbschools.sg/article/detail/2023001563",
+      "topics": [
+        "s4HCL2",
+        "s4G33",
+        "s4HCL3"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2023-09-27",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "“躺平”和“内卷”是最受争议的网络流行语。本期话题讨论年轻人该怎样选择，登录后可看学生看法。适合谈积极的态度和生活的平衡。",
+      "img": "assets/media/zb-2023001563.webp"
+    },
+    {
+      "id": "zb-2022001663",
+      "src": "早报校园",
+      "tt": "当个和事佬还是吃瓜群众？",
+      "url": "https://www.zbschools.sg/article/detail/2022001663",
+      "topics": [
+        "s3u1",
+        "s3u4",
+        "s3u6"
+      ],
+      "kind": "topic",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2022-09-14",
+      "provenance": "早报校园 读报教育 话题栏目",
+      "abs": "看见别人起冲突，你会挺身而出、明哲保身还是火上浇油？本期话题从一段网络视频谈起，登录后可看学生看法。适合谈勇气和为人处世。",
+      "img": "assets/media/zb-2022001663.webp"
+    },
+    {
+      "id": "zb-2024000363",
+      "src": "早报校园",
+      "tt": "拥抱AI新时代",
+      "url": "https://www.zbschools.sg/article/detail/2024000363",
+      "topics": [
+        "s1u5",
+        "s4HCL1"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-03-06",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "政府投资发展人工智能，大专开课培养人才，学校也教学生安全负责地使用。新闻解读分三部分，可以用来谈科技怎样改变学习和工作。",
+      "img": "assets/media/zb-2024000363.webp"
+    },
+    {
+      "id": "zb-2024000135",
+      "src": "早报校园",
+      "tt": "AI换脸真假难辨",
+      "url": "https://www.zbschools.sg/article/detail/2024000135",
+      "topics": [
+        "s2u6",
+        "s4G34",
+        "s1u5"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-01-24",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "深伪技术能一键换脸和模仿声音，有人拿来恶搞，也有人用来诈骗和伤害未成年人。新闻解读说明各国怎样立法应对，适合谈网络安全和真假信息。",
+      "img": "assets/media/zb-2024000135.webp"
+    },
+    {
+      "id": "zb-2024000054",
+      "src": "早报校园",
+      "tt": "本地学生阅读能力冠全球",
+      "url": "https://www.zbschools.sg/article/detail/2024000054",
+      "topics": [
+        "xwzj",
+        "s2u1",
+        "s3u1"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-01-10",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "国际学生评估结果显示本地学生阅读、数学、科学都排第一，但只有一半学生觉得父母关心他们的学习，霸凌问题也值得关注。适合谈学习与家庭支持。",
+      "img": "assets/media/zb-2024000054.webp"
+    },
+    {
+      "id": "zb-2023000835",
+      "src": "早报校园",
+      "tt": "心灵健康有何妙方？",
+      "url": "https://www.zbschools.sg/article/detail/2023000835",
+      "topics": [
+        "s3u2",
+        "s4HCL1",
+        "s3u1"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-05-17",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "全国青少年研究发现每十人就有一人可能有心理健康问题。新闻解读谈数码媒体的影响、学校和家庭的配合，以及可以求助的渠道。适合谈健康生活。",
+      "img": "assets/media/zb-2023000835.webp"
+    },
+    {
+      "id": "zb-2023000756",
+      "src": "早报校园",
+      "tt": "走进绿色生活",
+      "url": "https://www.zbschools.sg/article/detail/2023000756",
+      "topics": [
+        "s2u3",
+        "s2u5"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-05-03",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "高楼绿地、电动巴士、组屋太阳能板和节水措施，政府多管齐下打造绿色社区。新闻解读分四部分，可以用来谈个人和政府在环保上的责任。",
+      "img": "assets/media/zb-2023000756.webp"
+    },
+    {
+      "id": "zb-2023000502",
+      "src": "早报校园",
+      "tt": "少年别激进",
+      "url": "https://www.zbschools.sg/article/detail/2023000502",
+      "topics": [
+        "s3u5",
+        "s2u6"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-03-22",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "本地青少年自我激进化案例增加，新闻解读说明网络内容监管、校园宣导和社区计划怎样应对，并列出几个真实案例。适合谈网络安全与身份认同。",
+      "img": "assets/media/zb-2023000502.webp"
+    },
+    {
+      "id": "zb-2023000328",
+      "src": "早报校园",
+      "tt": "打造有爱的社会",
+      "url": "https://www.zbschools.sg/article/detail/2023000328",
+      "topics": [
+        "s4G25",
+        "s4G31",
+        "s3u3"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-02-22",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "康疗花园、天桥电梯、延长过马路时间、无障碍游乐场和健身房，新闻解读介绍本地怎样照顾年长者和特需人士。适合谈包容和关爱。",
+      "img": "assets/media/zb-2023000328.webp"
+    },
+    {
+      "id": "zb-2023000243",
+      "src": "早报校园",
+      "tt": "邻里“地雷”怎么避？",
+      "url": "https://www.zbschools.sg/article/detail/2023000243",
+      "topics": [
+        "s3u3",
+        "s3u4",
+        "s2u5"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2023-02-08",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "疫情期间邻里纠纷激增。新闻解读列出噪音、环境卫生和文化差异三大“地雷”，并说明可以怎样协商和调解。适合谈邻里关系和沟通。",
+      "img": "assets/media/zb-2023000243.webp"
+    },
+    {
+      "id": "zb-2022001785",
+      "src": "早报校园",
+      "tt": "做个负责任的养猫人",
+      "url": "https://www.zbschools.sg/article/detail/2022001785",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-09-28",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "组屋为什么不能养猫？遗弃宠物有什么后果？新闻解读介绍养猫框架的公众咨询、植入芯片和流浪猫绝育计划。适合谈关爱动物和责任。",
+      "img": "assets/media/zb-2022001785.webp"
+    },
+    {
+      "id": "zb-2022001247",
+      "src": "早报校园",
+      "tt": "让青少年安全上网",
+      "url": "https://www.zbschools.sg/article/detail/2022001247",
+      "topics": [
+        "s2u6",
+        "s4G33"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-07-13",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "政府拟定新准则保护十八岁以下青少年免受网络伤害。新闻解读谈真假信息、社交媒体的负面影响，以及家长和业界的看法。适合谈网络安全。",
+      "img": "assets/media/zb-2022001247.webp"
+    },
+    {
+      "id": "zb-2022000746",
+      "src": "早报校园",
+      "tt": "人类和野生动物如何共存？",
+      "url": "https://www.zbschools.sg/article/detail/2022000746",
+      "topics": [
+        "s2u2",
+        "s2u3"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-04-06",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "野猪撞人、猴子闯校园、水獭吃掉锦鲤，新闻解读说明野生动物为什么走进社区，以及政府和民众可以怎样减少冲突。适合谈人与自然。",
+      "img": "assets/media/zb-2022000746.webp"
+    },
+    {
+      "id": "zb-2022001334",
+      "src": "早报校园",
+      "tt": "小心使用国家标志",
+      "url": "https://www.zbschools.sg/article/detail/2022001334",
+      "topics": [
+        "s4G13",
+        "s2u5"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2022-07-27",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "“护照蛋糕”为什么被下架？新闻解读说明国徽、钞票图样、建国总理肖像和狮头标志的使用规定，以及国旗条例的放宽。适合谈国家认同。",
+      "img": "assets/media/zb-2022001334.webp"
+    },
+    {
+      "id": "zb-2024000531",
+      "src": "早报校园",
+      "tt": "节约用水从点滴做起",
+      "url": "https://www.zbschools.sg/article/detail/2024000531",
+      "topics": [
+        "s2u3",
+        "s2u5",
+        "s4G13"
+      ],
+      "kind": "digest",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-04-03",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "本地家庭每日人均用水量离目标还有距离。新闻解读谈饮食习惯与省水的关系、节水电器补贴，以及新加坡的“四大水喉”。适合谈水资源和家园。",
+      "img": "assets/media/zb-2024000531.webp"
+    },
+    {
+      "id": "zb-2026001241",
+      "src": "早报校园",
+      "tt": "青少年自我激进化 案例上升引担忧",
+      "url": "https://www.zbschools.sg/article/detail/2026001241",
+      "topics": [
+        "s3u5",
+        "s2u6"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-09-30",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "内部安全局最新报告指出青少年自我激进化的趋势上升。新闻解读分析背后原因和警号，登录后可看全文。适合谈网络影响和身份认同。",
+      "img": "assets/media/zb-2026001241.webp"
+    },
+    {
+      "id": "zb-2026001170",
+      "src": "早报校园",
+      "tt": "城市要发展，绿地留多少？",
+      "url": "https://www.zbschools.sg/article/detail/2026001170",
+      "topics": [
+        "s2u5",
+        "s2u3"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-09-16",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "土地有限，住宅、交通和自然环境怎样取舍？新闻解读从建屋局的新计划谈起，登录后可看全文。适合谈城市发展与绿色生活。",
+      "img": "assets/media/zb-2026001170.webp"
+    },
+    {
+      "id": "zb-2026001097",
+      "src": "早报校园",
+      "tt": "新计划助力青年 勇敢探索未来",
+      "url": "https://www.zbschools.sg/article/detail/2026001097",
+      "topics": [
+        "s4G15",
+        "s4G22",
+        "s4HCL3"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-08-26",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "“新加坡青年计划”帮助青年拓展兴趣、结交朋友和准备未来的职业。新闻解读说明计划的几个方面，登录后可看全文。适合谈追梦和人生规划。",
+      "img": "assets/media/zb-2026001097.webp"
+    },
+    {
+      "id": "zb-2026000919",
+      "src": "早报校园",
+      "tt": "多国禁止青少年使用社交媒体",
+      "url": "https://www.zbschools.sg/article/detail/2026000919",
+      "topics": [
+        "s4G33",
+        "s2u6"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-07-29",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "多个国家陆续禁止青少年使用社交媒体，新加坡要不要跟进？新闻解读比较各国做法，登录后可看全文。适合谈网络霸凌和社媒管理。",
+      "img": "assets/media/zb-2026000919.webp"
+    },
+    {
+      "id": "zb-2026000594",
+      "src": "早报校园",
+      "tt": "直面霸凌不再沉默",
+      "url": "https://www.zbschools.sg/article/detail/2026000594",
+      "topics": [
+        "s3u1",
+        "s1u1"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-05-06",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "同学被欺负，你会怎么做？新闻解读介绍教育部应对校园霸凌的新措施，并强调关心他人的重要，登录后可看全文。适合谈友善校园。",
+      "img": "assets/media/zb-2026000594.webp"
+    },
+    {
+      "id": "zb-2026000261",
+      "src": "早报校园",
+      "tt": "灰云锁城烟霾再袭",
+      "url": "https://www.zbschools.sg/article/detail/2026000261",
+      "topics": [
+        "s2u3",
+        "s2u6",
+        "s3u2"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "烟霾再度飘向新加坡，政府准备在情况恶化时采取措施。新闻解读说明烟霾的来源和应对，登录后可看全文。适合谈环境问题与区域合作。",
+      "img": "assets/media/zb-2026000261.webp"
+    },
+    {
+      "id": "zb-2025000737",
+      "src": "早报校园",
+      "tt": "守护心灵健康",
+      "url": "https://www.zbschools.sg/article/detail/2025000737",
+      "topics": [
+        "s3u2",
+        "s4HCL1"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-07-16",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "每十名青少年就有一人可能有心理健康问题，很多人不知道怎样求助。新闻解读介绍求助的方法和资源，登录后可看全文。适合谈健康生活。",
+      "img": "assets/media/zb-2025000737.webp"
+    },
+    {
+      "id": "zb-2025000607",
+      "src": "早报校园",
+      "tt": "城市绿化间 寻人兽共处之道",
+      "url": "https://www.zbschools.sg/article/detail/2025000607",
+      "topics": [
+        "s2u2",
+        "s2u3"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2025-05-21",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "猴子、野猪、乌鸦出现在日常生活中，有人因此受伤。新闻解读谈城市绿化下人与野生动物的相处之道，登录后可看全文。适合谈关爱动物与安全。",
+      "img": "assets/media/zb-2025000607.webp"
+    },
+    {
+      "id": "zb-2024001061",
+      "src": "早报校园",
+      "tt": "关注独居老人",
+      "url": "https://www.zbschools.sg/article/detail/2024001061",
+      "topics": [
+        "s4G31",
+        "s3u3",
+        "s4G25"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-08-07",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "本地六十五岁以上的独居年长者超过七万八千人。新闻解读谈他们面对的问题和可以怎样帮助，登录后可看全文。适合谈关爱与社区支持。",
+      "img": "assets/media/zb-2024001061.webp"
+    },
+    {
+      "id": "zb-2024001001",
+      "src": "早报校园",
+      "tt": "方言文化热潮不断",
+      "url": "https://www.zbschools.sg/article/detail/2024001001",
+      "topics": [
+        "s4G23",
+        "s4G14"
+      ],
+      "kind": "digest",
+      "access": "school",
+      "checked": "2026-10-31",
+      "published": "2024-07-24",
+      "provenance": "早报校园 读报教育 新闻消化室栏目",
+      "abs": "一部以方言为主的本地电影获准上映，年轻人也参与推动方言的项目。新闻解读谈方言的魅力，登录后可看全文。适合谈文化传承。",
+      "img": "assets/media/zb-2024001001.webp"
+    },
+    {
+      "id": "zb-2026021500155",
+      "src": "早报校园",
+      "tt": "Teen你敢敢说2 EP1：人工智能",
+      "url": "https://www.zbschools.sg/article/detail/2026021500155",
+      "topics": [
+        "s1u5",
+        "xwzj",
+        "s4HCL1"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-02-18",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：中学生谈自己怎样用人工智能，它会让人变懒还是帮人问出更好的问题。听同学怎么说，再整理自己的看法，适合口试和议论文。",
+      "img": "assets/media/zb-2026021500155.webp"
+    },
+    {
+      "id": "zb-2026030300462",
+      "src": "早报校园",
+      "tt": "Teen你敢敢说2 EP2：容貌焦虑",
+      "url": "https://www.zbschools.sg/article/detail/2026030300462",
+      "topics": [
+        "s4G11",
+        "s2u4",
+        "s3u2"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：怎么拍照才好看？为了变美做过什么傻事？同学们坦率地谈容貌焦虑。适合谈自信、自我接纳和社交媒体的影响。",
+      "img": "assets/media/zb-2026030300462.webp"
+    },
+    {
+      "id": "zb-2026032400498",
+      "src": "早报校园",
+      "tt": "Teen你敢敢说2 EP3：爸妈和我",
+      "url": "https://www.zbschools.sg/article/detail/2026032400498",
+      "topics": [
+        "s2u1",
+        "s3u4",
+        "s1u2"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-25",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：妈妈催的事会不会故意不做？爸爸要你签约不谈恋爱，你敢签吗？同学们谈和父母的相处之道。适合谈亲子沟通。",
+      "img": "assets/media/zb-2026032400498.webp"
+    },
+    {
+      "id": "zb-2026040800544",
+      "src": "早报校园",
+      "tt": "Teen你敢敢说2 EP4：游戏联盟",
+      "url": "https://www.zbschools.sg/article/detail/2026040800544",
+      "topics": [
+        "s4G21",
+        "s4G33"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-04-08",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：男生女生打游戏有什么不同？因为打游戏遇过什么怪事？同学们谈电子游戏怎样影响生活。适合谈游戏与生活的平衡。",
+      "img": "assets/media/zb-2026040800544.webp"
+    },
+    {
+      "id": "zb-2025041400320",
+      "src": "早报校园",
+      "tt": "《Teen你敢敢说》第二集：社媒",
+      "url": "https://www.zbschools.sg/article/detail/2025041400320",
+      "topics": [
+        "s4G33",
+        "s2u6",
+        "s1u4"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-04-16",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：每天刷多久短视频？社交媒体会不会让人无法自拔？学生嘉宾分享自己的经验和看法。适合谈数码习惯和自制力。",
+      "img": "assets/media/zb-2025041400320.webp"
+    },
+    {
+      "id": "zb-2025042200288",
+      "src": "早报校园",
+      "tt": "《Teen你敢敢说》第三集：理财",
+      "url": "https://www.zbschools.sg/article/detail/2025042200288",
+      "topics": [
+        "s1u4",
+        "s2u4",
+        "s4G33"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-04-23",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：零用钱够用吗？钱对你有多重要？同学们谈理财，也分享打工的经历。适合谈消费习惯和成长。",
+      "img": "assets/media/zb-2025042200288.webp"
+    },
+    {
+      "id": "zb-2025042900616",
+      "src": "早报校园",
+      "tt": "《Teen你敢敢说》第四集：霸凌",
+      "url": "https://www.zbschools.sg/article/detail/2025042900616",
+      "topics": [
+        "s3u1",
+        "s1u1",
+        "s3u4"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-04-30",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "青少年谈话节目：多严重的行为才算霸凌？也许你曾被嘲笑或孤立，也可能无意中伤害过别人。同学们坦诚讨论。适合谈友谊和校园生活。",
+      "img": "assets/media/zb-2025042900616.webp"
+    },
+    {
+      "id": "zb-2025033000158",
+      "src": "早报校园",
+      "tt": "《新加坡前传》第一集：解密狮子城王国",
+      "url": "https://www.zbschools.sg/article/detail/2025033000158",
+      "topics": [
+        "s1u3",
+        "s4G13"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2019-02-01",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "短视频：义务导览员带你认识七百年前的新加坡拉王国和守护它一个世纪的城墙。适合为谈新加坡历史和家园的话题增加知识。",
+      "img": "assets/media/zb-2025033000158.webp"
+    },
+    {
+      "id": "zb-2025033000226",
+      "src": "早报校园",
+      "tt": "《新加坡前传》第二集：我们的土著是谁？",
+      "url": "https://www.zbschools.sg/article/detail/2025033000226",
+      "topics": [
+        "s1u3",
+        "s4G13"
+      ],
+      "kind": "video",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2019-02-01",
+      "provenance": "早报校园 视频 系列节目",
+      "abs": "短视频：考古学者带你走进七百年前住在新加坡的神秘土著的世界。适合为谈新加坡历史和多元文化的话题积累例子。",
+      "img": "assets/media/zb-2025033000226.webp"
+    },
+    {
+      "id": "zb-2025000740",
+      "src": "早报校园",
+      "tt": "方言展现文化色彩",
+      "url": "https://www.zbschools.sg/article/detail/2025000740",
+      "topics": [
+        "s4G23",
+        "s4G14"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-07-16",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "本地华人主要说福建、潮州、广东、客家、海南五大方言。文章讲方言怎样随移民而来、为什么减少，以及年轻人重新学方言的现象。适合谈文化传承。",
+      "img": "assets/media/zb-2025000740.webp"
+    },
+    {
+      "id": "zb-2025000610",
+      "src": "早报校园",
+      "tt": "新谣旋律 代代传唱",
+      "url": "https://www.zbschools.sg/article/detail/2025000610",
+      "topics": [
+        "s4G23",
+        "s4G13"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-05-21",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "新谣是新加坡年轻人自己写、自己唱的华语歌，兴起于八十年代校园。文章讲它的起落和今天的“新空下”比赛。适合谈本地文化和青春创作。",
+      "img": "assets/media/zb-2025000610.webp"
+    },
+    {
+      "id": "zb-2025000296",
+      "src": "早报校园",
+      "tt": "清明祭祖 缅怀先人",
+      "url": "https://www.zbschools.sg/article/detail/2025000296",
+      "topics": [
+        "s1u2",
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-03-05",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "清明节是华人家庭团聚扫墓的日子。文章介绍不同籍贯的清明习俗、会馆的春祭，以及环保冥纸和线上祭祖等新做法。适合谈传统节日的传承与改变。",
+      "img": "assets/media/zb-2025000296.webp"
+    },
+    {
+      "id": "zb-2025000125",
+      "src": "早报校园",
+      "tt": "本地戏曲传承文化",
+      "url": "https://www.zbschools.sg/article/detail/2025000125",
+      "topics": [
+        "s4G23",
+        "s4G14"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-02-05",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "戏曲随华人移民传到新加坡，文章介绍福建戏、潮剧、粤剧、琼剧和京剧在本地的发展，还有戏曲行话。适合谈传统艺术怎样吸引年轻人。",
+      "img": "assets/media/zb-2025000125.webp"
+    },
+    {
+      "id": "zb-2024001135",
+      "src": "早报校园",
+      "tt": "新加坡华人都来自哪些地方？",
+      "url": "https://www.zbschools.sg/article/detail/2024001135",
+      "topics": [
+        "s4G23",
+        "s4G13",
+        "s1u3"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2024-08-21",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "本地华人的祖先来自中国福建、广东等地，也有马六甲的商人集团。文章讲早期移民的生活、宗乡会馆的出现和新移民的加入。适合谈身份认同。",
+      "img": "assets/media/zb-2024001135.webp"
+    },
+    {
+      "id": "zb-2025000421",
+      "src": "早报校园",
+      "tt": "大师“讲古” 穿梭古今",
+      "url": "https://www.zbschools.sg/article/detail/2025000421",
+      "topics": [
+        "s4G23",
+        "s4G14"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2025-04-09",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "五十到八十年代，人们守在收音机旁听方言讲古。文章介绍李大傻、黄正经、王道三位讲古大师和丽的呼声电台。适合谈本地娱乐史和方言文化。",
+      "img": "assets/media/zb-2025000421.webp"
+    },
+    {
+      "id": "zb-2026000813",
+      "src": "早报校园",
+      "tt": "华文课本 见证狮城变迁",
+      "url": "https://www.zbschools.sg/article/detail/2026000813",
+      "topics": [
+        "s4G13",
+        "xwzj",
+        "s4G23"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-07-15",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一百多年前华校课本里是上海街景和中国国旗歌，后来才有椰子树和新加坡国旗。文章讲课本怎样记录华人从侨居到认同本地的过程。适合谈国家认同。",
+      "img": "assets/media/zb-2026000813.webp"
+    },
+    {
+      "id": "zb-2026000597",
+      "src": "早报校园",
+      "tt": "不同的家乡 同一个梦想",
+      "url": "https://www.zbschools.sg/article/detail/2026000597",
+      "topics": [
+        "s4G23",
+        "xwzj",
+        "s4G13"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-05-06",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "福建、潮州、海南、广东、客家各籍贯的先辈虽然背景不同，都努力筹钱办学。文章介绍各族群创办的学校和办学精神。适合谈教育的价值和先辈的贡献。",
+      "img": "assets/media/zb-2026000597.webp"
+    },
+    {
+      "id": "zb-2026000264",
+      "src": "早报校园",
+      "tt": "锣鼓一响 舞狮登场！",
+      "url": "https://www.zbschools.sg/article/detail/2026000264",
+      "topics": [
+        "s4G14",
+        "s4G23"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-04",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "舞狮分北狮和南狮，外形和“个性”都不同。文章讲两种狮的来历、本地金狮曾印上钞票，以及学校舞狮团怎样传承文化。适合谈传统文化的创新。",
+      "img": "assets/media/zb-2026000264.webp"
+    },
+    {
+      "id": "zb-2026000410",
+      "src": "早报校园",
+      "tt": "本地华语的独特魅力",
+      "url": "https://www.zbschools.sg/article/detail/2026000410",
+      "topics": [
+        "s4G14",
+        "s4G23",
+        "s4G34"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-04-08",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "为什么新加坡人说“礼拜”、叫兰花“胡姬”？文章讲本地华语词汇怎样从方言、马来语和英语中形成。适合谈语言与文化认同。",
+      "img": "assets/media/zb-2026000410.webp"
+    },
+    {
+      "id": "zb-2026102800326",
+      "src": "早报校园",
+      "tt": "70岁爷爷坐轮椅学武术",
+      "url": "https://www.zbschools.sg/article/detail/2026102800326",
+      "topics": [
+        "s4G22",
+        "s4HCL2",
+        "xwzj"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-30",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "七十岁的范先生多次中风后坐轮椅，今年起每周学习马来武术，认识不同种族的朋友，也挑战自己。适合谈人生不留白和积极的态度。",
+      "img": "assets/media/zb-2026102800326.webp"
+    },
+    {
+      "id": "zb-2026102600465",
+      "src": "早报校园",
+      "tt": "从社区服务学会关心他人",
+      "url": "https://www.zbschools.sg/article/detail/2026102600465",
+      "topics": [
+        "s3u3",
+        "s4G31",
+        "s1u6"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-28",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位理工学院学生加入服务学习俱乐部，原本只想丰富履历，后来学会从洗肾病人和视障长者的角度安排活动，也更留意家中长辈的需要。适合谈社区服务的收获。",
+      "img": "assets/media/zb-2026102600465.webp"
+    },
+    {
+      "id": "zb-2026102600165",
+      "src": "早报校园",
+      "tt": "女学生陪迷路爷爷走回家",
+      "url": "https://www.zbschools.sg/article/detail/2026102600165",
+      "topics": [
+        "s2u1",
+        "s3u6",
+        "s1u6"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-26",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位工教院女学生遇到没带手机、听不懂指路的迷路老翁，陪他步行半小时回家，还等家人到齐才离开。适合谈善良、同理心和爱的表达。",
+      "img": "assets/media/zb-2026102600165.webp"
+    },
+    {
+      "id": "zb-2026102300138",
+      "src": "早报校园",
+      "tt": "垃圾变身红毛猩猩",
+      "url": "https://www.zbschools.sg/article/detail/2026102300138",
+      "topics": [
+        "s2u3",
+        "s2u2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-23",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "艺术家用旧轮胎、垃圾桶和挖掘机零件做成七米高的红毛猩猩母子雕塑，提醒人们垃圾怎样破坏动物的家园。适合谈环保和艺术的力量。",
+      "img": "assets/media/zb-2026102300138.webp"
+    },
+    {
+      "id": "zb-2026102600211",
+      "src": "早报校园",
+      "tt": "青少年用社媒该受限制吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026102600211",
+      "topics": [
+        "s4G33",
+        "s2u6",
+        "s3u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-26",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "政府调查两千多名家长和青少年，多数支持按年龄管理社交媒体，但不赞成全面禁止；双方对十六七岁该不该限制看法不同。适合谈社媒管理的正反理由。",
+      "img": "assets/media/zb-2026102600211.webp"
+    },
+    {
+      "id": "zb-2026102100144",
+      "src": "早报校园",
+      "tt": "当小侦探 学会识别假消息",
+      "url": "https://www.zbschools.sg/article/detail/2026102100144",
+      "topics": [
+        "s2u6",
+        "s4G34",
+        "s1u5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-21",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "图书馆推出侦探解谜活动，让公众在找线索、盘问嫌疑人的游戏中学会查证来源、评估真伪。适合谈怎样辨别网上的假消息和人工智能生成的内容。",
+      "img": "assets/media/zb-2026102100144.webp"
+    },
+    {
+      "id": "zb-2026101500197",
+      "src": "早报校园",
+      "tt": "青少年有心事，谁来帮忙？",
+      "url": "https://www.zbschools.sg/article/detail/2026101500197",
+      "topics": [
+        "s3u2",
+        "s3u4",
+        "s2u1"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-15",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "有些青少年担心父母不理解，不敢开口求助。文章谈心理辅导要不要先征得家长同意、网络霸凌的举报，以及学校和专业辅导的角色。适合谈求助与沟通。",
+      "img": "assets/media/zb-2026101500197.webp"
+    },
+    {
+      "id": "zb-2026101300172",
+      "src": "早报校园",
+      "tt": "烟霾年年考 何时能毕业？",
+      "url": "https://www.zbschools.sg/article/detail/2026101300172",
+      "topics": [
+        "s2u3",
+        "s2u6"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-13",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "每年九月烟霾飘来，政府有预案，民众有经验，网民有笑话。文章把烟霾比作年年重做的历届考题，问什么时候才能真正解决。适合谈环境与区域合作。",
+      "img": "assets/media/zb-2026101300172.webp"
+    },
+    {
+      "id": "zb-2026101300364",
+      "src": "早报校园",
+      "tt": "泰国少年带祖父穷游新加坡",
+      "url": "https://www.zbschools.sg/article/detail/2026101300364",
+      "topics": [
+        "s2u1",
+        "s1u2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-14",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位十六岁的泰国少年带祖父坐火车和巴士走两千公里来新加坡，单程交通只花六十多元。视频感动八百多万人。适合谈陪伴和爱的表达。",
+      "img": "assets/media/zb-2026101300364.webp"
+    },
+    {
+      "id": "zb-2026101300448",
+      "src": "早报校园",
+      "tt": "贪赚快钱帮诈骗，青少年也须受罚",
+      "url": "https://www.zbschools.sg/article/detail/2026101300448",
+      "topics": [
+        "s3u5",
+        "s4G12",
+        "s2u6"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-14",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "借出银行账号赚几百元佣金，可能让青少年成为诈骗帮凶。文章谈政府为什么要加重处罚，也提醒年轻人为自己的行为负责。适合谈人生教训和法律意识。",
+      "img": "assets/media/zb-2026101300448.webp"
+    },
+    {
+      "id": "zb-2026100700184",
+      "src": "早报校园",
+      "tt": "中峇鲁的动物邻居",
+      "url": "https://www.zbschools.sg/article/detail/2026100700184",
+      "topics": [
+        "s2u2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-10-07",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "住在中峇鲁的陈女士常看到犀鸟一家、果子狸和各种小鸟来访，觉得这里像个小动物园。适合谈城市里的野生动物和人与动物相处。",
+      "img": "assets/media/zb-2026100700184.webp"
+    },
+    {
+      "id": "zb-2026001254",
+      "src": "早报校园",
+      "tt": "人工智能越会写，青少年越不会表达？",
+      "url": "https://www.zbschools.sg/article/detail/2026001254",
+      "topics": [
+        "s1u5",
+        "xwzj",
+        "s3u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-30",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "几位中学生和大学生谈用人工智能辅助写作的经验：有人写得更有条理，有人发现自己的文字变得机械、不再独立思考。适合谈科技与学习的界限。",
+      "img": "assets/media/zb-2026001254.webp"
+    },
+    {
+      "id": "zb-2026001250",
+      "src": "早报校园",
+      "tt": "在“自律”与“焦虑”之间 寻找自己的节奏",
+      "url": "https://www.zbschools.sg/article/detail/2026001250",
+      "topics": [
+        "s4G33",
+        "s4HCL5",
+        "s4HCL2",
+        "s3u2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-30",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "看到同学复习八小时、十小时，你会焦虑吗？文章从学生调查和社工、医生的建议谈“自律焦虑”，以及怎样找到自己的节奏。适合谈压力与平衡。",
+      "img": "assets/media/zb-2026001250.webp"
+    },
+    {
+      "id": "zb-2026001252",
+      "src": "早报校园",
+      "tt": "网络用语：社交密码还是沟通退化？",
+      "url": "https://www.zbschools.sg/article/detail/2026001252",
+      "topics": [
+        "s3u4",
+        "s2u6",
+        "s4G34"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-30",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "“破防了”“我勒个豆”这些网络用语拉近同学之间的距离，也有人发现自己越来越难用完整的话描述感受。适合谈语言、沟通和网络文化。",
+      "img": "assets/media/zb-2026001252.webp"
+    },
+    {
+      "id": "zb-2026092100157",
+      "src": "早报校园",
+      "tt": "交流站：别让容貌定义自己",
+      "url": "https://www.zbschools.sg/article/detail/2026092100157",
+      "topics": [
+        "s4G11",
+        "s2u4",
+        "s4HCL2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-15",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位男生从护肤开始打理自己，发现在意外貌不等于虚荣，但过度焦虑会把“提升自己”变成“否定自己”。适合谈自信和自我接纳。",
+      "img": "assets/media/zb-2026092100157.webp"
+    },
+    {
+      "id": "zb-2026092100202",
+      "src": "早报校园",
+      "tt": "交流站：AI改作文的真正意义",
+      "url": "https://www.zbschools.sg/article/detail/2026092100202",
+      "topics": [
+        "xwzj",
+        "s1u5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-15",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "教育部引进人工智能协助批改华文作文，有人担心老师会被取代。文章指出关键在于省下的时间有没有用在更深入的指导上。适合谈科技与教育。",
+      "img": "assets/media/zb-2026092100202.webp"
+    },
+    {
+      "id": "zb-2026090900102",
+      "src": "早报校园",
+      "tt": "每天15分钟养成阅读习惯",
+      "url": "https://www.zbschools.sg/article/detail/2026090900102",
+      "topics": [
+        "s1u4",
+        "xwzj",
+        "s4G32"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-09",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "全民阅读运动推出每天阅读十五分钟的打卡挑战，阅读的时间还能帮慈善筹款。文章也指出不少人只读短篇资讯，不读长篇书籍。适合谈习惯的力量。",
+      "img": "assets/media/zb-2026090900102.webp"
+    },
+    {
+      "id": "zb-2026091200197",
+      "src": "早报校园",
+      "tt": "学生感受家庭支持减少",
+      "url": "https://www.zbschools.sg/article/detail/2026091200197",
+      "topics": [
+        "s2u1",
+        "s1u2",
+        "xwzj"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-12",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "最新国际学生评估显示，只有四成本地学生觉得家人关心他们的学习；六成多学生每周用人工智能学习。适合谈家庭支持和学习习惯。",
+      "img": "assets/media/zb-2026091200197.webp"
+    },
+    {
+      "id": "zb-2026092800186",
+      "src": "早报校园",
+      "tt": "中三女生挑战传统大旗",
+      "url": "https://www.zbschools.sg/article/detail/2026092800186",
+      "topics": [
+        "s4G23",
+        "s4G14",
+        "s4G15"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-28",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "首届大旗竞技赛上，两位中三女生用额头顶起八米多高的大旗。她们每周练习三个多小时，也学会兼顾学业和兴趣。适合谈传统技艺和坚持。",
+      "img": "assets/media/zb-2026092800186.webp"
+    },
+    {
+      "id": "zb-2026083100174",
+      "src": "早报校园",
+      "tt": "用母语解锁福康宁历史",
+      "url": "https://www.zbschools.sg/article/detail/2026083100174",
+      "topics": [
+        "s4G13",
+        "s1u3",
+        "s4G34"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-31",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "三百多人夜游福康宁公园，队友的母语必须不同，要合力用华语、马来语和淡米尔语的线索解谜。适合谈双语、合作和认识本地历史。",
+      "img": "assets/media/zb-2026083100174.webp"
+    },
+    {
+      "id": "zb-2026081000154",
+      "src": "早报校园",
+      "tt": "一封家书串起三代情",
+      "url": "https://www.zbschools.sg/article/detail/2026081000154",
+      "topics": [
+        "s4HCL4",
+        "s1u2",
+        "s4G23"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-10",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "八十二岁的张先生十三岁随父亲从福建来到新加坡。一封家书承载早期移民对远方亲人的牵挂。适合谈离别、亲情和先辈的故事。",
+      "img": "assets/media/zb-2026081000154.webp"
+    },
+    {
+      "id": "zb-2026082000152",
+      "src": "早报校园",
+      "tt": "邻里常见面还不够",
+      "url": "https://www.zbschools.sg/article/detail/2026082000152",
+      "topics": [
+        "s3u3",
+        "s2u5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-20",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "研究发现，咖啡店和电梯口让邻居常碰面，但交流多停在打招呼；线上群组反而促成了线下的聚会。适合谈怎样真正建立邻里关系。",
+      "img": "assets/media/zb-2026082000152.webp"
+    },
+    {
+      "id": "zb-2026080900285",
+      "src": "早报校园",
+      "tt": "管好社媒不只靠禁令",
+      "url": "https://www.zbschools.sg/article/detail/2026080900285",
+      "topics": [
+        "s4G33",
+        "s2u6"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-11",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "专家小组发现三分之一的十五到十七岁青少年每天用社交媒体超过三小时，但认为一刀切的禁令不是答案。适合谈家长、学校和平台各自的责任。",
+      "img": "assets/media/zb-2026080900285.webp"
+    },
+    {
+      "id": "zb-2026082100582",
+      "src": "早报校园",
+      "tt": "学生冲火场救祖孙",
+      "url": "https://www.zbschools.sg/article/detail/2026082100582",
+      "topics": [
+        "s1u6",
+        "s3u6",
+        "s3u3"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-21",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "邻居家深夜失火，十八岁的工教院学生拿起灭火器、用湿毛巾遮口鼻冲进屋里，救出老人和八岁男孩。适合谈勇气、邻里互助和小人物的贡献。",
+      "img": "assets/media/zb-2026082100582.webp"
+    },
+    {
+      "id": "zb-2026000336",
+      "src": "早报校园",
+      "tt": "爸妈， 我可以听话，也请你们听我说话",
+      "url": "https://www.zbschools.sg/article/detail/2026000336",
+      "topics": [
+        "s2u1",
+        "s3u4",
+        "s2u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-25",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位中三男生和妈妈各自讲述旅行失约、夜骑和“偏心”的争执，以及后来怎样和好。社工和医生也给出沟通建议。适合谈亲子关系。",
+      "img": "assets/media/zb-2026000336.webp"
+    },
+    {
+      "id": "zb-2026000667",
+      "src": "早报校园",
+      "tt": "在人手一机的时代，她们逆流而行",
+      "url": "https://www.zbschools.sg/article/detail/2026000667",
+      "topics": [
+        "s4G33",
+        "s1u4",
+        "s4HCL5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-05-20",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "两位没有手机的中一女生用电邮和学习手机与同学联系，把时间花在阅读、运动和家人身上。文章也谈家长的安排和专家的看法。适合谈数码习惯。",
+      "img": "assets/media/zb-2026000667.webp"
+    },
+    {
+      "id": "zb-2026062900733",
+      "src": "早报校园",
+      "tt": "义工活动让一家人更亲近",
+      "url": "https://www.zbschools.sg/article/detail/2026062900733",
+      "topics": [
+        "s3u3",
+        "s2u1",
+        "s4G31"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-06-29",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一家五口把义工服务当作家庭传统，每三个月一起参加一次。文章谈他们怎样在服务中看见亲情的不同表达方式。适合谈家庭和社区。",
+      "img": "assets/media/zb-2026062900733.webp"
+    },
+    {
+      "id": "zb-2026060200234",
+      "src": "早报校园",
+      "tt": "亲情藏在日常里",
+      "url": "https://www.zbschools.sg/article/detail/2026060200234",
+      "topics": [
+        "s2u1",
+        "s1u2"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-06-02",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "全国家庭节提醒大家，维系亲情靠的是一起吃饭、讲故事这些日常相处，而不是盛大的安排。适合谈爱的表达和家庭关系。",
+      "img": "assets/media/zb-2026060200234.webp"
+    },
+    {
+      "id": "zb-2026060300181",
+      "src": "早报校园",
+      "tt": "16岁少年从成瘾到重来",
+      "url": "https://www.zbschools.sg/article/detail/2026060300181",
+      "topics": [
+        "s2u4",
+        "s3u5",
+        "s4G12"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-06-03",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位十六岁少年因同侪压力吸电子烟，后来对“丧尸烟弹”成瘾，犯错被捕后在家人和治疗人员支持下重新开始，现在到校园劝世。适合谈成长与改过。",
+      "img": "assets/media/zb-2026060300181.webp"
+    },
+    {
+      "id": "zb-2026033000306",
+      "src": "早报校园",
+      "tt": "被笑胖，他靠运动走出来",
+      "url": "https://www.zbschools.sg/article/detail/2026033000306",
+      "topics": [
+        "s4G11",
+        "s3u2",
+        "s4G12"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-31",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "疫情期间胖了十公斤的男生被同学取笑，上中学后加入橄榄球队，把注意力从体重转到打球，一年瘦下来也找回自信。适合谈面对挑战和自我肯定。",
+      "img": "assets/media/zb-2026033000306.webp"
+    },
+    {
+      "id": "zb-2026033100171",
+      "src": "早报校园",
+      "tt": "新谣唱进歌单",
+      "url": "https://www.zbschools.sg/article/detail/2026033100171",
+      "topics": [
+        "s4G23",
+        "s4G13"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-03-31",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "“新空下”校园音乐分享会上，音乐人演唱新谣，学生听了想把歌曲加进歌单，还邀老师组队参赛。适合谈本地文化怎样连起不同世代。",
+      "img": "assets/media/zb-2026033100171.webp"
+    },
+    {
+      "id": "zb-2026021500951",
+      "src": "早报校园",
+      "tt": "团圆不用争先后",
+      "url": "https://www.zbschools.sg/article/detail/2026021500951",
+      "topics": [
+        "s1u2",
+        "s4G25",
+        "s4G14"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-02-17",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一对跨族夫妻结婚三十二年，大年初一到公婆家，开斋节再到岳家，两个佳节都过得热闹。适合谈团圆、包容和多元文化。",
+      "img": "assets/media/zb-2026021500951.webp"
+    },
+    {
+      "id": "zb-2026021501042",
+      "src": "早报校园",
+      "tt": "越南人在新加坡过年",
+      "url": "https://www.zbschools.sg/article/detail/2026021501042",
+      "topics": [
+        "s1u2",
+        "s4G25",
+        "s4G14"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-02-18",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "本地的越南人在同一天过“节”，有“五果盘”、苦瓜汤和四方粽。文章介绍一位越南媳妇怎样在新加坡做出自己的年味。适合谈节日与文化。",
+      "img": "assets/media/zb-2026021501042.webp"
+    },
+    {
+      "id": "zb-2026011000264",
+      "src": "早报校园",
+      "tt": "手机管理新规，中学生该如何适应？",
+      "url": "https://www.zbschools.sg/article/detail/2026011000264",
+      "topics": [
+        "s1u1",
+        "s4HCL1",
+        "s4G33"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-01-10",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "中学生在校不得使用手机和智能手表，有的学校设储物柜，有的靠自律。文章介绍不同学校的做法和学生的感受。适合谈校园生活和适应改变。",
+      "img": "assets/media/zb-2026011000264.webp"
+    },
+    {
+      "id": "zb-2026001106",
+      "src": "早报校园",
+      "tt": "奥运冠军 助年轻泳手追梦",
+      "url": "https://www.zbschools.sg/article/detail/2026001106",
+      "topics": [
+        "s4G15",
+        "s4HCL3"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-26",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "夺得奥运金牌十年后，约瑟林设立奖学金，并亲自陪伴年轻泳手走追梦的路。他说真正无价的是经验和陪伴。适合谈追梦和回馈。",
+      "img": "assets/media/zb-2026001106.webp"
+    },
+    {
+      "id": "zb-2026000740",
+      "src": "早报校园",
+      "tt": "少年养蚁 培养兽医仁心",
+      "url": "https://www.zbschools.sg/article/detail/2026000740",
+      "topics": [
+        "s2u2",
+        "s4G15",
+        "s4G11"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-07-01",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位中三学生从小五开始养蚂蚁，失败后钻研，如今养了二十一个蚁群。领养盲犬的经历让他立志当兽医。适合谈兴趣、坚持和关爱动物。",
+      "img": "assets/media/zb-2026000740.webp"
+    },
+    {
+      "id": "zb-2026000749",
+      "src": "早报校园",
+      "tt": "梦想转弯后，她为别人装上翅膀",
+      "url": "https://www.zbschools.sg/article/detail/2026000749",
+      "topics": [
+        "s4G15",
+        "s4G12",
+        "s4HCL3"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-07-01",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位女生立志当飞行员，却因身高差三公分落空。她在实习中看到航空业的其他出路，还设立群组帮助七百多名中学生申请理工学院。适合谈挫折与转弯。",
+      "img": "assets/media/zb-2026000749.webp"
+    },
+    {
+      "id": "zb-2026062300273",
+      "src": "早报校园",
+      "tt": "乌敏岛成课堂",
+      "url": "https://www.zbschools.sg/article/detail/2026062300273",
+      "topics": [
+        "xwzj",
+        "s2u3",
+        "s2u5"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-06-23",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "二十所学校参加乌敏岛学校倡议，学生和岛民交流，发现岛民至今喝井水，也比较斐济和乌敏岛面对的海平面上升。适合谈走出课堂的学习和环保。",
+      "img": "assets/media/zb-2026062300273.webp"
+    },
+    {
+      "id": "zb-2026092100415",
+      "src": "早报校园",
+      "tt": "退费制方便吗？",
+      "url": "https://www.zbschools.sg/article/detail/2026092100415",
+      "topics": [
+        "s2u3"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-09-21",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "饮料瓶罐退费制推行五个月，有人觉得回收机操作简单，也有人遇到机器不识别瓶罐、要先清洗的麻烦。适合谈环保措施的实际效果。",
+      "img": "assets/media/zb-2026092100415.webp"
+    },
+    {
+      "id": "zb-2026001113",
+      "src": "早报校园",
+      "tt": "你好，我是你的新邻居",
+      "url": "https://www.zbschools.sg/article/detail/2026001113",
+      "topics": [
+        "s3u3",
+        "s3u4"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-08-26",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "一位老师搬新家后带着饼干和手写卡片挨家挨户打招呼，吃了不少闭门羹，最后却收到意想不到的回应。适合谈邻里关系和主动伸出手的勇气。",
+      "img": "assets/media/zb-2026001113.webp"
+    },
+    {
+      "id": "zb-2026072700511",
+      "src": "早报校园",
+      "tt": "新加坡教育的压力从何而来？",
+      "url": "https://www.zbschools.sg/article/detail/2026072700511",
+      "topics": [
+        "s4G33",
+        "s4HCL5",
+        "xwzj"
+      ],
+      "kind": "article",
+      "access": "public",
+      "checked": "2026-10-31",
+      "published": "2026-07-28",
+      "provenance": "早报校园 新闻与专题",
+      "abs": "本地家庭一年花十八亿元补习，超过七成学生参加。文章谈压力不只来自考试，也来自家人和同辈的比较。适合谈学习压力与平衡。",
+      "img": "assets/media/zb-2026072700511.webp"
     }
   ],
   "vocabulary": {
