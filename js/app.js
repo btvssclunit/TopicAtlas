@@ -51,14 +51,24 @@ function unitLesson(t,stream){
 function safeURL(url){try{var u=new URL(url);return u.protocol==="https:"?u.href:null;}catch(e){return null;}}
 function mediaFor(t,stream){
   var list=R.resources.filter(function(r){return r.topics.indexOf(t.id)>=0&&safeURL(r.url);}),chosen={};
+  var editions={G1:["普华","快捷"],G2:["普华","快捷"],G3:["高华快华","快捷"],HCL:["高华快华","高华"]}[stream]||[];
   list.forEach(function(r){
-    var key=r.tt.replace(/^【(?:普华|高华快华)】/,'');
-    var preferred=(stream==="G1"||stream==="G2")?r.tt.indexOf('【普华】')===0:r.tt.indexOf('【高华快华】')===0;
+    var m=r.tt.match(/^【(普华|高华快华|快捷|高华)】/),key=m?r.tt.slice(m[0].length):r.tt;
+    var preferred=!!m&&editions.indexOf(m[1])>=0;
     if(!chosen[key]||preferred)chosen[key]=r;
   });
   return Object.keys(chosen).map(function(k){return chosen[k];}).sort(function(a,b){
-    return (a.access==="public"?0:1)-(b.access==="public"?0:1)||(b.published||'').localeCompare(a.published||'');
+    return accessRank(a)-accessRank(b)||(b.published||'').localeCompare(a.published||'');
   });
+}
+// Public pages first, then ZBSchools pages that open with the school's 早报校园 account, then anything else that may need a subscription.
+function accessRank(r){return r.access==="public"?0:r.access==="school"?1:2;}
+// 早报校园 oral practice (看录像说话, 说说看) also appears inside the 口试会话 tab.
+function oralMediaFor(t,stream){return mediaFor(t,stream).filter(function(r){return r.kind==="oral"||r.kind==="talk";});}
+function oralMediaBlock(t,stream){
+  var rows=oralMediaFor(t,stream);
+  if(!rows.length)return '';
+  return '<div class="dept-list"><h3 class="dept-head">早报校园口试练习<span class="gl">ZBSchools oral practice</span></h3><p class="notice">看录像说话和说说看都要用学校提供的早报校园账号登录。先看短片或文章，再对着题目大声说一遍。</p>'+resourceCards(rows)+'</div>';
 }
 function vocabularyFor(t){return (R.vocabulary[t.id]||[]).filter(function(v){return v.terms&&v.terms.length;});}
 function vocabularyLinks(t){
@@ -140,10 +150,10 @@ function deptBlock(t,s,tab){
 }
 function resourceCards(rows){
   return '<div class="res">'+rows.filter(function(r){return safeURL(r.url);}).map(function(r){
-    var access={sls:"SLS 登录",subscription:"需订阅","may-subscribe":"可能需订阅",public:"公开资源",external:"外部资源"}[r.access]||"外部资源";
+    var access={sls:"SLS 登录",school:"早报校园账号登录",subscription:"需订阅","may-subscribe":"可能需订阅",public:"公开资源",external:"外部资源"}[r.access]||"外部资源";
     // Local copies of each publisher's own preview image, so no third-party request is made for the thumbnail.
     var img=/^assets\/media\/[a-z0-9-]+\.webp$/.test(r.img||'')?r.img:'';
-    var form={lesson:"新闻视频 + 学习单",practice:r.tt.split("：")[0],article:"文章"}[r.kind]||'';
+    var form={lesson:"新闻视频 + 学习单",practice:r.tt.split("：")[0],article:"文章",oral:"看录像说话 · 口试练习",talk:"说说看 · 口试练习",topic:"话题 · 正反看法",digest:"新闻消化室 · 新闻解读",video:"视频节目"}[r.kind]||'';
     return '<a class="rc'+(img?' has-img':'')+'" href="'+esc(safeURL(r.url))+'" target="_blank" rel="noopener noreferrer">'+
       (img?'<img class="rc-img" src="'+esc(img)+'" alt="" loading="lazy" width="480" height="270">':'')+
       '<span class="src">'+esc(r.src)+'</span><span class="tt">'+esc(r.tt)+' ↗</span>'+
@@ -254,7 +264,7 @@ var TABS=[["intro","话题导读","Topic intro"],["oral","口试会话","Oral"],
 function rich(p){return esc(p).replace(/\[\[(.+?)\|(\d+)\]\]/g,'<mark>$1<sup>$2</sup></mark>');}
 function availableTabs(t,c,stream){
   var oral=(c.oral||{})[stream],func=(c.func||{})[stream];
-  var present={intro:!!(c.intro||(c.keywords||[]).length),oral:!!(oral&&(oral.q||[]).length)||!!deptFor(t,stream,"oral").length||!!thinkingFor(t).length,func:!!(func&&func.prompt)||!!deptFor(t,stream,"func").length,compo:!!(c.compo||[]).length||!!deptFor(t,stream,"compo").length,model:!!(c.model&&(c.model.paras||[]).length),vocab:!!vocabularyFor(t).length,res:!!topicResources(t,stream).length};
+  var present={intro:!!(c.intro||(c.keywords||[]).length),oral:!!(oral&&(oral.q||[]).length)||!!deptFor(t,stream,"oral").length||!!thinkingFor(t).length||!!oralMediaFor(t,stream).length,func:!!(func&&func.prompt)||!!deptFor(t,stream,"func").length,compo:!!(c.compo||[]).length||!!deptFor(t,stream,"compo").length,model:!!(c.model&&(c.model.paras||[]).length),vocab:!!vocabularyFor(t).length,res:!!topicResources(t,stream).length};
   return TABS.filter(function(tab){return present[tab[0]];});
 }
 function panel(t,c,s){
@@ -268,7 +278,7 @@ function panel(t,c,s){
      ((c.scenes||[]).length?'<div><h3 style="margin-bottom:8px">情境<span class="gl">Scenes to talk about</span></h3><div class="scenes">'+c.scenes.map(function(x,i){return '<div class="scene"><b>情境 '+(i+1)+'</b>'+x+'</div>';}).join("")+'</div></div>':'')+
      '<div class="box"><h3>会话题<span class="gl">Practice questions</span></h3><p class="notice">选一题，对着题目大声说一遍。</p><ol class="qs">'+o.q.map(function(q){return '<li>'+q+'</li>';}).join("")+'</ol></div>'+
      '<div class="two"><div class="box"><h3>好回答的特点<span class="gl">What a good answer does</span></h3><ul class="ticks">'+(c.good||[]).map(function(x){return '<li>'+x+'</li>';}).join("")+'</ul></div>'+
-     '<div class="box"><h3>常用表达<span class="gl">Useful expressions</span></h3>'+(o.expr||[]).map(function(x){return '<p class="frame">'+x+'</p>';}).join("")+'</div></div>':'')+deptBlock(t,s,"oral")+thinkingBlock(t);
+     '<div class="box"><h3>常用表达<span class="gl">Useful expressions</span></h3>'+(o.expr||[]).map(function(x){return '<p class="frame">'+x+'</p>';}).join("")+'</div></div>':'')+deptBlock(t,s,"oral")+thinkingBlock(t)+oralMediaBlock(t,s);
   case "func":
     return '<h2>实用文<span class="gl">Functional writing</span></h2>'+(f&&f.prompt?
      '<div class="task"><span class="typ">'+f.type+'</span><p class="prompt">'+f.prompt+'</p>'+
@@ -288,7 +298,8 @@ function panel(t,c,s){
       return '<section class="box vocab-section"><h3>'+esc(source.tt)+'</h3><div class="chips">'+v.terms.map(function(term){return '<span class="chip">'+esc(term)+'</span>';}).join('')+'</div>'+resourceCards([source])+'</section>';
     }).join('');
   case "res":
-    return '<h2>资源库<span class="gl">Resources</span></h2>'+resourceCards(topicResources(t,s));
+    var rows=topicResources(t,s),school=rows.some(function(r){return r.access==="school";});
+    return '<h2>资源库<span class="gl">Resources</span></h2>'+(school?'<p class="notice">标有“早报校园账号登录”的页面，用学校提供的早报校园账号登录后就能看。</p>':'')+resourceCards(rows);
   }
 }
 function topicView(id){

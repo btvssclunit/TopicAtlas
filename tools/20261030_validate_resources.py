@@ -31,7 +31,9 @@ for r in CAT['resources']:
     assert u.scheme == 'https' and u.hostname in allowed, r['url']
     assert u.path != '/' and not u.query and not u.fragment, r['url']
     assert r['topics'] and set(r['topics']) <= known, r['id']
-    assert r['access'] in {'public', 'subscription', 'may-subscribe'}
+    assert r['access'] in {'public', 'school', 'subscription', 'may-subscribe'}
+    # 'school' is reserved for ZBSchools pages that open with the school's 早报校园 account.
+    assert r['access'] != 'school' or u.hostname == 'www.zbschools.sg', r['id']
     assert not re.search(r'题目|问题|口头报告|CONTENT', r.get('audience', ''))
     if r.get('published'):
         assert date.fromisoformat(r['published']) <= date.fromisoformat(CAT['checked'])
@@ -39,9 +41,13 @@ for r in CAT['resources']:
     abstract = r.get('abs', '')
     assert 30 <= len(abstract) <= 130, r['id']
     assert not re.search(r'[A-Za-z@/]|[āáǎàēéěèīíǐìōóǒòūúǔù]', abstract), r['id']
-    assert r['kind'] in {'lesson', 'practice', 'article'}, r['id']
+    assert r['kind'] in {'lesson', 'practice', 'article', 'oral', 'talk', 'topic', 'digest', 'video'}, r['id']
     if r['kind'] == 'practice':
         assert '：' in r['tt'], r['id']
+    if r['kind'] == 'oral':
+        # One 快捷 and/or 高华 edition per theme; the renderer shows one edition per door.
+        assert re.match(r'【(?:快捷|高华)】', r['tt']) and r.get('audience'), r['id']
+    assert r['id'].startswith('zb-') == (u.hostname == 'www.zbschools.sg'), r['id']
     # Local preview image: a small WebP copy of the publisher's own share image, never a hotlink.
     if r.get('img'):
         assert re.fullmatch(r'assets/media/[a-z0-9-]+\.webp', r['img']), r['id']
