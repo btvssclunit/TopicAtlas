@@ -1,0 +1,1797 @@
+[
+ {
+  "id": "1.1",
+  "cat": 1,
+  "name": "补习文化与过度学业压力",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】华文补习风席卷至小学前 新加坡家长为何焦虑？",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260225-8625255"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE Mother Tongue Languages",
+    "url": "https://www.moe.gov.sg/education-in-sg/our-programmes/mother-tongue-languages"
+   }
+  ],
+  "oral": [
+   "过度补习可能怎样影响学生的学习动机、时间安排与身心健康？",
+   "家长、学校和学生可怎样取得较健康的平衡？"
+  ]
+ },
+ {
+  "id": "1.2",
+  "cat": 1,
+  "name": "科目编班制 / 取消年中考试 / 扩大DSA收生规模",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈振声：检讨改进直接收生计划",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20250102-5631367"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE Full Subject-Based Banding",
+    "url": "https://www.moe.gov.sg/microsites/psle-fsbb/full-subject-based-banding/main.html"
+   },
+   {
+    "t": "MOE DSA-Sec",
+    "url": "https://www.moe.gov.sg/secondary/dsa"
+   }
+  ],
+  "oral": [
+   "科目编班、取消年中考试和直接收生计划分别希望解决什么问题？",
+   "哪一项最能体现全人教育？说明理由。"
+  ]
+ },
+ {
+  "id": "1.3",
+  "cat": 1,
+  "name": "培养双语人才 / 华文华语的传承与推广",
+  "note": "",
+  "zh": [
+   {
+    "t": "【总理公署】李显龙总理：讲华语运动40周年演讲（官方中文）",
+    "url": "https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-at-40th-anniversary-of-speak-mandarin-campaign/"
+   }
+  ],
+  "en": [
+   {
+    "t": "Speak Mandarin Campaign",
+    "url": "https://www.mandarin.org.sg/"
+   },
+   {
+    "t": "Singapore Chinese Cultural Centre",
+    "url": "https://www.singaporeccc.org.sg/"
+   }
+  ],
+  "oral": [
+   "在英语为主的环境中，新加坡为什么仍要培养双语人才？",
+   "家庭和学校怎样让年轻人愿意使用华语？"
+  ]
+ },
+ {
+  "id": "1.4",
+  "cat": 1,
+  "name": "21世纪技能 / 创意思维 / 批判思维 / 专题作业",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】报告：我国学生普遍认为创意受教师重视",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240618-3943223"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE 21st Century Competencies",
+    "url": "https://www.moe.gov.sg/education-in-sg/21st-century-competencies"
+   }
+  ],
+  "oral": [
+   "专题作业怎样培养创意、批判思维与合作能力？",
+   "这类学习方式会面对哪些困难，怎样改善？"
+  ]
+ },
+ {
+  "id": "1.5",
+  "cat": 1,
+  "name": "终身学习 / 自主学习 / SkillsFuture",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈振声：教育须培育创造者和终身学习者",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240422-3481089"
+   }
+  ],
+  "en": [
+   {
+    "t": "SkillsFuture Singapore",
+    "url": "https://www.skillsfuture.gov.sg/"
+   }
+  ],
+  "oral": [
+   "为什么终身学习对未来就业和个人成长重要？",
+   "学生现在可以怎样培养自主学习习惯？"
+  ]
+ },
+ {
+  "id": "1.6",
+  "cat": 1,
+  "name": "阅读文化 / 数码时代深度阅读",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈志锐：重塑深度阅读的生态（言论文章）",
+    "url": "https://www.zaobao.com.sg/forum/views/story20250920-7541611"
+   }
+  ],
+  "en": [
+   {
+    "t": "NLB Read! Singapore",
+    "url": "https://www.nlb.gov.sg/main/home"
+   }
+  ],
+  "oral": [
+   "数码时代为什么仍需要深度阅读？",
+   "你会怎样在短视频、社交媒体与阅读之间取得平衡？"
+  ]
+ },
+ {
+  "id": "1.7",
+  "cat": 1,
+  "name": "科技辅助学习 / 课堂AI工具 / AI口语练习器",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "MOE Educational Technology Division",
+    "url": "https://www.moe.gov.sg/education-in-sg/educational-technology-division"
+   }
+  ],
+  "oral": [
+   "AI工具可以怎样辅助学习？",
+   "学生使用AI时应遵守哪些原则，避免依赖、抄袭或泄露资料？"
+  ]
+ },
+ {
+  "id": "1.8",
+  "cat": 1,
+  "name": "德育与品格教育 / 正确价值观",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】教育重视品格与公民教育",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20230530-1399792"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE Character & Citizenship Education",
+    "url": "https://www.moe.gov.sg/programmes/character-and-citizenship-education"
+   }
+  ],
+  "oral": [
+   "学校怎样帮助学生建立正确价值观？",
+   "价值观教育应主要由家庭还是学校承担？为什么？"
+  ]
+ },
+ {
+  "id": "1.9",
+  "cat": 1,
+  "name": "海外浸濡 / 学习之旅 / 外展训练",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】重启语特浸濡计划 游北京领略人文历史",
+    "url": "https://www.zaobao.com.sg/lifestyle/gen/story20240110-1460913"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE Overseas Immersion Programmes",
+    "url": "https://www.moe.gov.sg/programmes/outdoor-education"
+   }
+  ],
+  "oral": [
+   "海外浸濡、学习之旅或外展训练能带来哪些学习？",
+   "怎样避免活动只成为一次观光或打卡？"
+  ]
+ },
+ {
+  "id": "1.10",
+  "cat": 1,
+  "name": "校园归属感 / 师生关系 / 学校文化",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】学校与家长携手减少校园欺凌",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260415-8900282"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE Secondary Education",
+    "url": "https://www.moe.gov.sg/secondary"
+   }
+  ],
+  "oral": [
+   "怎样的校园文化会让学生有归属感？",
+   "学生、教师和学校分别可以做什么？"
+  ]
+ },
+ {
+  "id": "1.11",
+  "cat": 1,
+  "name": "创造精神",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈振声：教育须培育创造者和终身学习者",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240422-3481089"
+   }
+  ],
+  "en": [
+   {
+    "t": "Enterprise Singapore — Startup SG",
+    "url": "https://www.enterprisesg.gov.sg/grow-your-business/startup-sg"
+   },
+   {
+    "t": "MOE Polytechnics & Universities",
+    "url": "https://www.moe.gov.sg/post-secondary"
+   }
+  ],
+  "oral": [
+   "学校和政府应怎样培养学生的创业精神？",
+   "获得实践机会是否必然有助于创业？说明理由。"
+  ]
+ },
+ {
+  "id": "2.1",
+  "cat": 2,
+  "name": "亲子关系 / 父母的期望与压力",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】交流站：家庭教育缺失影响甚大（读者观点）",
+    "url": "https://www.zaobao.com.sg/forum/talk/story20240322-3193638"
+   }
+  ],
+  "en": [
+   {
+    "t": "MSF Family Service Centres",
+    "url": "https://www.msf.gov.sg/what-we-do/family"
+   }
+  ],
+  "oral": [
+   "父母的期望会怎样影响青少年？",
+   "父母和孩子可以怎样沟通，减少不必要的压力？"
+  ]
+ },
+ {
+  "id": "2.2",
+  "cat": 2,
+  "name": "家庭凝聚力 / 家庭时间的重要性",
+  "note": "",
+  "zh": [
+   {
+    "t": "【MSF】家庭服务与社区资源（官方）",
+    "url": "https://www.msf.gov.sg/what-we-do/family/family-life"
+   }
+  ],
+  "en": [
+   {
+    "t": "MSF Family Life",
+    "url": "https://www.msf.gov.sg/what-we-do/family/family-life"
+   }
+  ],
+  "oral": [
+   "家庭成员共同相处的时间为什么重要？",
+   "忙碌家庭可以怎样维系凝聚力？"
+  ]
+ },
+ {
+  "id": "2.3",
+  "cat": 2,
+  "name": "人际交往与沟通技巧",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "MOE Social & Emotional Learning",
+    "url": "https://www.moe.gov.sg/programmes/social-and-emotional-learning"
+   }
+  ],
+  "oral": [
+   "良好的沟通技巧包括哪些做法？",
+   "当你与朋友或家人意见不同时，怎样表达才恰当？"
+  ]
+ },
+ {
+  "id": "2.4",
+  "cat": 2,
+  "name": "假期打工 / 青少年工作经验",
+  "note": "",
+  "zh": [
+   {
+    "t": "【人力部】青少年与学生就业资讯（官方入口；须按年龄另查细则）",
+    "url": "https://www.mom.gov.sg/"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOM Work Passes & Permits",
+    "url": "https://www.mom.gov.sg/passes-and-permits"
+   }
+  ],
+  "oral": [
+   "假期打工可能带来哪些经验与风险？",
+   "打假期工可以培养学生什么技能或品质？"
+  ]
+ },
+ {
+  "id": "3.1",
+  "cat": 3,
+  "name": "团队精神 / 体育精神 / 课外活动",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】体育活动与团队精神",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240225-1470332"
+   }
+  ],
+  "en": [
+   {
+    "t": "Sport Singapore / ActiveSG",
+    "url": "https://www.sportsingapore.gov.sg/"
+   },
+   {
+    "t": "MOE Co-Curricular Activities",
+    "url": "https://www.moe.gov.sg/programmes/co-curricular-activities"
+   }
+  ],
+  "oral": [
+   "课外活动和体育运动怎样培养团队精神与体育精神？",
+   "体育活动有助于培养毅力。你同意吗？"
+  ]
+ },
+ {
+  "id": "3.2",
+  "cat": 3,
+  "name": "领袖才能 / 软实力与硬实力",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈振声：教育须培育创造者和终身学习者",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240422-3481089"
+   }
+  ],
+  "en": [
+   {
+    "t": "SkillsFuture Singapore",
+    "url": "https://www.skillsfuture.gov.sg/"
+   }
+  ],
+  "oral": [
+   "一个好的学生领袖需要哪些软实力和硬实力？",
+   "领导力能否通过学习与实践培养？"
+  ]
+ },
+ {
+  "id": "3.3",
+  "cat": 3,
+  "name": "社会责任感 / 义工精神 / 服务社区",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】调查：每月参与志愿服务者生活质量较高",
+    "url": "https://www.zaobao.com.sg/realtime/singapore/story20250328-6083436"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Volunteer & Philanthropy Centre",
+    "url": "https://www.nvpc.org.sg/"
+   },
+   {
+    "t": "SG Cares",
+    "url": "https://www.sgcares.gov.sg/"
+   }
+  ],
+  "oral": [
+   "青少年参加志愿服务对自己、受助者和社区有什么意义？",
+   "志愿服务能够增强社会凝聚力。你同意吗？"
+  ]
+ },
+ {
+  "id": "3.4",
+  "cat": 3,
+  "name": "诚信 / 个人品格与道德",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】教育重视品格与公民教育",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20230530-1399792"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOE CCE Core Values",
+    "url": "https://www.moe.gov.sg/programmes/character-and-citizenship-education"
+   }
+  ],
+  "oral": [
+   "为什么诚信是重要的品格？",
+   "当诚实会让自己吃亏时，你仍会坚持吗？为什么？"
+  ]
+ },
+ {
+  "id": "3.5",
+  "cat": 3,
+  "name": "自我管理 / 手机成瘾 / 学校禁用手机和智能手表",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】学校上课时间禁用手机和智能手表",
+    "url": "https://www.8world.com/singapore/smartphones-and-smartwatches-will-not-be-allowed-during-school-hours-2977066"
+   }
+  ],
+  "en": [
+   {
+    "t": "IMDA Digital for Life",
+    "url": "https://www.imda.gov.sg/digitalforlife"
+   },
+   {
+    "t": "MOE Cyber Wellness",
+    "url": "https://www.moe.gov.sg/programmes/cyber-wellness"
+   }
+  ],
+  "oral": [
+   "学校限制学生在上课时间使用手机和智能手表，有什么好处和可能的不便？",
+   "学生怎样培养数码自律？"
+  ]
+ },
+ {
+  "id": "3.6",
+  "cat": 3,
+  "name": "过度消费的危害 / 盲盒消费与冲动购物",
+  "note": "",
+  "zh": [
+   {
+    "t": "【消费者协会 CASE】消费者权益（官方）",
+    "url": "https://www.case.org.sg/"
+   }
+  ],
+  "en": [
+   {
+    "t": "CASE Consumer Association of Singapore",
+    "url": "https://www.case.org.sg/"
+   }
+  ],
+  "oral": [
+   "过度消费会带来哪些问题？",
+   "盲盒消费为什么吸引人？消费者怎样保持理性？"
+  ]
+ },
+ {
+  "id": "3.7",
+  "cat": 3,
+  "name": "电子烟的危害",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】卫生促进局提醒电子烟危害",
+    "url": "https://www.8world.com/singapore/hpb-vaping-2469366"
+   }
+  ],
+  "en": [
+   {
+    "t": "HPB Smoking & Vaping",
+    "url": "https://www.healthhub.sg/live-healthy/smoking-and-vaping"
+   },
+   {
+    "t": "HSA Tobacco Regulation",
+    "url": "https://www.hsa.gov.sg/tobacco-regulation"
+   }
+  ],
+  "oral": [
+   "电子烟对个人和社会可能带来哪些危害？",
+   "学校、家庭和同伴可以怎样劝阻使用？"
+  ]
+ },
+ {
+  "id": "3.8",
+  "cat": 3,
+  "name": "青少年心理健康 / 承受压力与减压",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】青年心理健康计划加强支援",
+    "url": "https://www.8world.com/singapore/youth-mental-wellness-programme-2487976"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOH National Mental Health & Well-Being Strategy 2023",
+    "url": "https://www.moh.gov.sg/newsroom/launch-of-national-mental-health-and-well-being-strategy"
+   }
+  ],
+  "oral": [
+   "学校为什么应重视青少年心理健康？",
+   "面对压力时，学生可以怎样求助和调适？"
+  ]
+ },
+ {
+  "id": "3.9",
+  "cat": 3,
+  "name": "兴趣爱好 / 培养创意 / 探索潜能",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】报告：我国学生普遍认为创意受教师重视",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240618-3943223"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Arts Council (NAC)",
+    "url": "https://www.nac.gov.sg/"
+   }
+  ],
+  "oral": [
+   "兴趣爱好怎样帮助青少年探索潜能和培养创意？",
+   "培养青少年创意的活动及其意义？"
+  ]
+ },
+ {
+  "id": "3.10",
+  "cat": 3,
+  "name": "美育与艺术教育 / 学生可以获得哪些收获",
+  "note": "",
+  "zh": [
+   {
+    "t": "【国家艺术理事会】NAC（官方；英文页面）",
+    "url": "https://www.nac.gov.sg/"
+   }
+  ],
+  "en": [
+   {
+    "t": "NAC Arts Education",
+    "url": "https://www.nac.gov.sg/support/arts-education"
+   },
+   {
+    "t": "MOE Arts in Education",
+    "url": "https://www.moe.gov.sg/programmes/arts-education"
+   }
+  ],
+  "oral": [
+   "美育和艺术教育能让学生获得哪些收获？",
+   "学校是否应把艺术教育看得和学术科目一样重要？"
+  ]
+ },
+ {
+  "id": "4.1",
+  "cat": 4,
+  "name": "青少年心理健康 / 运动与身心健康",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】青年心理健康计划加强支援",
+    "url": "https://www.8world.com/singapore/youth-mental-wellness-programme-2487976"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOH National Mental Health Strategy",
+    "url": "https://www.moh.gov.sg/newsroom/launch-of-national-mental-health-and-well-being-strategy"
+   }
+  ],
+  "oral": [
+   "运动怎样影响青少年的身心健康？",
+   "学生应养成运动习惯。你同意吗？"
+  ]
+ },
+ {
+  "id": "4.2",
+  "cat": 4,
+  "name": "政府鼓励国人运动 / 鼓励残障人士参与体育",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】政府鼓励国人运动与参与体育活动",
+    "url": "https://www.zaobao.com.sg/news/sports/story20241120-5376003"
+   }
+  ],
+  "en": [
+   {
+    "t": "Sport Singapore / ActiveSG",
+    "url": "https://www.sportsingapore.gov.sg/"
+   },
+   {
+    "t": "SG Enable",
+    "url": "https://www.sgenable.sg/"
+   }
+  ],
+  "oral": [
+   "政府为什么鼓励国人运动？",
+   "怎样让残障人士也能较容易参与体育活动？"
+  ]
+ },
+ {
+  "id": "4.3",
+  "cat": 4,
+  "name": "控制糖分及营养摄入 / 营养等级制度",
+  "note": "（措施会更新；使用前查 HPB 最新资料）",
+  "zh": [
+   {
+    "t": "【8视界】营养等级制度与减少糖分摄入",
+    "url": "https://www.8world.com/in-depth/morning-express/health-nutri-grade-2475366"
+   }
+  ],
+  "en": [
+   {
+    "t": "HPB Nutri-Grade",
+    "url": "https://www.healthhub.sg/live-healthy/nutri-grade"
+   },
+   {
+    "t": "HPB HealthHub",
+    "url": "https://www.healthhub.sg/"
+   }
+  ],
+  "oral": [
+   "政府可怎样引导国人减少糖分、钠和饱和脂肪摄入？",
+   "营养标签、价格措施和教育宣传，哪一种较有效？"
+  ]
+ },
+ {
+  "id": "4.4",
+  "cat": 4,
+  "name": "健康饮食 / 健康生活方式",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】营养等级制度与健康饮食",
+    "url": "https://www.8world.com/in-depth/morning-express/health-nutri-grade-2475366"
+   }
+  ],
+  "en": [
+   {
+    "t": "HPB HealthHub",
+    "url": "https://www.healthhub.sg/"
+   },
+   {
+    "t": "MOH Healthier SG",
+    "url": "https://www.moh.gov.sg/healthiersg"
+   }
+  ],
+  "oral": [
+   "什么是健康的生活方式？",
+   "忙碌学生怎样在饮食、睡眠、运动之间作出较好的选择？"
+  ]
+ },
+ {
+  "id": "4.5",
+  "cat": 4,
+  "name": "急救常识 / 公民急救意识",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】Project HEART 推动公众学习心肺复苏与急救",
+    "url": "https://www.8world.com/singapore/project-heart-announced-the-formation-of-ncer-2591741"
+   }
+  ],
+  "en": [
+   {
+    "t": "SCDF myResponder",
+    "url": "https://www.scdf.gov.sg/home/community-volunteers/myresponder"
+   },
+   {
+    "t": "Singapore Heart Foundation",
+    "url": "https://www.myheart.org.sg/"
+   }
+  ],
+  "oral": [
+   "公民为什么应具备基本急救意识？",
+   "学校可以怎样推动学生学习急救常识？"
+  ]
+ },
+ {
+  "id": "4.6",
+  "cat": 4,
+  "name": "预防性保健 / 医疗科技进步",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】预防性保健与医疗科技发展",
+    "url": "https://www.zaobao.com.sg/lifestyle/health/story20260227-8055761"
+   }
+  ],
+  "en": [
+   {
+    "t": "MOH Healthier SG",
+    "url": "https://www.moh.gov.sg/healthiersg"
+   },
+   {
+    "t": "MOHT Healthcare Innovation",
+    "url": "https://www.moht.com.sg/"
+   }
+  ],
+  "oral": [
+   "为什么预防性保健比生病后才治疗更重要？",
+   "医疗科技进步会带来哪些便利与挑战？"
+  ]
+ },
+ {
+  "id": "5.1",
+  "cat": 5,
+  "name": "饮料瓶罐退费制 / 限制塑料袋 / 3R减少垃圾",
+  "note": "（退费制2026年4月1日已启动；押金标签过渡至2026年10月1日）",
+  "zh": [
+   {
+    "t": "【联合早报】饮料瓶罐退费制4月启动",
+    "url": "https://www.zaobao.com.sg/realtime/singapore/story20260103-8046038"
+   }
+  ],
+  "en": [
+   {
+    "t": "NEA Zero Waste Masterplan",
+    "url": "https://www.towardszerowaste.gov.sg/"
+   }
+  ],
+  "oral": [
+   "饮料瓶罐退费制、减少塑料袋和3R做法怎样帮助环境？",
+   "个人习惯还是政府制度更关键？"
+  ]
+ },
+ {
+  "id": "5.2",
+  "cat": 5,
+  "name": "浪费食物现象 / 危害及应对措施",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】食物拯救组织应对剩食需求",
+    "url": "https://www.8world.com/singapore/food-rescue-demand-3159511"
+   }
+  ],
+  "en": [
+   {
+    "t": "NEA Food Waste",
+    "url": "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management"
+   }
+  ],
+  "oral": [
+   "浪费食物会带来哪些问题？",
+   "减少食物浪费是一项挑战。你同意吗？"
+  ]
+ },
+ {
+  "id": "5.3",
+  "cat": 5,
+  "name": "电子垃圾回收 / 国家推出何种措施",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】国际电子垃圾日：回收电子废物",
+    "url": "https://www.8world.com/singapore/international-e-waste-day-2025-dr-janil-puthucheary-2931281"
+   }
+  ],
+  "en": [
+   {
+    "t": "NEA E-waste Recycling",
+    "url": "https://www.nea.gov.sg/our-services/waste-management/electrical-and-electronic-waste"
+   }
+  ],
+  "oral": [
+   "为什么电子垃圾不能随意丢弃？",
+   "国家回收制度和个人习惯应怎样配合？"
+  ]
+ },
+ {
+  "id": "5.4",
+  "cat": 5,
+  "name": "归还碗碟 / 可持续消费 / 维修文化",
+  "note": "（建议拆题：公共礼仪 / 绿色消费 / 维修文化）",
+  "zh": [
+   {
+    "t": "【联合早报】维修文化与可持续消费",
+    "url": "https://www.zaobao.com.sg/lifestyle/travel/story20220515-1272795"
+   }
+  ],
+  "en": [
+   {
+    "t": "NEA Tray Return",
+    "url": "https://www.nea.gov.sg/our-services/public-cleanliness/tray-and-crockery-return"
+   }
+  ],
+  "oral": [
+   "归还碗碟、维修旧物和减少购买一次性用品，怎样体现可持续生活？"
+  ]
+ },
+ {
+  "id": "5.5",
+  "cat": 5,
+  "name": "公共交通布局 / 骑行和步行道 / 减少碳排放",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】公共交通、骑行和步行网络规划",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20241222-5634493"
+   }
+  ],
+  "en": [
+   {
+    "t": "LTA Land Transport Master Plan",
+    "url": "https://www.lta.gov.sg/content/ltagov/en/who_we_are/our_work/land_transport_master_plan_2040.html"
+   }
+  ],
+  "oral": [
+   "发展公共交通、骑行和步行网络怎样减少碳排放？",
+   "市民为什么仍可能不愿改变出行习惯？"
+  ]
+ },
+ {
+  "id": "5.6",
+  "cat": 5,
+  "name": "全球暖化 / 气候变化 / 极端天气",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】气候变化与极端天气风险",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260309-8684001"
+   }
+  ],
+  "en": [
+   {
+    "t": "MSE Climate Change",
+    "url": "https://www.mse.gov.sg/policies/climate-change"
+   },
+   {
+    "t": "National Climate Change Secretariat",
+    "url": "https://www.nccs.gov.sg/"
+   }
+  ],
+  "oral": [
+   "气候变化会怎样影响新加坡的生活？",
+   "个人改变习惯是否真的有用？为什么？"
+  ]
+ },
+ {
+  "id": "5.7",
+  "cat": 5,
+  "name": "永续新加坡 / 绿色计划2030",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "Singapore Green Plan 2030",
+    "url": "https://www.greenplan.gov.sg/"
+   },
+   {
+    "t": "MSE Green Plan Resources",
+    "url": "https://www.mse.gov.sg/resources/sgp-2030"
+   }
+  ],
+  "oral": [
+   "永续新加坡为什么需要政府、企业和个人共同参与？",
+   "你认为学校最可先落实哪一项绿色行动？"
+  ]
+ },
+ {
+  "id": "5.8",
+  "cat": 5,
+  "name": "节水 / 水资源 / 新加坡水资源策略",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】水价调整与节约用水",
+    "url": "https://www.8world.com/singapore/what-you-need-to-know-about-water-price-rising-2251791"
+   }
+  ],
+  "en": [
+   {
+    "t": "PUB Our Water Story",
+    "url": "https://www.pub.gov.sg/"
+   }
+  ],
+  "oral": [
+   "水资源对新加坡为什么重要？",
+   "家庭和学校可以怎样更有效地节水？"
+  ]
+ },
+ {
+  "id": "5.9",
+  "cat": 5,
+  "name": "野生动物和谐共处 / 与大自然共生",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】社区与野生动物共处",
+    "url": "https://www.8world.com/singapore/monkey-in-punggol-3055696"
+   }
+  ],
+  "en": [
+   {
+    "t": "NParks Animal & Veterinary Service",
+    "url": "https://www.nparks.gov.sg/avs"
+   }
+  ],
+  "oral": [
+   "居民应怎样与野生动物和谐共处？",
+   "人与自然应怎样取得平衡？"
+  ]
+ },
+ {
+  "id": "5.10",
+  "cat": 5,
+  "name": "宠物责任 / 社区流浪猫管理计划",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "NParks Community Cat Management",
+    "url": "https://www.nparks.gov.sg/avs/pets/cats-and-dogs/community-animals/community-cats"
+   }
+  ],
+  "oral": [
+   "宠物主人应对社区负责任。你同意吗？",
+   "社区流浪猫管理计划有什么意义？"
+  ]
+ },
+ {
+  "id": "5.11",
+  "cat": 5,
+  "name": "城市农业 / 发展城市农业的意义 / 30×30粮食目标",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】发展城市农业与粮食安全（2020年历史背景）",
+    "url": "https://www.zaobao.com.sg/forum/views/talk/story20200507-1051381"
+   }
+  ],
+  "en": [
+   {
+    "t": "SFA 30x30 Food Story",
+    "url": "https://www.sfa.gov.sg/food-farming/sgfoodstory"
+   }
+  ],
+  "oral": [
+   "新加坡为什么发展城市农业？",
+   "城市农业能否完全解决粮食安全问题？为什么？"
+  ]
+ },
+ {
+  "id": "5.12",
+  "cat": 5,
+  "name": "社区食用园艺计划 / 为国人带来的好处",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "NParks Community in Bloom",
+    "url": "https://www.nparks.gov.sg/gardening/community-in-bloom-programme"
+   }
+  ],
+  "oral": [
+   "社区食用园艺计划可以为居民带来哪些好处？",
+   "社区如何发展食用园艺计划？"
+  ]
+ },
+ {
+  "id": "5.13",
+  "cat": 5,
+  "name": "生物多样性 / 自然保护区 / 自然中的城市",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "NParks City in Nature",
+    "url": "https://www.nparks.gov.sg/about-us/city-in-nature"
+   }
+  ],
+  "oral": [
+   "为什么城市发展仍要保护自然保护区和生物多样性？",
+   "人与自然应怎样取得平衡？"
+  ]
+ },
+ {
+  "id": "6.1",
+  "cat": 6,
+  "name": "人工智能 / 生成式AI对社会的影响 / 自动化对国家运行及生活的好处",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】人工智能如何改善医疗服务",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260520-9076052"
+   }
+  ],
+  "en": [
+   {
+    "t": "Smart Nation — National AI Strategy 2.0",
+    "url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy"
+   },
+   {
+    "t": "AI Singapore",
+    "url": "https://aisingapore.org/"
+   }
+  ],
+  "oral": [
+   "人工智能和自动化怎样改善生活与国家运作？",
+   "它们会带来哪些风险，社会应怎样应对？",
+   "学生应善用人工智能辅助学习。你同意吗？"
+  ]
+ },
+ {
+  "id": "6.2",
+  "cat": 6,
+  "name": "科技是工具还是威胁",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】人工智能如何改善医疗服务",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260520-9076052"
+   }
+  ],
+  "en": [
+   {
+    "t": "MDDI AI Governance",
+    "url": "https://www.mddi.gov.sg/"
+   },
+   {
+    "t": "PDPC Model AI Governance Framework",
+    "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
+   }
+  ],
+  "oral": [
+   "科技是帮助人的工具，还是可能带来威胁？关键取决于什么？",
+   "科技带来的便利也带来风险。你同意吗？"
+  ]
+ },
+ {
+  "id": "6.3",
+  "cat": 6,
+  "name": "无现金社会的利弊 / 数码支付带来便利也带来风险 / 网络购物",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】无现金支付与带现金的习惯",
+    "url": "https://www.8world.com/singapore/do-you-carry-cash-or-wallet-out-3092356"
+   }
+  ],
+  "en": [
+   {
+    "t": "Smart Nation Singapore",
+    "url": "https://www.smartnation.gov.sg/"
+   },
+   {
+    "t": "Singpass",
+    "url": "https://www.singpass.gov.sg/"
+   }
+  ],
+  "oral": [
+   "数码支付带来便利也带来风险。你同意吗？",
+   "网络购物改变了人们的生活。",
+   "社会是否应保留现金支付方式？"
+  ]
+ },
+ {
+  "id": "6.4",
+  "cat": 6,
+  "name": "新加坡大力发展智慧国 / 生活中有哪些例子 / 利与弊",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "Smart Nation Singapore",
+    "url": "https://www.smartnation.gov.sg/"
+   }
+  ],
+  "oral": [
+   "智慧国建设在生活中有哪些例子？",
+   "科技服务怎样做到方便、包容并保护隐私？"
+  ]
+ },
+ {
+  "id": "6.5",
+  "cat": 6,
+  "name": "社交网络 / 网红影响 / 社交媒体对青少年的积极与消极影响",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】青少年使用屏幕与社交媒体",
+    "url": "https://www.8world.com/singapore/teens-screen-time-usage-2692531"
+   }
+  ],
+  "en": [
+   {
+    "t": "IMDA Digital for Life",
+    "url": "https://www.imda.gov.sg/digitalforlife"
+   },
+   {
+    "t": "MCI Online Safety",
+    "url": "https://www.mci.gov.sg/"
+   }
+  ],
+  "oral": [
+   "社交媒体对青少年有哪些积极与消极影响？",
+   "面对网红内容时，怎样保持独立判断？"
+  ]
+ },
+ {
+  "id": "6.6",
+  "cat": 6,
+  "name": "假信息事件 / 其危害性及应对措施 / POFMA",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】提升辨识假信息能力",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20230610-1402901"
+   }
+  ],
+  "en": [
+   {
+    "t": "POFMA Office",
+    "url": "https://www.pofmaoffice.gov.sg/"
+   }
+  ],
+  "oral": [
+   "假信息会造成什么危害？",
+   "学生发现可疑消息时，应怎样查证和回应？"
+  ]
+ },
+ {
+  "id": "6.7",
+  "cat": 6,
+  "name": "网络安全事件 / 网络诈骗 / 保护乐龄 / 青少年网上受骗",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】更多青少年网上受骗",
+    "url": "https://www.zaobao.com.sg/lifestyle/campus/story20240124-1464022"
+   }
+  ],
+  "en": [
+   {
+    "t": "ScamShield",
+    "url": "https://www.scamshield.gov.sg/"
+   },
+   {
+    "t": "SPF Anti-Scam Centre",
+    "url": "https://www.police.gov.sg/about-us/organisational-structure/specialist-staff-departments/commercial-affairs-department/anti-scam-centre"
+   }
+  ],
+  "oral": [
+   "网络诈骗会怎样影响不同年龄层？",
+   "青少年和乐龄人士可以怎样提高防骗能力？"
+  ]
+ },
+ {
+  "id": "6.8",
+  "cat": 6,
+  "name": "新加坡高度重视防范恐怖主义的意义 / 全面防卫",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】社论：防范恐怖主义与全面防卫",
+    "url": "https://www.zaobao.com.sg/forum/editorial/story20220216-1243174"
+   }
+  ],
+  "en": [
+   {
+    "t": "Total Defence",
+    "url": "https://www.totaldefence.sg/"
+   },
+   {
+    "t": "MHA Counter-Terrorism",
+    "url": "https://www.mha.gov.sg/what-we-do/counter-terrorism"
+   }
+  ],
+  "oral": [
+   "为什么新加坡重视防范恐怖主义和全面防卫？",
+   "普通人可以怎样保持警觉而不制造恐慌？"
+  ]
+ },
+ {
+  "id": "6.9",
+  "cat": 6,
+  "name": "乐龄数码学习 / 智能监控与隐私 / 科技改善老年人生活",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】乐龄数码学习与防诈骗",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20260114-8099151"
+   }
+  ],
+  "en": [
+   {
+    "t": "IMDA Seniors Go Digital",
+    "url": "https://www.imda.gov.sg/seniorsgodigital"
+   },
+   {
+    "t": "PDPC Model AI Governance Framework",
+    "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework"
+   }
+  ],
+  "oral": [
+   "科技怎样改善乐龄人士的生活？",
+   "推广数码服务时，怎样兼顾隐私、选择与不使用科技的人？"
+  ]
+ },
+ {
+  "id": "7.1",
+  "cat": 7,
+  "name": "优雅社会 / 公德心 / 服务水平",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡政府】加强我们的意识与社会凝聚力",
+    "url": "https://www.gov.sg/explainers/parliament-strengthening-our-sense-of-we-and-social-cohesion/"
+   }
+  ],
+  "en": [
+   {
+    "t": "Singapore Kindness Movement",
+    "url": "https://www.kindness.sg/"
+   }
+  ],
+  "oral": [
+   "什么是公德心？",
+   "一个更友善有礼的社会需要个人、企业和政府分别做什么？"
+  ]
+ },
+ {
+  "id": "7.2",
+  "cat": 7,
+  "name": "种族和谐 / 多元文化 / 甘榜精神",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】武吉甘柏和谐街展现多元种族文化",
+    "url": "https://www.8world.com/singapore/bukit-gombak-harmony-street-3034741"
+   }
+  ],
+  "en": [
+   {
+    "t": "MCCY Racial & Religious Harmony Circle",
+    "url": "https://www.mccy.gov.sg/sectors/community/racial-and-religious-harmony-circle"
+   },
+   {
+    "t": "OnePeople.sg",
+    "url": "https://www.onepeople.sg/"
+   }
+  ],
+  "oral": [
+   "多元种族社会为什么需要互相了解与尊重？",
+   "甘榜精神在现代城市里可以怎样体现？"
+  ]
+ },
+ {
+  "id": "7.3",
+  "cat": 7,
+  "name": "低收入家庭 / 政府如何打造包容性社会",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】政府支援低收入家庭与包容社会",
+    "url": "https://www.zaobao.com.sg/realtime/singapore/story20230411-1381915"
+   }
+  ],
+  "en": [
+   {
+    "t": "MSF ComCare",
+    "url": "https://www.msf.gov.sg/assistance/Pages/ComCare.aspx"
+   },
+   {
+    "t": "Forward SG Report 2023",
+    "url": "https://www.forward.sg/"
+   }
+  ],
+  "oral": [
+   "政府、学校和社区可以怎样帮助低收入家庭？",
+   "支援应怎样同时照顾需要与尊严？"
+  ]
+ },
+ {
+  "id": "7.4",
+  "cat": 7,
+  "name": "老龄化社会 / 关心独居老人 / 打造亲乐龄社会",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】打造亲乐龄社会与应对老龄化",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20241101-5284195"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Population & Talent Division",
+    "url": "https://www.population.gov.sg/"
+   },
+   {
+    "t": "MSF Seniors",
+    "url": "https://www.msf.gov.sg/what-we-do/seniors"
+   }
+  ],
+  "oral": [
+   "老龄化社会会带来哪些挑战和机会？",
+   "年轻人应更关心独居老人。你同意吗？"
+  ]
+ },
+ {
+  "id": "7.5",
+  "cat": 7,
+  "name": "CDC购物券 / 邻里互助 / 建设和谐社会",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡政府】加强我们的意识与社会凝聚力",
+    "url": "https://www.gov.sg/explainers/parliament-strengthening-our-sense-of-we-and-social-cohesion/"
+   }
+  ],
+  "en": [
+   {
+    "t": "HDB Community",
+    "url": "https://www.hdb.gov.sg/community/caring-for-our-community"
+   },
+   {
+    "t": "SG Cares",
+    "url": "https://www.sgcares.gov.sg/"
+   }
+  ],
+  "oral": [
+   "邻里之间互相关心有助于建设和谐社会。",
+   "CDC购物券的意义？"
+  ]
+ },
+ {
+  "id": "7.6",
+  "cat": 7,
+  "name": "国家自豪感 / 居安思危意识",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】国庆誓词与国家认同",
+    "url": "https://www.zaobao.com.sg/zlifestyle/powerup/story20200809-1075543"
+   }
+  ],
+  "en": [
+   {
+    "t": "Total Defence",
+    "url": "https://www.totaldefence.sg/"
+   },
+   {
+    "t": "PMO National Day Rally Speeches",
+    "url": "https://www.pmo.gov.sg/"
+   }
+  ],
+  "oral": [
+   "国家自豪感和居安思危意识为什么可以并存？",
+   "学生可以怎样以实际行动关心国家？"
+  ]
+ },
+ {
+  "id": "7.7",
+  "cat": 7,
+  "name": "慈善 / 包容性社会 / 志愿服务增强凝聚力",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】调查：每月参与志愿服务者生活质量较高",
+    "url": "https://www.zaobao.com.sg/realtime/singapore/story20250328-6083436"
+   }
+  ],
+  "en": [
+   {
+    "t": "NVPC",
+    "url": "https://www.nvpc.org.sg/"
+   },
+   {
+    "t": "Giving.sg",
+    "url": "https://www.giving.sg/"
+   }
+  ],
+  "oral": [
+   "志愿服务怎样增强社会凝聚力？",
+   "慈善机构应怎样让公众更了解和支持真实需要？"
+  ]
+ },
+ {
+  "id": "7.8",
+  "cat": 7,
+  "name": "新加坡身份认同 / 国情与全球视野",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】国庆誓词与国家认同",
+    "url": "https://www.zaobao.com.sg/zlifestyle/powerup/story20200809-1075543"
+   }
+  ],
+  "en": [
+   {
+    "t": "MFA Singapore Foreign Policy",
+    "url": "https://www.mfa.gov.sg/"
+   },
+   {
+    "t": "PMO National Day Rally",
+    "url": "https://www.pmo.gov.sg/"
+   }
+  ],
+  "oral": [
+   "什么让你觉得自己是新加坡人？",
+   "新加坡的国情怎样影响我们的选择？",
+   "在全球化时代，为什么既要有本土意识，也要有国际视野？"
+  ]
+ },
+ {
+  "id": "7.9",
+  "cat": 7,
+  "name": "网红影响 / 外卖送餐业 / 带货主播等新社会现象",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】青少年使用屏幕与社交媒体",
+    "url": "https://www.8world.com/singapore/teens-screen-time-usage-2692531"
+   }
+  ],
+  "en": [
+   {
+    "t": "IMDA Digital for Life",
+    "url": "https://www.imda.gov.sg/digitalforlife"
+   }
+  ],
+  "oral": [
+   "网红、外卖送餐和直播带货等新社会现象带来便利的同时，可能出现哪些问题？"
+  ]
+ },
+ {
+  "id": "7.10",
+  "cat": 7,
+  "name": "团购 / 网络购物 / 为生活带来哪些改善",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】无现金支付与带现金的习惯",
+    "url": "https://www.8world.com/singapore/do-you-carry-cash-or-wallet-out-3092356"
+   }
+  ],
+  "en": [
+   {
+    "t": "CASE Consumer Association of Singapore",
+    "url": "https://www.case.org.sg/"
+   }
+  ],
+  "oral": [
+   "团购和网络购物怎样改变生活？",
+   "消费者在购物前后应怎样保障自己的权益？"
+  ]
+ },
+ {
+  "id": "8.1",
+  "cat": 8,
+  "name": "传统旧建筑保育 / 小贩文化及申遗",
+  "note": "（建议拆题：历史建筑保育 / 小贩文化）",
+  "zh": [
+   {
+    "t": "【新加坡旅游局】新加坡官方旅游资讯（中文）",
+    "url": "https://www.visitsingapore.com/zh_cn/"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Heritage Board (NHB)",
+    "url": "https://www.nhb.gov.sg/"
+   },
+   {
+    "t": "Singapore Infopedia (NLB)",
+    "url": "https://www.nlb.gov.sg/main/site/infopedia"
+   }
+  ],
+  "oral": [
+   "为什么应保留历史建筑和小贩文化？",
+   "历史建筑值得保留。你同意吗？"
+  ]
+ },
+ {
+  "id": "8.2",
+  "cat": 8,
+  "name": "保留方言文化 / 传统节日的重要性",
+  "note": "",
+  "zh": [
+   {
+    "t": "【总理公署】李显龙总理：讲华语运动40周年演讲（官方中文）",
+    "url": "https://www.pmo.gov.sg/newsroom/pm-lee-hsien-loong-at-40th-anniversary-of-speak-mandarin-campaign/"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Heritage Board (NHB)",
+    "url": "https://www.nhb.gov.sg/"
+   },
+   {
+    "t": "MCCY",
+    "url": "https://www.mccy.gov.sg/"
+   }
+  ],
+  "oral": [
+   "保留方言文化是有意义的。你同意吗？",
+   "传统节日的重要性。",
+   "年轻人可以怎样以自然的方式接触与传承传统文化？"
+  ]
+ },
+ {
+  "id": "8.3",
+  "cat": 8,
+  "name": "新加坡旅游资源 / 发展旅游业的意义",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡旅游局】新加坡官方旅游资讯（中文）",
+    "url": "https://www.visitsingapore.com/zh_cn/"
+   }
+  ],
+  "en": [
+   {
+    "t": "Singapore Tourism Board (STB)",
+    "url": "https://www.stb.gov.sg/"
+   }
+  ],
+  "oral": [
+   "新加坡有哪些旅游资源？",
+   "发展旅游业会带来哪些经济、文化和环境影响？"
+  ]
+ },
+ {
+  "id": "8.4",
+  "cat": 8,
+  "name": "艺术走入社区 / 跨文化跨种族艺术 / 艺放邻里",
+  "note": "",
+  "zh": [
+   {
+    "t": "【8视界】以艺术庆祝新加坡多元文化（NDP 2025）",
+    "url": "https://www.8world.com/singapore/ndp-2025-art-unites-sg60-celebrating-singapores-diversity-through-art-2853861"
+   }
+  ],
+  "en": [
+   {
+    "t": "National Arts Council (NAC)",
+    "url": "https://www.nac.gov.sg/"
+   },
+   {
+    "t": "NAC Arts in the Community",
+    "url": "https://www.nac.gov.sg/arts-resources/grants/community"
+   }
+  ],
+  "oral": [
+   "艺术走入社区会怎样影响居民生活？",
+   "跨文化跨种族艺术活动为什么有意义？"
+  ]
+ },
+ {
+  "id": "8.5",
+  "cat": 8,
+  "name": "艺术融入学前教育 / 文化通行证的作用",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】第二届城市阅读节拉开帷幕",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20240524-3721047"
+   }
+  ],
+  "en": [
+   {
+    "t": "NAC Arts Education",
+    "url": "https://www.nac.gov.sg/support/arts-education"
+   },
+   {
+    "t": "MOE Arts in Education",
+    "url": "https://www.moe.gov.sg/programmes/arts-education"
+   }
+  ],
+  "oral": [
+   "艺术教育和文化活动怎样帮助儿童或青少年理解不同群体？",
+   "公共资助文化活动应怎样让更多人受惠？"
+  ]
+ },
+ {
+  "id": "8.6",
+  "cat": 8,
+  "name": "数码时代深度阅读的意义 / 阅读文化推广",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】陈志锐：重塑深度阅读的生态（言论文章）",
+    "url": "https://www.zaobao.com.sg/forum/views/story20250920-7541611"
+   }
+  ],
+  "en": [
+   {
+    "t": "NLB Read! Singapore",
+    "url": "https://www.nlb.gov.sg/main/home"
+   }
+  ],
+  "oral": [
+   "数码时代深度阅读的意义是什么？",
+   "学校和家庭可以怎样推广阅读文化？"
+  ]
+ },
+ {
+  "id": "8.7",
+  "cat": 8,
+  "name": "本地音乐与电影 / 街头文化与创新 / 本地创意产业",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "NAC",
+    "url": "https://www.nac.gov.sg/"
+   },
+   {
+    "t": "DesignSingapore Council",
+    "url": "https://www.designsingapore.org/"
+   }
+  ],
+  "oral": [
+   "本地音乐、电影和创意产业对社会有什么价值？",
+   "创新是否一定要突破传统？"
+  ]
+ },
+ {
+  "id": "9.1",
+  "cat": 9,
+  "name": "公共交通工具 / 交通安全",
+  "note": "",
+  "zh": [
+   {
+    "t": "【联合早报】公共交通、骑行和步行网络规划",
+    "url": "https://www.zaobao.com.sg/news/singapore/story20241222-5634493"
+   }
+  ],
+  "en": [
+   {
+    "t": "LTA Land Transport Authority",
+    "url": "https://www.lta.gov.sg/"
+   },
+   {
+    "t": "Singapore Road Safety Council",
+    "url": "https://www.rscouncil.sg/"
+   }
+  ],
+  "oral": [
+   "公共交通发展对国人有什么好处？",
+   "行人、骑士和驾驶者可以怎样共同提升交通安全？"
+  ]
+ },
+ {
+  "id": "9.2",
+  "cat": 9,
+  "name": "环境卫生 / 公共卫生 / 社区整洁",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡政府】加强我们的意识与社会凝聚力",
+    "url": "https://www.gov.sg/explainers/parliament-strengthening-our-sense-of-we-and-social-cohesion/"
+   }
+  ],
+  "en": [
+   {
+    "t": "NEA Public Cleanliness",
+    "url": "https://www.nea.gov.sg/our-services/public-cleanliness"
+   }
+  ],
+  "oral": [
+   "为什么社区整洁和公共卫生需要每个人配合？",
+   "个人习惯、执法与教育哪一种更有效？"
+  ]
+ },
+ {
+  "id": "9.3",
+  "cat": 9,
+  "name": "无障碍设施 / 促进包容参与 / 关怀残障人士",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "SG Enable",
+    "url": "https://www.sgenable.sg/"
+   },
+   {
+    "t": "HDB Community Facilities",
+    "url": "https://www.hdb.gov.sg/"
+   }
+  ],
+  "oral": [
+   "无障碍设施怎样帮助残障人士更独立地参与社区生活？",
+   "建设包容社区除了设施，还需要什么？"
+  ]
+ },
+ {
+  "id": "10.1",
+  "cat": 10,
+  "name": "个人 · 政府 · 社会 责任三角",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡政府】加强我们的意识与社会凝聚力",
+    "url": "https://www.gov.sg/explainers/parliament-strengthening-our-sense-of-we-and-social-cohesion/"
+   }
+  ],
+  "en": [
+   {
+    "t": "Forward SG Report 2023",
+    "url": "https://www.forward.sg/"
+   }
+  ],
+  "oral": [
+   "面对一个社会问题时，个人、政府和社会组织分别应承担什么责任？",
+   "三方如何互相补位？"
+  ]
+ },
+ {
+  "id": "10.2",
+  "cat": 10,
+  "name": "短期利益 vs 长远影响",
+  "note": "",
+  "zh": [],
+  "en": [
+   {
+    "t": "Singapore Green Plan 2030",
+    "url": "https://www.greenplan.gov.sg/"
+   }
+  ],
+  "oral": [
+   "为了长远利益，今天是否应该承担一些成本或不便？请以一个具体例子说明。"
+  ]
+ },
+ {
+  "id": "10.3",
+  "cat": 10,
+  "name": "传统 vs 现代 / 保留 vs 革新",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡旅游局】新加坡官方旅游资讯（中文）",
+    "url": "https://www.visitsingapore.com/zh_cn/"
+   }
+  ],
+  "en": [
+   {
+    "t": "NHB Heritage Conservation",
+    "url": "https://www.nhb.gov.sg/"
+   },
+   {
+    "t": "URA Conservation",
+    "url": "https://www.ura.gov.sg/"
+   }
+  ],
+  "oral": [
+   "传统与现代发生碰撞时，应保留、革新还是两者兼顾？请举例说明。"
+  ]
+ },
+ {
+  "id": "10.4",
+  "cat": 10,
+  "name": "集体利益 vs 个人自由",
+  "note": "",
+  "zh": [
+   {
+    "t": "【新加坡政府】加强我们的意识与社会凝聚力",
+    "url": "https://www.gov.sg/explainers/parliament-strengthening-our-sense-of-we-and-social-cohesion/"
+   }
+  ],
+  "en": [
+   {
+    "t": "Forward SG Report 2023",
+    "url": "https://www.forward.sg/"
+   },
+   {
+    "t": "PMO",
+    "url": "https://www.pmo.gov.sg/"
+   }
+  ],
+  "oral": [
+   "为了集体利益，个人是否应作出某些让步？界限应在哪里？"
+  ]
+ }
+]

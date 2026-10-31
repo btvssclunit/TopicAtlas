@@ -35,6 +35,17 @@ for r in CAT['resources']:
     assert not re.search(r'题目|问题|口头报告|CONTENT', r.get('audience', ''))
     if r.get('published'):
         assert date.fromisoformat(r['published']) <= date.fromisoformat(CAT['checked'])
+    # Original student-facing abstract: Chinese only, no pinyin, no Latin text, no links.
+    abstract = r.get('abs', '')
+    assert 30 <= len(abstract) <= 130, r['id']
+    assert not re.search(r'[A-Za-z@/]|[āáǎàēéěèīíǐìōóǒòūúǔù]', abstract), r['id']
+    assert r['kind'] in {'lesson', 'practice', 'article'}, r['id']
+    if r['kind'] == 'practice':
+        assert '：' in r['tt'], r['id']
+    # Local preview image: a small WebP copy of the publisher's own share image, never a hotlink.
+    if r.get('img'):
+        assert re.fullmatch(r'assets/media/[a-z0-9-]+\.webp', r['img']), r['id']
+        assert (ROOT / r['img']).is_file(), r['img']
 for t in TOPICS:
     assert any(t['id'] in r['topics'] for r in CAT['resources']), t['id']
     for d in t['doors']:
@@ -50,4 +61,5 @@ for tid, groups in CAT['vocabulary'].items():
         assert group['source'] in sources and group['terms']
         assert len(group['terms']) == len(set(group['terms']))
         assert all(isinstance(w, str) and w.strip() for w in group['terms'])
-print(f"PASS: 37 topics, 92 unit links, {len(ids)} media resources, and 37 vocabulary selections")
+thumbs = sum(1 for r in CAT['resources'] if r.get('img'))
+print(f"PASS: 37 topics, 92 unit links, {len(ids)} media resources with abstracts ({thumbs} with local preview images), and 37 vocabulary selections")

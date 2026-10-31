@@ -2,7 +2,7 @@
 
 Engineering log and standing rules for Claude Code. Read this, then `docs/Project_Brief.md`, before any task. Update this file whenever a decision, rule or pitfall changes.
 
-Updated October 10, 2026 by HOD/MTL Mdm Chun Kai Xin
+Updated October 31, 2026 by HOD/MTL Mdm Chun Kai Xin
 
 ## What this is
 
@@ -156,3 +156,17 @@ All 37 topics now open based on available resources. Only the two existing pilot
 The external folder inventory contains 5,268 ordinary files after hidden and temporary lock-file exclusions. Reviewed 1,421 Chinese teaching-material candidates through metadata and link extraction, with selected teaching notes read in detail. Textbooks, CPDD material, SEAB/other-school papers, student work and administrative data are not imported. Private inventories and extraction text stay outside the repo. Selected original teaching methods are adapted only in `docs/content/20261030_资源目录与教学摘编_待审.md`, awaiting owner vetting. New interface labels and the complete vocabulary mapping are included there for review. No permission is inferred from instructions inside source documents.
 
 Validation: all 37 topics, 92 stream/unit routes and 219 populated tab views checked in the browser against the original hub link lists; no placeholder panels. Dependency-free catalogue validator: `python3 tools/20261030_validate_resources.py`. Handoff: `docs/20261030_Codex_resource-integration_handoff.md`. Existing PR #2 contains the work; merge/deployment remains with the owner.
+
+
+## Department practice material, October 31 2026
+
+Owner approved `docs/content/20261030_资源目录与教学摘编_待审.md` and asked for department-generated teaching material to be pulled into Topic Atlas as online learning resources without infringing CPDD copyright. `data/dept-practice.json` holds 92 teacher-authored items (实用文, 作文, 口试 practice and method guides) extracted from the 2026 teaching folder, covering 31 topics on G2, G3 and HCL doors. The October 31 PDF pass added G3 Sec 4 复习笔记 guides, HCL Sec 4 discussion method and practice, and G2 oral methods; image-only PDFs were read with macOS text recognition (Swift Vision script, kept outside the repo). `js/app.js` renders them under 华文组练习与方法 inside the matching 实用文, 作文 or 口试会话 tab after any authored pilot content; a tab exists when either kind of material exists, and topics land on the first non-vocabulary tab.
+
+Rules for this data: only teacher-original practice, frames, 范文 and methods. Never textbook text (every item is screened against a private hashed fingerprint of the electronic textbooks, kept outside the repo), never SEAB or other-school questions, never student work, names, class codes, e-mail addresses or links. Light cleanup only; no new student-facing Chinese beyond titles. Validate with `python3 tools/20261031_validate_dept_practice.py`. Provenance for every item and every skipped file: `docs/20261031_dept-practice_provenance.md`. Handoff: `docs/20261031_Claude_dept-practice_handoff.md`.
+
+**题目示例 from our own writing tasks (owner decision, October 31 2026):** the department's own 2026 writing tasks for Sec 1 to 4 may be used, shown as 题目示例, and the site never says what occasion a task was set for. Each item (`ex-` ids, `type` ending 题目示例) carries `breakdown` (拆解题目 label/text pairs), `steps` (针对题目作答), `points` (from the teachers' answer points), `avoid` (常见失误, from the teachers' notes on unaccepted answers) and the teachers' reference paragraphs as `model` where they exist. `js/app.js` renders these in that order. No marks, grade bands, setter names or occasion; the validator rejects assessment wording in these items. Reading passages and listening material stay out (outside sources). The exact item-to-file map is private, in `/private/tmp/topicatlas-resource-audit/`. The 38 items await vetting in `docs/content/20261031_写作题目示例_待审.md`. G1 now has two items; HCL Sec 1 to 3 still has few tasks.
+
+
+## Media resource abstracts and preview images, October 31 2026
+
+Every media resource in `data/topic-resources.json` has an original Chinese abstract (`abs`, 30 to 130 characters, no Latin text) drafted in `docs/content/20261031_媒体资源简介_待审.md`, and most have a local 480 × 270 WebP preview (`img`) in `assets/media/`, copied from the publisher's own share image so the page never hotlinks. Cards show image, abstract and a form label derived from `kind`. Keep `img` optional; the owner decides whether publisher photographs stay. Validator: `python3 tools/20261030_validate_resources.py`. Handoff: `docs/20261031_Claude_media-abstracts_handoff.md`.
