@@ -200,3 +200,13 @@ Updated October 31, 2026 by HOD/MTL Mdm Chun Kai Xin
 | G3 HCL/S4/口试训练/历届考题整理/…、G3/S4/O水准历届口试话题.pdf、G3 HCL/S4/口试训练/20260305 GSCE 湿巴刹.pdf | 历届考题整理。 |
 | G3/S4/历年校本/S4 Revision Booklet P1、P3 | 历年试卷汇编。 |
 | G3/S1/早报阅读材料/zbschools-userguide-teachers.pdf | 工具使用说明。 |
+
+## 写作题目示例（October 31 2026）
+
+On October 31 2026 the owner approved using the department's own 2026 writing tasks as 题目示例, as long as the site never says where a task was set. There are 38 items, with ids starting `ex-`, covering G1 to HCL and Sec 1 to 4.
+
+- **Kept:** the task wording, cleaned of e-mail addresses; the teachers' answer points, reworded as 可以写的内容; the teachers' notes on unaccepted answers, reworded as 常见失误; and the teachers' own reference paragraphs and outlines.
+- **New:** the 拆解题目 tables and 针对题目作答 steps, written from the answer points. They are listed in full for vetting in `docs/content/20261031_写作题目示例_待审.md`.
+- **Removed:** marks, grade bands, setter and vetter names, cover pages and every reference to the occasion a task was set for. The validator rejects assessment wording in 题目示例 items.
+- **Not used:** reading passages and listening material (outside sources), the 食堂翻新 and 地铁青少年 tasks (no fitting topic yet), and student scripts.
+- **Exact source:** the map from each item to its source file is kept privately with the October 30 audit files, not in this repository.

@@ -16,7 +16,7 @@ TOPICS = {t['id']: t for t in json.loads((ROOT / 'data/topics.json').read_text()
 DATA = json.loads((ROOT / 'data/dept-practice.json').read_text())
 KINDS = {'func', 'compo', 'oral', 'guide'}
 TABS = {'func', 'compo', 'oral'}
-TEXT_FIELDS = ['title', 'focus', 'prompt', 'stimulus', 'points', 'fmt', 'frame', 'steps', 'questions', 'expr', 'checks']
+TEXT_FIELDS = ['title', 'focus', 'prompt', 'stimulus', 'points', 'fmt', 'frame', 'steps', 'questions', 'expr', 'checks', 'avoid']
 BAD = [
     (re.compile(r'[\w.+-]+@[\w-]+\.[\w.]+'), 'e-mail address'),
     (re.compile(r'https?://|www\.'), 'URL'),
@@ -26,6 +26,8 @@ BAD = [
     (re.compile(r'真题|历届|预考|O水准|O Level'), 'examination reference'),
     (re.compile(r'第\s*\d+\s*页'), 'textbook page reference'),
 ]
+# 题目示例 items come from the department's own writing tasks; they must never say where a task was set.
+EXAM = re.compile(r'考试|试卷|考生|考题|年终|预考|评分|评改|得分|扣分|满分|分）|EOY|Prelim|WA\d|SA\d', re.I)
 
 
 def texts(item):
@@ -36,6 +38,12 @@ def texts(item):
         elif isinstance(v, list):
             for x in v:
                 yield f, x
+    for pair in item.get('breakdown', []):
+        if not (isinstance(pair, list) and len(pair) == 2):
+            yield 'breakdown', ''
+            continue
+        yield 'breakdown', pair[0]
+        yield 'breakdown', pair[1]
     m = item.get('model') or {}
     for p in m.get('paras', []):
         yield 'model.paras', p
@@ -84,8 +92,12 @@ for item in DATA['items']:
             errors.append(f'{iid}: topic {tid} has no door for {item["streams"]}')
     if not item.get('title') or not item.get('type'):
         errors.append(f'{iid}: title and type required')
+    if item.get('type', '').endswith('题目示例') and any(EXAM.search(x) for x in item.get('source', [])):
+        errors.append(f'{iid}: assessment wording in source')
     if not item.get('source'):
         errors.append(f'{iid}: source required')
+    if item.get('type', '').endswith('题目示例') and not (item.get('prompt') and item.get('breakdown') and item.get('steps')):
+        errors.append(f'{iid}: 题目示例 needs prompt, breakdown and steps')
     has_body = any(item.get(f) for f in ['prompt', 'steps', 'questions', 'frame', 'checks', 'points', 'fmt', 'expr']) or (item.get('model') or {}).get('paras')
     if not has_body:
         errors.append(f'{iid}: no learning material')
@@ -98,6 +110,8 @@ for item in DATA['items']:
         for rx, why in BAD:
             if rx.search(text):
                 errors.append(f'{iid}: {why} in {field}: {text[:40]}')
+        if item.get('type', '').endswith('题目示例') and EXAM.search(text):
+            errors.append(f'{iid}: assessment wording in a 题目示例 {field}: {text[:40]}')
     if shingles:
         t = clean(joined)
         hits = [i for i in range(max(0, len(t) - k + 1)) if hashlib.blake2b(t[i:i + k].encode(), digest_size=8).digest() in shingles]

@@ -7,7 +7,7 @@ var SNAME={G1:"G1 基础华文",G2:"G2 华文",G3:"G3 华文",HCL:"HCL 高级华
 var SHORT={G1:"基础华文",G2:"华文",G3:"华文",HCL:"高级华文"};
 var VS="https://btvssclunit.github.io/VocabSummit/";
 /* ---------- data: loaded from data/topics.json and data/content/<id>.json ---------- */
-var REGIONS=[],TOPICS=[],C={},R={unitLessons:{},resources:[],vocabulary:{},vocabularySources:[],hub:{}},D={items:[]};
+var REGIONS=[],TOPICS=[],C={},R={unitLessons:{},resources:[],vocabulary:{},vocabularySources:[],hub:{}},D={items:[]},E={thinking:[],feelings:[],traits:[],sayings:[],people:[],words:[]};
 function region(id){for(var i=0;i<REGIONS.length;i++)if(REGIONS[i].id===id)return REGIONS[i];}
 function topic(id){for(var i=0;i<TOPICS.length;i++)if(TOPICS[i].id===id)return TOPICS[i];}
 function inRegion(t,rid){return t.region===rid||(t.also||[]).indexOf(rid)>=0;}
@@ -84,6 +84,14 @@ function deptCard(x){
   var body='';
   if(x.stimulus)body+='<blockquote class="stimulus">'+esc(x.stimulus).replace(/\n/g,'<br>')+'</blockquote>';
   if(x.prompt)body+='<p class="prompt">'+esc(x.prompt).replace(/\n/g,'<br>')+'</p>';
+  // 题目示例: break the question down first, then answer it point by point.
+  if((x.breakdown||[]).length){
+    body+='<h3>拆解题目<span class="gl">Break down the question</span></h3><dl class="breakdown">'+x.breakdown.map(function(b){return '<dt>'+esc(b[0])+'</dt><dd>'+esc(b[1])+'</dd>';}).join('')+'</dl>'+
+      '<h3>针对题目作答<span class="gl">How to answer</span></h3>'+list('steps',x.steps,'ol')+
+      ((x.points||[]).length?'<h3>可以写的内容<span class="gl">Ideas to use</span></h3>'+list('ticks',x.points,'ul'):'')+
+      ((x.avoid||[]).length?'<h3>常见失误<span class="gl">Common slips</span></h3>'+list('avoid',x.avoid,'ul'):'')+deptModel(x.model);
+    return '<section class="task dept dept-example" id="dept-'+esc(x.id)+'">'+h+body+'<p class="dept-src">华文组教学材料'+(x.year?' · '+esc(x.year):'')+'</p></section>';
+  }
   var cols='';
   if((x.points||[]).length)cols+='<div><h3>内容要点<span class="gl">What to include</span></h3>'+list('ticks',x.points,'ul')+'</div>';
   if((x.fmt||[]).length)cols+='<div><h3>格式与语气<span class="gl">Format and tone</span></h3>'+list('ticks',x.fmt,'ul')+'</div>';
@@ -95,6 +103,35 @@ function deptCard(x){
   if((x.checks||[]).length)body+='<h3>自检<span class="gl">Check</span></h3>'+list('ticks',x.checks,'ul');
   body+=deptModel(x.model);
   return '<section class="task dept" id="dept-'+esc(x.id)+'">'+h+body+'<p class="dept-src">华文组教学材料'+(x.year?' · '+esc(x.year):'')+'</p></section>';
+}
+/* ---------- expression bank (department workbook: 思考要点, feelings, qualities, sayings, people, words) ---------- */
+function thinkingFor(t){return E.thinking.filter(function(x){return x.topics.indexOf(t.id)>=0;});}
+function thinkingBlock(t){
+  var rows=thinkingFor(t);
+  if(!rows.length)return '';
+  return '<div class="dept-list"><h3 class="dept-head">话题思考要点<span class="gl">Ideas to think about</span></h3><p class="notice">先自己想一想每个问题，再打开参考要点。说的时候要加上自己的例子。</p>'+rows.map(function(x){
+    return '<section class="task think"><span class="typ">'+esc(x.cat)+'</span><h3 class="dept-title">'+esc(x.name)+'</h3>'+
+      x.think.map(function(q){return q.a.length?'<details class="think-q"><summary>'+esc(q.q||'参考要点')+'</summary>'+list('ticks',q.a,'ul')+'</details>':'<p class="think-q only">'+esc(q.q)+'</p>';}).join('')+
+      (x.news.length?'<h3>新闻实例<span class="gl">In the news</span></h3>'+list('ticks',x.news,'ul'):'')+
+      (x.people.length?'<h3>名人例子<span class="gl">People to cite</span></h3>'+list('ticks',x.people,'ul'):'')+'</section>';
+  }).join('')+'<p class="more-expr">想说得更生动？到<button class="linkish" data-go="reg:geren">个人 · 表达锦囊</button>找心情句子、性格词语和名人例子。</p></div>';
+}
+function expressionBank(){
+  if(!E.feelings.length&&!E.traits.length)return '';
+  var feel=E.feelings.map(function(f){return '<details class="expr-group"><summary>'+esc(f.name)+'</summary><div class="two"><div><h4>基础句<span class="gl">Simpler</span></h4>'+list('frames',f.basic,'ul')+'</div><div><h4>进阶句<span class="gl">Richer</span></h4>'+list('frames',f.rich,'ul')+'</div></div></details>';}).join('');
+  var traits='<div class="trait-list">'+E.traits.map(function(x){return '<div class="trait"><b>'+esc(x.word)+'</b>'+(x.note?'<span>'+esc(x.note)+'</span>':'')+'</div>';}).join('')+'</div>';
+  var says=E.sayings.map(function(x){return '<div class="saying"><b>'+esc(x.text)+'</b><span>'+esc(x.meaning)+(x.use?'（'+esc(x.use)+'）':'')+'</span></div>';}).join('');
+  var people=E.people.map(function(p){return '<div class="person"><b>'+esc(p.name)+'</b><span class="role">'+esc(p.role)+'</span><p>'+esc(p.story)+'</p><div class="chips">'+p.values.map(function(v){return '<span class="chip">'+esc(v)+'</span>';}).join('')+'</div></div>';}).join('');
+  var words=E.words.map(function(w){return '<details class="expr-group"><summary>'+esc(w.cat)+'（'+w.terms.length+'）</summary><div class="chips">'+w.terms.map(function(term){return '<span class="chip">'+esc(term)+'</span>';}).join('')+'</div></details>';}).join('');
+  var values=E.thinking.filter(function(x){return x.cat==='价值观';}).map(function(x){return '<details class="expr-group"><summary>'+esc(x.name)+'</summary>'+x.think.map(function(q){return '<p class="think-q only">'+esc(q.q)+'</p>'+(q.a.length?list('ticks',q.a,'ul'):'');}).join('')+'</details>';}).join('');
+  return '<section class="district expr-bank" id="expr-bank"><h2>表达锦囊：心情、品格与价值观</h2>'+
+    '<p class="lead">说话、阅读和写作都离不开这些表达。口试时用来说出感受和看法，阅读理解时用来判断人物的性格和心情，写作时用来写好心理描写，并为议论文找到例子。</p>'+
+    '<section class="box"><h3>心情句子<span class="gl">Feelings</span></h3><p class="notice">先用基础句，熟练了再换成进阶句：加上动作、表情和比喻。</p>'+feel+'</section>'+
+    '<section class="box"><h3>性格与品质<span class="gl">Personal qualities</span></h3><p class="notice">读人物时，看他说了什么、做了什么、怎样想，再选一个最贴切的词。</p>'+traits+'</section>'+
+    (values?'<section class="box"><h3>价值观<span class="gl">Values</span></h3>'+values+'</section>':'')+
+    '<section class="box"><h3>俗语<span class="gl">Sayings</span></h3><div class="saying-list">'+says+'</div></section>'+
+    '<section class="box"><h3>名人例子<span class="gl">People to cite</span></h3><p class="notice">议论文和口试讨论时，用名人的事迹支持你的看法。</p><div class="person-list">'+people+'</div></section>'+
+    '<section class="box"><h3>常用词语<span class="gl">Useful words</span></h3>'+words+'</section></section>';
 }
 function deptBlock(t,s,tab){
   var rows=deptFor(t,s,tab);
@@ -190,6 +227,7 @@ function regionView(rid){
     body=r.subs.map(function(sb){return '<section class="district"><h2>'+sb[1]+'</h2><div class="grid">'+list.filter(function(t){return t.sub===sb[0];}).map(lmCard).join("")+'</div></section>';}).join("");
   }else body='<div class="grid">'+list.map(lmCard).join("")+'</div>';
   if(linked.length)body+='<section class="district"><h2>也连接到这里的话题</h2><div class="grid">'+linked.map(lmCard).join("")+'</div></section>';
+  if(rid==="geren")body+=expressionBank();
   app.innerHTML='<div class="view">'+top([["话题地图","world"],[r.name,""]],"")+
    '<section class="isle-head"><h1>'+r.name+(r.motto?'<span class="motto-h">'+r.motto+'</span>':'')+'</h1><p>'+r.blurb+'每张卡片列出这个话题在哪个年级、哪个单元，以及哪些源流学它。</p></section>'+picker()+body+foot()+'</div>';
 }
@@ -216,7 +254,7 @@ var TABS=[["intro","话题导读","Topic intro"],["oral","口试会话","Oral"],
 function rich(p){return esc(p).replace(/\[\[(.+?)\|(\d+)\]\]/g,'<mark>$1<sup>$2</sup></mark>');}
 function availableTabs(t,c,stream){
   var oral=(c.oral||{})[stream],func=(c.func||{})[stream];
-  var present={intro:!!(c.intro||(c.keywords||[]).length),oral:!!(oral&&(oral.q||[]).length)||!!deptFor(t,stream,"oral").length,func:!!(func&&func.prompt)||!!deptFor(t,stream,"func").length,compo:!!(c.compo||[]).length||!!deptFor(t,stream,"compo").length,model:!!(c.model&&(c.model.paras||[]).length),vocab:!!vocabularyFor(t).length,res:!!topicResources(t,stream).length};
+  var present={intro:!!(c.intro||(c.keywords||[]).length),oral:!!(oral&&(oral.q||[]).length)||!!deptFor(t,stream,"oral").length||!!thinkingFor(t).length,func:!!(func&&func.prompt)||!!deptFor(t,stream,"func").length,compo:!!(c.compo||[]).length||!!deptFor(t,stream,"compo").length,model:!!(c.model&&(c.model.paras||[]).length),vocab:!!vocabularyFor(t).length,res:!!topicResources(t,stream).length};
   return TABS.filter(function(tab){return present[tab[0]];});
 }
 function panel(t,c,s){
@@ -230,7 +268,7 @@ function panel(t,c,s){
      ((c.scenes||[]).length?'<div><h3 style="margin-bottom:8px">情境<span class="gl">Scenes to talk about</span></h3><div class="scenes">'+c.scenes.map(function(x,i){return '<div class="scene"><b>情境 '+(i+1)+'</b>'+x+'</div>';}).join("")+'</div></div>':'')+
      '<div class="box"><h3>会话题<span class="gl">Practice questions</span></h3><p class="notice">选一题，对着题目大声说一遍。</p><ol class="qs">'+o.q.map(function(q){return '<li>'+q+'</li>';}).join("")+'</ol></div>'+
      '<div class="two"><div class="box"><h3>好回答的特点<span class="gl">What a good answer does</span></h3><ul class="ticks">'+(c.good||[]).map(function(x){return '<li>'+x+'</li>';}).join("")+'</ul></div>'+
-     '<div class="box"><h3>常用表达<span class="gl">Useful expressions</span></h3>'+(o.expr||[]).map(function(x){return '<p class="frame">'+x+'</p>';}).join("")+'</div></div>':'')+deptBlock(t,s,"oral");
+     '<div class="box"><h3>常用表达<span class="gl">Useful expressions</span></h3>'+(o.expr||[]).map(function(x){return '<p class="frame">'+x+'</p>';}).join("")+'</div></div>':'')+deptBlock(t,s,"oral")+thinkingBlock(t);
   case "func":
     return '<h2>实用文<span class="gl">Functional writing</span></h2>'+(f&&f.prompt?
      '<div class="task"><span class="typ">'+f.type+'</span><p class="prompt">'+f.prompt+'</p>'+
@@ -326,8 +364,8 @@ app.addEventListener("keydown",function(e){
   var g=e.target.closest("g[data-reg]");
   if(g){e.preventDefault();go("reg:"+g.dataset.reg);}
 });
-Promise.all([getJSON("data/topics.json"),getJSON("data/topic-resources.json"),getJSON("data/dept-practice.json")]).then(function(data){
-  REGIONS=data[0].regions;TOPICS=data[0].topics;R=data[1];D=data[2];render();
+Promise.all([getJSON("data/topics.json"),getJSON("data/topic-resources.json"),getJSON("data/dept-practice.json"),getJSON("data/expression-bank.json").catch(function(){return E;})]).then(function(data){
+  REGIONS=data[0].regions;TOPICS=data[0].topics;R=data[1];D=data[2];E=data[3];render();
 })
 .catch(function(){app.innerHTML='<p style="padding:24px">话题资料载入失败。若在本机测试，请用本地服务器打开（例如 python3 -m http.server），不要直接双击文件。</p>';});
 })();
