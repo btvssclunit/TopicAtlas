@@ -270,6 +270,9 @@ a.rc:hover{border-color:var(--sea)}
 .rc .src{font-size:.75rem;font-weight:700;letter-spacing:.05em;color:var(--sea)}
 .rc .tt{font-weight:700}
 .rc .ds{font-size:.88rem;color:var(--muted)}
+.rc .abs{font-size:.9rem;line-height:1.55}
+.rc.has-img{padding-top:0}
+.rc-img{display:block;width:calc(100% + 32px);max-width:none;height:auto;margin:0 -16px 4px;border-radius:var(--r) var(--r) 0 0;background:var(--line)}
 .rc .todo{font-size:.75rem;color:var(--gold);font-weight:700}
 
 .foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted);display:grid;gap:4px}

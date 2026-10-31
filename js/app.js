@@ -104,8 +104,14 @@ function deptBlock(t,s,tab){
 function resourceCards(rows){
   return '<div class="res">'+rows.filter(function(r){return safeURL(r.url);}).map(function(r){
     var access={sls:"SLS 登录",subscription:"需订阅","may-subscribe":"可能需订阅",public:"公开资源",external:"外部资源"}[r.access]||"外部资源";
-    return '<a class="rc" href="'+esc(safeURL(r.url))+'" target="_blank" rel="noopener noreferrer"><span class="src">'+esc(r.src)+'</span><span class="tt">'+esc(r.tt)+' ↗</span>'+
-      (r.audience?'<span class="ds">'+esc(r.audience)+'</span>':'')+'<span class="resource-meta"><span>'+access+'</span>'+(r.published?'<time datetime="'+esc(r.published)+'">'+esc(r.published)+'</time>':'')+'</span></a>';
+    // Local copies of each publisher's own preview image, so no third-party request is made for the thumbnail.
+    var img=/^assets\/media\/[a-z0-9-]+\.webp$/.test(r.img||'')?r.img:'';
+    var form={lesson:"新闻视频 + 学习单",practice:r.tt.split("：")[0],article:"文章"}[r.kind]||'';
+    return '<a class="rc'+(img?' has-img':'')+'" href="'+esc(safeURL(r.url))+'" target="_blank" rel="noopener noreferrer">'+
+      (img?'<img class="rc-img" src="'+esc(img)+'" alt="" loading="lazy" width="480" height="270">':'')+
+      '<span class="src">'+esc(r.src)+'</span><span class="tt">'+esc(r.tt)+' ↗</span>'+
+      (r.abs?'<span class="abs">'+esc(r.abs)+'</span>':'')+
+      (r.audience?'<span class="ds">'+esc(r.audience)+'</span>':'')+'<span class="resource-meta">'+(form?'<span>'+esc(form)+'</span>':'')+'<span>'+access+'</span>'+(r.published?'<time datetime="'+esc(r.published)+'">'+esc(r.published)+'</time>':'')+'</span></a>';
   }).join('')+'</div>';
 }
 
